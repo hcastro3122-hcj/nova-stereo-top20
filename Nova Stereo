@@ -1,0 +1,326 @@
+import json
+import re
+from datetime import datetime, timezone
+from urllib.request import Request, urlopen
+
+
+URLS = [
+    (
+        "Costa Rica",
+        "https://rss.applemarketingtools.com/api/v2/cr/music/most-played/100/songs.json"
+    ),
+    (
+        "Estados Unidos",
+        "https://rss.applemarketingtools.com/api/v2/us/music/most-played/100/songs.json"
+    )
+]
+
+
+LATIN = [
+    "latin",
+    "reggaeton",
+    "reggaetón",
+    "urbano",
+    "urbana",
+    "bachata",
+    "salsa",
+    "merengue",
+    "cumbia",
+    "corridos",
+    "trap latino",
+    "pop latino",
+    "spanish",
+    "español"
+]
+
+
+def limpiar(valor):
+    return re.sub(
+        r"\s+",
+        " ",
+        str(valor or "")
+    ).strip()
+
+
+def descargar(url):
+
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "NovaStereo/1.0"
+        }
+    )
+
+    with urlopen(
+        request,
+        timeout=30
+    ) as response:
+
+        return json.loads(
+            response.read().decode("utf-8")
+        )
+
+
+def es_latina(cancion):
+
+    texto = " ".join([
+        limpiar(cancion.get("name")),
+        limpiar(cancion.get("artistName")),
+        limpiar(cancion.get("genres"))
+    ]).lower()
+
+    return any(
+        palabra in texto
+        for palabra in LATIN
+    )
+
+
+def obtener_canciones():
+
+    canciones = []
+
+    for pais, url in URLS:
+
+        try:
+
+            datos = descargar(url)
+
+            resultados = (
+                datos
+                .get("feed", {})
+                .get("results", [])
+            )
+
+            for posicion, item in enumerate(
+                resultados,
+                start=1
+            ):
+
+                titulo = limpiar(
+                    item.get("name")
+                )
+
+                artista = limpiar(
+                    item.get("artistName")
+                )
+
+                if not titulo or not artista:
+                    continue
+
+                canciones.append({
+
+                    "title": titulo,
+
+                    "artist": artista,
+
+                    "artwork": item.get(
+                        "artworkUrl100",
+                        ""
+                    ),
+
+                    "url": item.get(
+                        "url",
+                        ""
+                    ),
+
+                    "country": pais,
+
+                    "position": posicion,
+
+                    "latin": es_latina(item)
+
+                })
+
+        except Exception as error:
+
+            print(
+                f"ERROR {pais}: {error}"
+            )
+
+
+    return canciones
+
+
+def quitar_duplicados(canciones):
+
+    unicas = {}
+
+    for cancion in canciones:
+
+        clave = (
+            cancion["title"].lower(),
+            cancion["artist"].lower()
+        )
+
+        if clave not in unicas:
+
+            unicas[clave] = cancion
+
+        else:
+
+            actual = unicas[clave]
+
+            if (
+                cancion["position"]
+                <
+                actual["position"]
+            ):
+
+                unicas[clave] = cancion
+
+
+    return list(
+        unicas.values()
+    )
+
+
+def puntuacion(cancion):
+
+    posicion = cancion["position"]
+
+    puntos_posicion = max(
+        0,
+        120 - posicion
+    )
+
+    puntos_latinos = (
+        40
+        if cancion["latin"]
+        else 0
+    )
+
+    puntos_costa_rica = (
+        25
+        if cancion["country"] == "Costa Rica"
+        else 0
+    )
+
+    return (
+        puntos_posicion
+        +
+        puntos_latinos
+        +
+        puntos_costa_rica
+    )
+
+
+def crear_top20(canciones):
+
+    for cancion in canciones:
+
+        cancion["score"] = puntuacion(
+            cancion
+        )
+
+
+    canciones.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
+
+
+    resultado = []
+
+    artistas = {}
+
+
+    for cancion in canciones:
+
+        artista = cancion["artist"].lower()
+
+        cantidad = artistas.get(
+            artista,
+            0
+        )
+
+        if cantidad >= 4:
+            continue
+
+        artistas[artista] = cantidad + 1
+
+        resultado.append(cancion)
+
+        if len(resultado) == 20:
+            break
+
+
+    top20 = []
+
+    for numero, cancion in enumerate(
+        resultado,
+        start=1
+    ):
+
+        top20.append({
+
+            "position": numero,
+
+            "title": cancion["title"],
+
+            "artist": cancion["artist"],
+
+            "artwork": cancion["artwork"],
+
+            "url": cancion["url"],
+
+            "source": cancion["country"]
+
+        })
+
+
+    return top20
+
+
+def main():
+
+    canciones = obtener_canciones()
+
+    canciones = quitar_duplicados(
+        canciones
+    )
+
+    top20 = crear_top20(
+        canciones
+    )
+
+
+    resultado = {
+
+        "station": "Nova Stereo",
+
+        "title": "TOP 20 NOVA",
+
+        "subtitle":
+            "Nuevas más solicitadas · Tendencias musicales",
+
+        "updatedAt":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
+
+        "songs": top20
+
+    }
+
+
+    with open(
+        "top20.json",
+        "w",
+        encoding="utf-8"
+    ) as archivo:
+
+        json.dump(
+            resultado,
+            archivo,
+            ensure_ascii=False,
+            indent=2
+        )
+
+
+    print(
+        f"TOP 20 NOVA generado: {len(top20)} canciones"
+    )
+
+
+if _name_ == "_main_":
+    main()
