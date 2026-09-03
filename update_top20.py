@@ -1,200 +1,140 @@
 import json
-import re
 import urllib.request
+import re
 from datetime import datetime, timezone
-
 
 OUTPUT_FILE = "top20.json"
 
-SOURCES = [
-    {
-        "name": "Billboard Hot Latin Songs",
-        "url": "https://www.billboard.com/charts/latin-songs/"
-    },
-    {
-        "name": "Billboard Global 200",
-        "url": "https://www.billboard.com/charts/billboard-global-200/"
-    },
+URLS = [
+    "https://www.billboard.com/charts/latin-songs/",
+    "https://www.billboard.com/charts/billboard-global-200/"
 ]
 
 
-def download_page(url):
-    request = urllib.request.Request(
+def obtener_pagina(url):
+    solicitud = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 Chrome/120 Safari/537.36"
-            )
-        },
+            "User-Agent": "Mozilla/5.0"
+        }
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="ignore")
+    with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
+        return respuesta.read().decode("utf-8", errors="ignore")
 
 
-def clean_text(text):
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+def limpiar(texto):
+    texto = re.sub(r"<[^>]+>", " ", texto)
+    texto = re.sub(r"\s+", " ", texto)
+    return texto.strip()
 
 
-def extract_songs(html):
-    songs = []
+def obtener_canciones(html):
+    canciones = []
 
-    title_patterns = [
-        r'class="c-title[^"]"[^>]>(.*?)</',
-        r'class="o-chart-results-list__item-title[^"]"[^>]>(.*?)</',
+    patrones = [
+        r'<h2[^>]class="[^"]*c-title[^"]"[^>]>(.?)</h2>',
+        r'<h2[^>]>(.?)</h2>'
     ]
 
-    artist_patterns = [
-        r'class="c-label[^"]"[^>]>(.*?)</',
-        r'class="c-label[^"]">\s(.?)\s</',
-    ]
+    titulos = []
 
-    titles = []
-
-    for pattern in title_patterns:
-        matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
-
-        for match in matches:
-            value = clean_text(match)
-
-            if value and value not in titles:
-                titles.append(value)
-
-    artists = []
-
-    for pattern in artist_patterns:
-        matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
-
-        for match in matches:
-            value = clean_text(match)
-
-            if value and value not in artists:
-                artists.append(value)
-
-    for index, title in enumerate(titles[:50]):
-        artist = artists[index] if index < len(artists) else "Artista"
-
-        songs.append(
-            {
-                "title": title,
-                "artist": artist,
-            }
+    for patron in patrones:
+        encontrados = re.findall(
+            patron,
+            html,
+            re.IGNORECASE | re.DOTALL
         )
 
-    return songs
+        for elemento in encontrados:
+            titulo = limpiar(elemento)
 
+            if (
+                titulo
+                and len(titulo) > 1
+                and titulo not in titulos
+            ):
+                titulos.append(titulo)
 
-def normalize_song(song):
-    title = song.get("title", "").strip()
-    artist = song.get("artist", "").strip()
+    for titulo in titulos:
+        canciones.append({
+            "title": titulo,
+            "artist": "Artista"
+        })
 
-    return {
-        "title": title,
-        "artist": artist,
-    }
-
-
-def build_ranking():
-    all_songs = []
-
-    for source in SOURCES:
-        try:
-            html = download_page(source["url"])
-            songs = extract_songs(html)
-
-            for song in songs:
-                song = normalize_song(song)
-
-                if song["title"]:
-                    song["source"] = source["name"]
-                    all_songs.append(song)
-
-        except Exception as error:
-            print(
-                f"No se pudo consultar {source['name']}: {error}"
-            )
-
-    ranking = []
-    seen = set()
-
-    for song in all_songs:
-        key = (
-            song["title"].lower(),
-            song["artist"].lower(),
-        )
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-        ranking.append(song)
-
-        if len(ranking) >= 20:
+        if len(canciones) >= 20:
             break
 
-    return ranking
+    return canciones
 
 
-def save_ranking(ranking):
-    data = {
+def generar_top20():
+    canciones = []
+    utilizadas = set()
+
+    for url in URLS:
+        try:
+            print("Consultando:", url)
+
+            html = obtener_pagina(url)
+            resultados = obtener_canciones(html)
+
+            for cancion in resultados:
+                clave = cancion["title"].lower()
+
+                if clave in utilizadas:
+                    continue
+
+                utilizadas.add(clave)
+                canciones.append(cancion)
+
+                if len(canciones) >= 20:
+                    break
+
+        except Exception as error:
+            print("Error consultando fuente:", error)
+
+        if len(canciones) >= 20:
+            break
+
+    if len(canciones) == 0:
+        raise RuntimeError(
+            "No se pudieron obtener canciones de Internet."
+        )
+
+    canciones = canciones[:20]
+
+    resultado = {
         "name": "TOP 20 NOVA",
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "songs": [],
+        "songs": []
     }
 
-    for position, song in enumerate(ranking, start=1):
-        data["songs"].append(
-            {
-                "position": position,
-                "title": song["title"],
-                "artist": song["artist"],
-                "source": song.get("source", ""),
-            }
-        )
+    numero = 1
+
+    for cancion in canciones:
+        resultado["songs"].append({
+            "position": numero,
+            "title": cancion["title"],
+            "artist": cancion["artist"]
+        })
+
+        numero += 1
 
     with open(
         OUTPUT_FILE,
         "w",
-        encoding="utf-8",
-    ) as file:
+        encoding="utf-8"
+    ) as archivo:
         json.dump(
-            data,
-            file,
+            resultado,
+            archivo,
             ensure_ascii=False,
-            indent=2,
+            indent=2
         )
 
-
-def main():
-    print("===================================")
-    print("     TOP 20 NOVA - ACTUALIZACION")
-    print("===================================")
-
-    ranking = build_ranking()
-
-    if not ranking:
-        raise RuntimeError(
-            "No se pudo obtener ninguna canción de los rankings."
-        )
-
-    save_ranking(ranking)
-
-    print()
-    print(f"TOP 20 NOVA generado correctamente: {len(ranking)} canciones")
-    print()
-
-    for song in ranking:
-        print(
-            f"{song['position']:02d}. "
-            f"{song['title']} - {song['artist']}"
-        )
-
-    print()
-    print(f"Archivo generado: {OUTPUT_FILE}")
+    print("TOP 20 NOVA generado correctamente.")
+    print("Canciones:", len(canciones))
 
 
-if _name_ == "_main_":
-    main()
+generar_top20()
