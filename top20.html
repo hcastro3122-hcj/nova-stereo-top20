@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TOP 20 NOVA</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width:100%;
+    min-height:100%;
+    background:#050505;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.nova-top20{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    padding:70px 24px 80px;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(0,220,255,.12), transparent 35%),
+        radial-gradient(circle at 100% 50%, rgba(255,95,0,.08), transparent 30%),
+        #050505;
+}
+
+/* LÍNEAS DE LUZ */
+
+.nova-top20::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:8%;
+    right:8%;
+    height:1px;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        #00eaff,
+        #ff5a00,
+        #00eaff,
+        transparent
+    );
+    box-shadow:0 0 18px rgba(0,234,255,.7);
+}
+
+/* ENCABEZADO */
+
+.header{
+    position:relative;
+    max-width:1200px;
+    margin:0 auto 55px;
+    text-align:center;
+}
+
+.kicker{
+    display:inline-block;
+    margin-bottom:15px;
+    padding:7px 18px;
+    border:1px solid rgba(0,234,255,.55);
+    border-radius:30px;
+    color:#00eaff;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    box-shadow:
+        0 0 15px rgba(0,234,255,.12),
+        inset 0 0 15px rgba(0,234,255,.04);
+}
+
+.header h1{
+    font-size:clamp(48px,8vw,92px);
+    line-height:.9;
+    font-weight:1000;
+    letter-spacing:-3px;
+    text-transform:uppercase;
+    color:#fff;
+    text-shadow:
+        0 0 8px rgba(255,255,255,.15),
+        0 0 35px rgba(0,234,255,.16);
+}
+
+.header h1 span{
+    color:#00eaff;
+    text-shadow:
+        0 0 8px rgba(0,234,255,.5),
+        0 0 30px rgba(0,234,255,.25);
+}
+
+.subtitle{
+    margin-top:20px;
+    color:#a7a7a7;
+    font-size:15px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+/* ESTADO */
+
+.status{
+    max-width:1200px;
+    margin:0 auto 28px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    color:#777;
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.status-live{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.status-dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:#00eaff;
+    box-shadow:0 0 12px #00eaff;
+}
+
+/* TOP 1 */
+
+.top-one{
+    position:relative;
+    max-width:1200px;
+    margin:0 auto 30px;
+    padding:34px;
+    min-height:245px;
+    display:grid;
+    grid-template-columns:150px 1fr auto;
+    align-items:center;
+    gap:30px;
+
+    border:1px solid rgba(0,234,255,.55);
+    border-radius:28px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(0,234,255,.09),
+            rgba(255,90,0,.035) 55%,
+            rgba(0,0,0,.75)
+        );
+
+    box-shadow:
+        0 0 0 1px rgba(0,234,255,.05),
+        0 0 35px rgba(0,234,255,.10),
+        inset 0 0 45px rgba(0,234,255,.035);
+
+    overflow:hidden;
+}
+
+.top-one::after{
+    content:"";
+    position:absolute;
+    width:300px;
+    height:300px;
+    right:-150px;
+    top:-150px;
+    border-radius:50%;
+    border:1px solid rgba(0,234,255,.12);
+    box-shadow:
+        0 0 0 35px rgba(0,234,255,.025),
+        0 0 0 70px rgba(0,234,255,.015);
+}
+
+.top-badge{
+    position:relative;
+    z-index:2;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border:2px solid #00eaff;
+    background:rgba(0,0,0,.45);
+    box-shadow:
+        0 0 20px rgba(0,234,255,.3),
+        inset 0 0 30px rgba(0,234,255,.08);
+}
+
+.top-badge span{
+    display:block;
+    color:#fff;
+    font-size:65px;
+    line-height:1;
+    font-weight:1000;
+    letter-spacing:-5px;
+    text-shadow:0 0 25px rgba(0,234,255,.35);
+}
+
+.top-label{
+    color:#ff6a00;
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:3px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+.top-title{
+    font-size:clamp(26px,4vw,48px);
+    font-weight:900;
+    line-height:1.02;
+    letter-spacing:-1px;
+    color:#fff;
+    max-width:700px;
+}
+
+.top-artist{
+    margin-top:12px;
+    color:#00eaff;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.request{
+    position:relative;
+    z-index:5;
+    border:1px solid #ff6500;
+    border-radius:13px;
+    padding:15px 23px;
+    background:rgba(255,80,0,.08);
+    color:#fff;
+    font-weight:900;
+    font-size:12px;
+    letter-spacing:2px;
+    cursor:pointer;
+    transition:.25s ease;
+    white-space:nowrap;
+}
+
+.request:hover{
+    transform:translateY(-2px);
+    background:#ff6500;
+    color:#050505;
+    box-shadow:
+        0 0 20px rgba(255,90,0,.45);
+}
+
+/* GRID */
+
+.ranking{
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+}
+
+/* TARJETAS */
+
+.song{
+    position:relative;
+    min-height:128px;
+    display:grid;
+    grid-template-columns:62px 1fr auto;
+    align-items:center;
+    gap:18px;
+
+    padding:20px 20px 20px 17px;
+
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:19px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.045),
+            rgba(255,255,255,.012)
+        );
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+
+    overflow:hidden;
+}
+
+.song::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:16px;
+    bottom:16px;
+    width:2px;
+    background:linear-gradient(
+        180deg,
+        transparent,
+        rgba(0,234,255,.8),
+        transparent
+    );
+}
+
+.song:hover{
+    transform:translateY(-3px);
+    border-color:rgba(0,234,255,.42);
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.35),
+        0 0 20px rgba(0,234,255,.06);
+}
+
+/* NÚMERO */
+
+.position{
+    width:58px;
+    height:58px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+
+    background:rgba(0,234,255,.035);
+    border:1px solid rgba(0,234,255,.22);
+
+    color:#00eaff;
+    font-size:25px;
+    font-weight:1000;
+}
+
+/* INFORMACIÓN */
+
+.song-title{
+    font-size:17px;
+    font-weight:850;
+    line-height:1.15;
+    color:#fff;
+}
+
+.song-artist{
+    margin-top:7px;
+    color:#8e8e8e;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.4px;
+}
+
+/* BOTÓN NORMAL */
+
+.song .request{
+    padding:11px 14px;
+    font-size:10px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+
+.footer{
+    max-width:1200px;
+    margin:50px auto 0;
+    padding-top:28px;
+    border-top:1px solid rgba(255,255,255,.08);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.footer strong{
+    color:#fff;
+}
+
+.footer span{
+    color:#777;
+    font-size:12px;
+}
+
+/* CARGANDO */
+
+.loading{
+    max-width:1200px;
+    margin:0 auto;
+    padding:70px 20px;
+    text-align:center;
+    color:#777;
+}
+
+.loader{
+    width:38px;
+    height:38px;
+    margin:0 auto 18px;
+    border-radius:50%;
+    border:2px solid rgba(0,234,255,.15);
+    border-top-color:#00eaff;
+    animation:spin .8s linear infinite;
+}
+
+@keyframes spin{
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+/* ERROR */
+
+.error{
+    max-width:800px;
+    margin:0 auto;
+    padding:30px;
+    text-align:center;
+    border:1px solid rgba(255,90,0,.35);
+    border-radius:18px;
+    color:#ff7b35;
+    background:rgba(255,90,0,.04);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:850px){
+
+    .nova-top20{
+        padding:55px 15px 60px;
+    }
+
+    .status{
+        padding:0 3px;
+    }
+
+    .top-one{
+        grid-template-columns:90px 1fr;
+        gap:20px;
+        padding:25px;
+    }
+
+    .top-badge{
+        width:85px;
+        height:85px;
+    }
+
+    .top-badge span{
+        font-size:40px;
+    }
+
+    .top-one .request{
+        grid-column:1 / -1;
+        width:100%;
+    }
+
+    .ranking{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:520px){
+
+    .header h1{
+        letter-spacing:-2px;
+    }
+
+    .subtitle{
+        font-size:11px;
+        letter-spacing:1.2px;
+    }
+
+    .status{
+        font-size:9px;
+    }
+
+    .top-one{
+        grid-template-columns:70px 1fr;
+        padding:20px;
+        border-radius:22px;
+    }
+
+    .top-badge{
+        width:68px;
+        height:68px;
+    }
+
+    .top-badge span{
+        font-size:31px;
+    }
+
+    .top-title{
+        font-size:25px;
+    }
+
+    .top-artist{
+        font-size:13px;
+    }
+
+    .song{
+        grid-template-columns:48px 1fr;
+        padding:16px;
+        gap:13px;
+    }
+
+    .position{
+        width:46px;
+        height:46px;
+        border-radius:12px;
+        font-size:20px;
+    }
+
+    .song-title{
+        font-size:15px;
+    }
+
+    .song .request{
+        grid-column:2;
+        width:max-content;
+        padding:9px 13px;
+    }
+
+    .footer{
+        flex-direction:column;
+        text-align:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="nova-top20">
+
+    <header class="header">
+
+        <div class="kicker">
+            NOVA STEREO
+        </div>
+
+        <h1>
+            TOP <span>20</span> NOVA
+        </h1>
+
+        <div class="subtitle">
+            Nuevas más solicitadas · Tendencias musicales
+        </div>
+
+    </header>
+
+    <div class="status">
+
+        <div class="status-live">
+            <span class="status-dot"></span>
+            Ranking actualizado automáticamente
+        </div>
+
+        <div id="updated">
+            Cargando...
+        </div>
+
+    </div>
+
+    <div id="content">
+
+        <div class="loading">
+            <div class="loader"></div>
+            Cargando TOP 20 NOVA...
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+
+const JSON_URL =
+"https://hcastro3122-hcj.github.io/nova-stereo-top20/top20.json";
+
+const WHATSAPP =
+"https://wa.me/50685838631?text=";
+
+
+function limpiarTexto(texto){
+
+    if(texto === undefined || texto === null){
+        return "";
+    }
+
+    return String(texto).trim();
+
+}
+
+
+function escapar(texto){
+
+    return limpiarTexto(texto)
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;");
+
+}
+
+
+function solicitar(cancion, artista){
+
+    const mensaje =
+        "Hola Nova Stereo 👋%0A%0A" +
+        "Quiero solicitar esta canción:%0A" +
+        cancion +
+        "%0A" +
+        artista;
+
+    window.open(
+        WHATSAPP + encodeURIComponent(
+            "Hola Nova Stereo 👋\n\n" +
+            "Quiero solicitar esta canción:\n" +
+            cancion +
+            "\n" +
+            artista
+        ),
+        "_blank"
+    );
+
+}
+
+
+function obtenerDatos(data){
+
+    if(Array.isArray(data)){
+        return data;
+    }
+
+    if(data && Array.isArray(data.songs)){
+        return data.songs;
+    }
+
+    if(data && Array.isArray(data.top20)){
+        return data.top20;
+    }
+
+    if(data && Array.isArray(data.tracks)){
+        return data.tracks;
+    }
+
+    return [];
+
+}
+
+
+function crearTarjeta(cancion, indice){
+
+    const posicion =
+        cancion.position ??
+        cancion.posicion ??
+        indice + 1;
+
+    const titulo =
+        cancion.title ??
+        cancion.name ??
+        cancion.song ??
+        "Canción";
+
+    const artista =
+        cancion.artist ??
+        cancion.artists ??
+        cancion.artist_name ??
+        "Artista";
+
+    return {
+
+        posicion: Number(posicion) || indice + 1,
+
+        titulo: limpiarTexto(titulo),
+
+        artista: limpiarTexto(artista)
+
+    };
+
+}
+
+
+async function cargarTop20(){
+
+    try{
+
+        const respuesta =
+            await fetch(
+                JSON_URL +
+                "?v=" +
+                Date.now(),
+                {
+                    cache:"no-store"
+                }
+            );
+
+        if(!respuesta.ok){
+
+            throw new Error(
+                "No se pudo cargar top20.json"
+            );
+
+        }
+
+        const data =
+            await respuesta.json();
+
+        const canciones =
+            obtenerDatos(data)
+            .slice(0,20)
+            .map(crearTarjeta);
+
+        if(!canciones.length){
+
+            throw new Error(
+                "No hay canciones disponibles"
+            );
+
+        }
+
+        renderizar(canciones);
+
+    }catch(error){
+
+        console.error(error);
+
+        document.getElementById("content").innerHTML = `
+            <div class="error">
+                No pudimos cargar el TOP 20 NOVA en este momento.
+            </div>
+        `;
+
+    }
+
+}
+
+
+function renderizar(canciones){
+
+    const primero =
+        canciones[0];
+
+    const resto =
+        canciones.slice(1);
+
+    let html = `
+
+        <article class="top-one">
+
+            <div class="top-badge">
+                <span>#1</span>
+            </div>
+
+            <div>
+
+                <div class="top-label">
+                    NÚMERO UNO · TOP 20 NOVA
+                </div>
+
+                <div class="top-title">
+                    ${escapar(primero.titulo)}
+                </div>
+
+                <div class="top-artist">
+                    ${escapar(primero.artista)}
+                </div>
+
+            </div>
+
+            <button
+                class="request"
+                onclick='solicitar(
+                    ${JSON.stringify(primero.titulo)},
+                    ${JSON.stringify(primero.artista)}
+                )'
+            >
+                SOLICITAR
+            </button>
+
+        </article>
+
+        <div class="ranking">
+    `;
+
+
+    resto.forEach((cancion, indice)=>{
+
+        html += `
+
+            <article class="song">
+
+                <div class="position">
+                    #${cancion.posicion}
+                </div>
+
+                <div>
+
+                    <div class="song-title">
+                        ${escapar(cancion.titulo)}
+                    </div>
+
+                    <div class="song-artist">
+                        ${escapar(cancion.artista)}
+                    </div>
+
+                </div>
+
+                <button
+                    class="request"
+                    onclick='solicitar(
+                        ${JSON.stringify(cancion.titulo)},
+                        ${JSON.stringify(cancion.artista)}
+                    )'
+                >
+                    SOLICITAR
+                </button>
+
+            </article>
+
+        `;
+
+    });
+
+
+    html += `
+
+        </div>
+
+        <div class="footer">
+
+            <span>
+                <strong>NOVA STEREO</strong> · Tu radio online
+            </span>
+
+            <span>
+                TOP 20 NOVA · Ranking automático
+            </span>
+
+        </div>
+
+    `;
+
+
+    document.getElementById("content").innerHTML =
+        html;
+
+
+    document.getElementById("updated").textContent =
+        "Actualizado: " +
+        new Date().toLocaleTimeString(
+            "es-CR",
+            {
+                hour:"2-digit",
+                minute:"2-digit"
+            }
+        );
+
+}
+
+
+cargarTop20();
+
+
+/*
+   Comprobación automática cada 10 minutos.
+   No modifica el JSON.
+*/
+setInterval(
+    cargarTop20,
+    10 * 60 * 1000
+);
+
+</script>
+
+</body>
+</html>
