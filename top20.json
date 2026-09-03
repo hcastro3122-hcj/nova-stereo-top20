@@ -1,0 +1,216 @@
+{
+  "name": "TOP 20 NOVA",
+  "updated_at": "2026-09-03T23:35:10.485719+00:00",
+  "sources": [
+    "Spotify Costa Rica",
+    "Spotify Global",
+    "Spotify Mexico",
+    "Apple Music USA",
+    "Apple Music Mexico",
+    "Apple Music Costa Rica"
+  ],
+  "songs": [
+    {
+      "position": 1,
+      "title": "BbY WOW",
+      "artist": "KAROL G, rusowsky & Judeline",
+      "score": 484,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico",
+        "Apple Music USA"
+      ]
+    },
+    {
+      "position": 2,
+      "title": "Yonaguni",
+      "artist": "Bad Bunny",
+      "score": 405,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico",
+        "Apple Music USA"
+      ]
+    },
+    {
+      "position": 3,
+      "title": "Efecto",
+      "artist": "Bad Bunny",
+      "score": 333,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 4,
+      "title": "KOKO",
+      "artist": "Omar Courtz",
+      "score": 327,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 5,
+      "title": "Ojitos Lindos",
+      "artist": "Bad Bunny & Bomba Estéreo",
+      "score": 322,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 6,
+      "title": "SUPERESTRELLA",
+      "artist": "Aitana",
+      "score": 316,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 7,
+      "title": "Vete",
+      "artist": "Bad Bunny",
+      "score": 307,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 8,
+      "title": "Callaíta",
+      "artist": "Bad Bunny & Tainy",
+      "score": 295,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 9,
+      "title": "LA CANCIÓN",
+      "artist": "J Balvin & Bad Bunny",
+      "score": 291,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 10,
+      "title": "DÁKITI",
+      "artist": "Bad Bunny & JHAYCO",
+      "score": 289,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 11,
+      "title": "Te Estoy Correteando",
+      "artist": "LATIN MAFIA & Fred again..",
+      "score": 288,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 12,
+      "title": "Ahí",
+      "artist": "KAROL G & Drake",
+      "score": 286,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music USA"
+      ]
+    },
+    {
+      "position": 13,
+      "title": "Me Porto Bonito",
+      "artist": "Bad Bunny & Chencho Corleone",
+      "score": 284,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 14,
+      "title": "Q U E V A S H A C E R H O Y ?",
+      "artist": "Omar Courtz & De La Rose",
+      "score": 269,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 15,
+      "title": "TU SANCHO",
+      "artist": "Fuerza Regida",
+      "score": 268,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 16,
+      "title": "VeLDÁ",
+      "artist": "Bad Bunny, Omar Courtz & Dei V",
+      "score": 268,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 17,
+      "title": "BAILE INoLVIDABLE",
+      "artist": "Bad Bunny",
+      "score": 266,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 18,
+      "title": "Dile a El",
+      "artist": "Rauw Alejandro",
+      "score": 264,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 19,
+      "title": "Khé?",
+      "artist": "Rauw Alejandro & Romeo Santos",
+      "score": 249,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    },
+    {
+      "position": 20,
+      "title": "EXCESOS",
+      "artist": "Fuerza Regida",
+      "score": 246,
+      "sources": [
+        "Apple Music Costa Rica",
+        "Apple Music Mexico"
+      ]
+    }
+  ]
+}
