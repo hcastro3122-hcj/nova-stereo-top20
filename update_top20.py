@@ -1,326 +1,199 @@
 import json
 import re
+import urllib.request
 from datetime import datetime, timezone
-from urllib.request import Request, urlopen
 
+
+OUTPUT_FILE = "top20.json"
 
 SOURCES = [
-    (
-        "Costa Rica",
-        "https://rss.applemarketingtools.com/api/v2/cr/music/most-played/100/songs.json"
-    ),
-    (
-        "Estados Unidos",
-        "https://rss.applemarketingtools.com/api/v2/us/music/most-played/100/songs.json"
-    )
+    {
+        "name": "Billboard Hot Latin Songs",
+        "url": "https://www.billboard.com/charts/latin-songs/"
+    },
+    {
+        "name": "Billboard Global 200",
+        "url": "https://www.billboard.com/charts/billboard-global-200/"
+    },
 ]
 
 
-LATIN_KEYWORDS = [
-    "latin",
-    "reggaeton",
-    "reggaetón",
-    "urbano",
-    "urbana",
-    "bachata",
-    "salsa",
-    "merengue",
-    "cumbia",
-    "corridos",
-    "regional mexicano",
-    "trap latino",
-    "pop latino",
-    "spanish",
-    "español"
-]
-
-
-def clean(value):
-    return re.sub(
-        r"\s+",
-        " ",
-        str(value or "")
-    ).strip()
-
-
-def download_json(url):
-
-    request = Request(
+def download_page(url):
+    request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 NovaStereo/1.0"
-        }
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 Chrome/120 Safari/537.36"
+            )
+        },
     )
 
-    with urlopen(
-        request,
-        timeout=30
-    ) as response:
-
-        return json.loads(
-            response.read().decode("utf-8")
-        )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read().decode("utf-8", errors="ignore")
 
 
-def is_latin(song):
-
-    text = " ".join([
-        clean(song.get("name")),
-        clean(song.get("artistName")),
-        clean(song.get("genres"))
-    ]).lower()
-
-    return any(
-        keyword in text
-        for keyword in LATIN_KEYWORDS
-    )
+def clean_text(text):
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 
-def collect_songs():
-
+def extract_songs(html):
     songs = []
 
-    for country, url in SOURCES:
+    title_patterns = [
+        r'class="c-title[^"]"[^>]>(.*?)</',
+        r'class="o-chart-results-list__item-title[^"]"[^>]>(.*?)</',
+    ]
 
-        try:
+    artist_patterns = [
+        r'class="c-label[^"]"[^>]>(.*?)</',
+        r'class="c-label[^"]">\s(.?)\s</',
+    ]
 
-            data = download_json(url)
+    titles = []
 
-            results = (
-                data
-                .get("feed", {})
-                .get("results", [])
-            )
+    for pattern in title_patterns:
+        matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
 
-            for position, item in enumerate(
-                results,
-                start=1
-            ):
+        for match in matches:
+            value = clean_text(match)
 
-                title = clean(
-                    item.get("name")
-                )
+            if value and value not in titles:
+                titles.append(value)
 
-                artist = clean(
-                    item.get("artistName")
-                )
+    artists = []
 
-                if not title or not artist:
-                    continue
+    for pattern in artist_patterns:
+        matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
 
-                songs.append({
+        for match in matches:
+            value = clean_text(match)
 
-                    "title": title,
+            if value and value not in artists:
+                artists.append(value)
 
-                    "artist": artist,
+    for index, title in enumerate(titles[:50]):
+        artist = artists[index] if index < len(artists) else "Artista"
 
-                    "artwork": item.get(
-                        "artworkUrl100",
-                        ""
-                    ),
-
-                    "url": item.get(
-                        "url",
-                        ""
-                    ),
-
-                    "country": country,
-
-                    "position": position,
-
-                    "latin": is_latin(item)
-
-                })
-
-        except Exception as error:
-
-            print(
-                f"ERROR leyendo {country}: {error}"
-            )
+        songs.append(
+            {
+                "title": title,
+                "artist": artist,
+            }
+        )
 
     return songs
 
 
-def remove_duplicates(songs):
+def normalize_song(song):
+    title = song.get("title", "").strip()
+    artist = song.get("artist", "").strip()
 
-    unique = {}
+    return {
+        "title": title,
+        "artist": artist,
+    }
 
-    for song in songs:
 
+def build_ranking():
+    all_songs = []
+
+    for source in SOURCES:
+        try:
+            html = download_page(source["url"])
+            songs = extract_songs(html)
+
+            for song in songs:
+                song = normalize_song(song)
+
+                if song["title"]:
+                    song["source"] = source["name"]
+                    all_songs.append(song)
+
+        except Exception as error:
+            print(
+                f"No se pudo consultar {source['name']}: {error}"
+            )
+
+    ranking = []
+    seen = set()
+
+    for song in all_songs:
         key = (
             song["title"].lower(),
-            song["artist"].lower()
+            song["artist"].lower(),
         )
 
-        if key not in unique:
-
-            unique[key] = song
-
-        else:
-
-            current = unique[key]
-
-            if (
-                song["position"]
-                <
-                current["position"]
-            ):
-
-                unique[key] = song
-
-    return list(
-        unique.values()
-    )
-
-
-def calculate_score(song):
-
-    position = song["position"]
-
-    chart_score = max(
-        0,
-        120 - position
-    )
-
-    latin_score = (
-        40
-        if song["latin"]
-        else 0
-    )
-
-    costa_rica_score = (
-        25
-        if song["country"] == "Costa Rica"
-        else 0
-    )
-
-    return (
-        chart_score
-        +
-        latin_score
-        +
-        costa_rica_score
-    )
-
-
-def create_top20(songs):
-
-    for song in songs:
-
-        song["score"] = calculate_score(
-            song
-        )
-
-    songs.sort(
-        key=lambda song: song["score"],
-        reverse=True
-    )
-
-    result = []
-
-    artist_count = {}
-
-    for song in songs:
-
-        artist_key = song["artist"].lower()
-
-        count = artist_count.get(
-            artist_key,
-            0
-        )
-
-        # Máximo cuatro canciones
-        # del mismo artista.
-        if count >= 4:
+        if key in seen:
             continue
 
-        artist_count[artist_key] = count + 1
+        seen.add(key)
+        ranking.append(song)
 
-        result.append(song)
-
-        if len(result) >= 20:
+        if len(ranking) >= 20:
             break
 
-    top20 = []
+    return ranking
 
-    for number, song in enumerate(
-        result,
-        start=1
-    ):
 
-        top20.append({
+def save_ranking(ranking):
+    data = {
+        "name": "TOP 20 NOVA",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "songs": [],
+    }
 
-            "position": number,
+    for position, song in enumerate(ranking, start=1):
+        data["songs"].append(
+            {
+                "position": position,
+                "title": song["title"],
+                "artist": song["artist"],
+                "source": song.get("source", ""),
+            }
+        )
 
-            "title": song["title"],
-
-            "artist": song["artist"],
-
-            "artwork": song["artwork"],
-
-            "url": song["url"],
-
-            "source": song["country"]
-
-        })
-
-    return top20
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
 
 
 def main():
+    print("===================================")
+    print("     TOP 20 NOVA - ACTUALIZACION")
+    print("===================================")
 
-    songs = collect_songs()
+    ranking = build_ranking()
 
-    songs = remove_duplicates(
-        songs
-    )
-
-    top20 = create_top20(
-        songs
-    )
-
-    output = {
-
-        "station": "Nova Stereo",
-
-        "title": "TOP 20 NOVA",
-
-        "subtitle":
-            "Nuevas más solicitadas · Tendencias musicales",
-
-        "updatedAt":
-            datetime.now(
-                timezone.utc
-            ).isoformat(),
-
-        "songs": top20
-
-    }
-
-    with open(
-        "top20.json",
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            output,
-            file,
-            ensure_ascii=False,
-            indent=2
+    if not ranking:
+        raise RuntimeError(
+            "No se pudo obtener ninguna canción de los rankings."
         )
 
-    print(
-        f"TOP 20 NOVA generado: {len(top20)} canciones"
-    )
+    save_ranking(ranking)
 
-    for song in top20:
+    print()
+    print(f"TOP 20 NOVA generado correctamente: {len(ranking)} canciones")
+    print()
 
+    for song in ranking:
         print(
-            f'#{song["position"]} '
-            f'{song["title"]} - '
-            f'{song["artist"]}'
+            f"{song['position']:02d}. "
+            f"{song['title']} - {song['artist']}"
         )
+
+    print()
+    print(f"Archivo generado: {OUTPUT_FILE}")
 
 
 if _name_ == "_main_":
