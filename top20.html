@@ -38,6 +38,31 @@ body{
   text-align:center;
   margin-bottom:30px;
 }
+  .live-dot{
+  display:inline-block;
+  width:8px;
+  height:8px;
+  margin-right:7px;
+  border-radius:50%;
+  background:#ff3030;
+  box-shadow:0 0 8px rgba(255,48,48,.8);
+  animation:novaPulse 1.5s infinite;
+  vertical-align:middle;
+}
+
+@keyframes novaPulse{
+  0%,100%{
+    opacity:1;
+    transform:scale(1);
+    box-shadow:0 0 8px rgba(255,48,48,.8);
+  }
+
+  50%{
+    opacity:.45;
+    transform:scale(.72);
+    box-shadow:0 0 2px rgba(255,48,48,.3);
+  }
+}
 
 .kicker{
   color:#00eaff;
@@ -148,7 +173,7 @@ body{
 .pos{
   text-align:center;
   font-weight:950;
-  font-size:42px;
+  font-size:38px;
   line-height:1;
   letter-spacing:-2px;
 
@@ -167,7 +192,7 @@ body{
 }
 
 .top .pos{
-  font-size:64px;
+  font-size:58px;
   color:#00eaff;
   background:none;
   -webkit-background-clip:initial;
@@ -437,12 +462,19 @@ body{
 <div class="wrap">
 
   <header class="header">
-    <div class="kicker">Nova Stereo · Tu radio online</div>
-    <h1 class="title">TOP 20 NOVA</h1>
-    <div class="subtitle">
-      Las nuevas más solicitadas · Tendencias musicales
-    </div>
-  </header>
+
+  <div class="kicker">
+    <span class="live-dot"></span>
+    ACTUALIZANDO · NOVA STEREO
+  </div>
+
+  <h1 class="title">TOP 20 NOVA</h1>
+
+  <div class="subtitle">
+    Las nuevas más solicitadas · Tendencias musicales
+  </div>
+
+</header>
 
   <div id="status" class="status">
     Cargando TOP 20 NOVA...
