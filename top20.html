@@ -1,573 +1,430 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>TOP 20 NOVA</title>
 
 <style>
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
 html,body{
   margin:0;
   padding:0;
   background:#050608;
   color:#fff;
-  font-family:Arial,Helvetica,sans-serif
+  font-family:Arial,Helvetica,sans-serif;
 }
 
-body{min-width:280px}
+body{
+  overflow-x:hidden;
+}
 
-.nova{
+.wrap{
   width:100%;
-  min-height:100vh;
-  padding:48px 22px 60px;
-  background:
-    radial-gradient(900px 500px at 50% -100px,rgba(0,234,255,.12),transparent 65%),
-    radial-gradient(700px 500px at 100% 35%,rgba(255,122,0,.055),transparent 65%),
-    #050608;
-  position:relative;
-  overflow:hidden
+  max-width:1180px;
+  margin:0 auto;
+  padding:34px 22px 45px;
 }
 
-.nova:before{
+/* =========================
+   ENCABEZADO
+========================= */
+
+.header{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.kicker{
+  color:#00eaff;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+
+.title{
+  margin:0;
+  font-size:clamp(34px,6vw,58px);
+  line-height:.95;
+  font-weight:950;
+  letter-spacing:-2px;
+  background:linear-gradient(90deg,#00eaff,#ffffff,#ff7a00);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.subtitle{
+  margin-top:12px;
+  color:#8e99a8;
+  font-size:13px;
+  letter-spacing:.4px;
+}
+
+/* =========================
+   ESTADO
+========================= */
+
+.status{
+  text-align:center;
+  color:#687383;
+  font-size:12px;
+  padding:20px;
+}
+
+.status.error{
+  color:#ff8c55;
+}
+
+/* =========================
+   LISTA
+========================= */
+
+.list{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card{
+  position:relative;
+  display:grid;
+  grid-template-columns:74px 92px minmax(0,1fr);
+  align-items:center;
+  min-height:145px;
+  padding:15px;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  background:
+    radial-gradient(circle at 15% 50%,rgba(0,234,255,.06),transparent 30%),
+    linear-gradient(135deg,#0b0e13,#080a0e 65%,#0b0a08);
+  box-shadow:
+    0 12px 35px rgba(0,0,0,.35),
+    inset 0 0 25px rgba(255,255,255,.015);
+  overflow:hidden;
+}
+
+.card::after{
   content:"";
   position:absolute;
   inset:0;
   pointer-events:none;
-  opacity:.45;
-  background-image:
-    linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
-  background-size:42px 42px;
-  mask-image:linear-gradient(to bottom,#000,transparent 92%)
-}
-
-.inner{
-  max-width:1180px;
-  margin:auto;
-  position:relative;
-  z-index:2
-}
-
-.header{text-align:center}
-
-.pill{
-  display:inline-flex;
-  align-items:center;
-  gap:9px;
-  padding:8px 14px;
-  border:1px solid rgba(0,234,255,.35);
-  border-radius:999px;
-  background:rgba(0,234,255,.055);
-  color:#bffaff;
-  font-size:10px;
-  font-weight:800;
-  letter-spacing:2px
-}
-
-.dot{
-  width:7px;
-  height:7px;
-  border-radius:50%;
-  background:#ff7a00;
-  box-shadow:0 0 14px #ff7a00
-}
-
-h1{
-  margin:18px 0 7px;
-  font-size:clamp(48px,8vw,88px);
-  line-height:.84;
-  font-weight:950;
-  letter-spacing:-4px;
-  color:#fff;
-  text-shadow:0 0 30px rgba(0,234,255,.16)
-}
-
-h1 span{
-  background:linear-gradient(90deg,#fff 5%,#00eaff 52%,#ff7a00 95%);
-  -webkit-background-clip:text;
-  background-clip:text;
-  color:transparent
-}
-
-.subtitle{
-  margin:0;
-  color:#9ca8b7;
-  font-size:13px;
-  letter-spacing:2px;
-  text-transform:uppercase
-}
-
-.line{
-  width:190px;
-  height:3px;
-  margin:22px auto 35px;
-  border-radius:99px;
-  background:linear-gradient(
-    90deg,
-    transparent,
-    #00eaff,
-    #ff7a00,
-    transparent
-  );
-  box-shadow:0 0 20px rgba(0,234,255,.2)
-}
-
-.info{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:15px;
-  color:#758293;
-  font-size:10px;
-  letter-spacing:1px;
-  text-transform:uppercase;
-  margin-bottom:15px
-}
-
-.info strong{color:#cbd5e1}
-
-.update{color:#00eaff}
-
-/* =========================
-   GRID
-========================= */
-
-.grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:14px
-}
-
-/* =========================
-   TARJETAS
-========================= */
-
-.card{
-  min-width:0;
-  min-height:132px;
-  padding:15px 16px;
-  display:grid;
-  grid-template-columns:58px 76px minmax(0,1fr);
-  align-items:center;
-  gap:13px;
-
-  border:1px solid rgba(255,255,255,.09);
   border-radius:20px;
-
-  background:
-    linear-gradient(
-      145deg,
-      rgba(255,255,255,.055),
-      rgba(255,255,255,.012)
-    );
-
-  box-shadow:
-    0 12px 35px rgba(0,0,0,.22),
-    inset 0 0 25px rgba(0,234,255,.012);
-
-  transition:
-    transform .2s,
-    border-color .2s,
-    box-shadow .2s;
-
-  position:relative;
-  overflow:hidden
-}
-
-.card:hover{
-  transform:translateY(-3px);
-  border-color:rgba(0,234,255,.35);
-  box-shadow:
-    0 16px 45px rgba(0,0,0,.32),
-    0 0 25px rgba(0,234,255,.08)
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.015);
 }
 
 /* =========================
    #1 DESTACADO
 ========================= */
 
-.card.hero{
-  grid-column:1/-1;
-  min-height:205px;
-  padding:20px;
-
-  grid-template-columns:
-    88px
-    145px
-    minmax(0,1fr);
-
-  border-color:rgba(0,234,255,.32);
-
+.card.top{
+  grid-column:span 2;
+  grid-template-columns:92px 125px minmax(0,1fr) auto;
+  min-height:168px;
+  padding:18px;
+  border-color:rgba(0,234,255,.28);
   background:
-    radial-gradient(
-      500px 180px at 5% 50%,
-      rgba(0,234,255,.12),
-      transparent 65%
-    ),
-    linear-gradient(
-      145deg,
-      #0c141b,
-      #080a0e 70%,
-      #0d0b08
-    )
+    radial-gradient(circle at 12% 50%,rgba(0,234,255,.11),transparent 28%),
+    linear-gradient(135deg,#0c1219,#080b10 65%,#0c0b08);
+  box-shadow:
+    0 0 50px rgba(0,234,255,.10),
+    inset 0 0 35px rgba(0,234,255,.025);
 }
 
 /* =========================
-   NÚMEROS
+   POSICIONES
 ========================= */
 
-.number{
+.pos{
   text-align:center;
   font-weight:950;
-  font-size:39px;
-  letter-spacing:-3px;
+  font-size:42px;
+  line-height:1;
+  letter-spacing:-2px;
 
-  background:
-    linear-gradient(
-      180deg,
-      #ffffff 0%,
-      #00eaff 48%,
-      #277cff 100%
-    );
+  background:linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6defff 45%,
+    #258dff 100%
+  );
 
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
 
-  filter:drop-shadow(0 0 8px rgba(0,234,255,.18))
+  filter:drop-shadow(0 0 7px rgba(0,234,255,.12));
 }
 
-.hero .number{
-  font-size:70px;
-
-  background:
-    linear-gradient(
-      180deg,
-      #ffffff 0%,
-      #00eaff 45%,
-      #277cff 100%
-    );
-
-  -webkit-background-clip:text;
-  background-clip:text;
-  color:transparent;
-
-  filter:drop-shadow(0 0 12px rgba(0,234,255,.22))
+.top .pos{
+  font-size:64px;
+  color:#00eaff;
+  background:none;
+  -webkit-background-clip:initial;
+  background-clip:initial;
+  filter:none;
+  text-shadow:0 0 20px rgba(0,234,255,.18);
 }
 
 /* =========================
-   CARÁTULAS
+   PORTADAS
 ========================= */
 
 .cover{
-  width:76px;
-  height:76px;
-  border-radius:15px;
-
-  background:linear-gradient(
-    135deg,
-    #101923,
-    #18232e
-  );
-
-  border:1px solid rgba(255,255,255,.10);
-
-  display:flex;
-  align-items:center;
-  justify-content:center;
-
-  color:#526273;
-  font-size:9px;
-  text-align:center;
-
-  overflow:hidden
-}
-
-.hero .cover{
-  width:145px;
-  height:145px;
-  border-radius:20px
-}
-
-.cover img{
-  width:100%;
-  height:100%;
+  width:92px;
+  height:92px;
+  border-radius:16px;
   object-fit:cover;
-  display:block
+  display:block;
+  background:#121720;
+  border:1px solid rgba(255,255,255,.10);
+  box-shadow:0 8px 25px rgba(0,0,0,.38);
+}
+
+.top .cover{
+  width:125px;
+  height:125px;
+  border-radius:20px;
 }
 
 /* =========================
    INFORMACIÓN
 ========================= */
 
-.song{
-  font-size:19px;
-  font-weight:900;
-  line-height:1.12;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis
+.info{
+  min-width:0;
+  padding-right:72px;
 }
 
-.hero .song{
-  font-size:28px
+.top .info{
+  padding-right:10px;
+}
+
+.song{
+  font-size:19px;
+  font-weight:950;
+  line-height:1.15;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  color:#ffffff;
+}
+
+.top .song{
+  font-size:28px;
 }
 
 .artist{
   margin-top:7px;
-  color:#a8b3c0;
+  color:#aeb8c6;
   font-size:14px;
-  font-weight:600;
+  font-weight:700;
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellipsis
+  text-overflow:ellipsis;
 }
 
-.hero .artist{
-  font-size:15px
+.top .artist{
+  font-size:15px;
 }
 
-.tags{
+/* =========================
+   ETIQUETAS
+========================= */
+
+.meta{
   display:flex;
+  flex-wrap:wrap;
   gap:7px;
   margin-top:10px;
-  flex-wrap:wrap
 }
 
-.tag{
+.badge{
   padding:4px 8px;
-  border-radius:99px;
-  border:1px solid rgba(0,234,255,.2);
-  color:#9ef7ff;
-  background:rgba(0,234,255,.055);
-  font-size:8px;
+  border-radius:999px;
+  font-size:9px;
   font-weight:900;
-  letter-spacing:1px
+  letter-spacing:.9px;
+  text-transform:uppercase;
+  border:1px solid rgba(0,234,255,.20);
+  color:#a9f8ff;
+  background:rgba(0,234,255,.06);
 }
 
-.tag.hot{
-  border-color:rgba(255,122,0,.25);
-  color:#ffc58d;
-  background:rgba(255,122,0,.06)
+.badge.hot{
+  color:#ffd0a3;
+  border-color:rgba(255,122,0,.28);
+  background:rgba(255,122,0,.07);
 }
+
+/* =========================
+   BARRA
+========================= */
 
 .bar{
-  height:4px;
   margin-top:11px;
-  width:min(300px,100%);
+  width:min(310px,100%);
+  height:4px;
+  overflow:hidden;
   border-radius:99px;
-  background:#1b222b;
-  overflow:hidden
+  background:#1a2029;
 }
 
-.bar b{
+.bar span{
   display:block;
   height:100%;
   border-radius:99px;
-  background:
-    linear-gradient(
-      90deg,
-      #277cff,
-      #00eaff,
-      #ff7a00
-    )
+  background:linear-gradient(90deg,#00eaff,#258dff);
 }
 
 /* =========================
    BOTÓN SOLICITAR
 ========================= */
 
-.button{
+.request{
   position:absolute;
   right:14px;
   bottom:12px;
 
   border:1px solid rgba(255,122,0,.45);
-  border-radius:9px;
-
-  padding:6px 9px;
-
-  background:rgba(255,122,0,.07);
   color:#ffad66;
+  background:rgba(255,122,0,.07);
+
+  border-radius:9px;
+  padding:6px 9px;
 
   font-size:8px;
   font-weight:950;
   letter-spacing:1px;
 
-  white-space:nowrap;
   cursor:pointer;
+  white-space:nowrap;
 
-  transition:
-    background .2s,
-    border-color .2s,
-    color .2s,
-    box-shadow .2s
+  transition:.2s ease;
 }
 
-.button:hover{
+.request:hover{
   background:rgba(255,122,0,.14);
   border-color:#ff7a00;
   color:#ffc58d;
-  box-shadow:0 0 16px rgba(255,122,0,.16)
+  box-shadow:0 0 16px rgba(255,122,0,.16);
 }
 
 /* =========================
-   FOOTER
+   PIE
 ========================= */
 
 .footer{
-  margin-top:25px;
-  padding:25px;
   text-align:center;
-
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:20px;
-
-  background:rgba(255,255,255,.025)
-}
-
-.footer strong{
-  font-size:17px
-}
-
-.footer p{
-  margin:8px 0 16px;
-  color:#8491a1;
-  font-size:12px
-}
-
-.whatsapp{
-  display:inline-block;
-  padding:13px 22px;
-  border-radius:11px;
-
-  background:
-    linear-gradient(
-      90deg,
-      #76ffdc,
-      #00eaff
-    );
-
-  color:#03100d;
-  text-decoration:none;
-
+  margin-top:28px;
+  color:#586271;
   font-size:10px;
-  font-weight:950;
-  letter-spacing:1px
+  letter-spacing:1px;
 }
 
 /* =========================
-   TABLET / MÓVIL
+   RESPONSIVE
 ========================= */
 
 @media(max-width:760px){
 
-  .nova{
-    padding:35px 12px 45px
+  .wrap{
+    padding:26px 12px 35px;
   }
 
-  .grid{
-    grid-template-columns:1fr
+  .list{
+    grid-template-columns:1fr 1fr;
+    gap:9px;
   }
 
   .card{
-    grid-column:1;
-    grid-template-columns:48px 70px minmax(0,1fr);
-    min-height:118px;
+    grid-template-columns:48px 64px minmax(0,1fr);
+    min-height:125px;
+    padding:10px;
+    border-radius:15px;
+  }
+
+  .card.top{
+    grid-column:span 2;
+    grid-template-columns:58px 88px minmax(0,1fr);
+    min-height:145px;
     padding:12px;
-    gap:10px
   }
 
-  .card.hero{
-    grid-column:1;
-    grid-template-columns:58px 92px minmax(0,1fr);
-    min-height:140px
+  .pos{
+    font-size:29px;
   }
 
-  .number{
-    font-size:32px
-  }
-
-  .hero .number{
-    font-size:44px
+  .top .pos{
+    font-size:47px;
   }
 
   .cover{
-    width:70px;
-    height:70px;
-    border-radius:13px
+    width:64px;
+    height:64px;
+    border-radius:12px;
   }
 
-  .hero .cover{
-    width:92px;
-    height:92px;
-    border-radius:15px
+  .top .cover{
+    width:88px;
+    height:88px;
+    border-radius:15px;
   }
 
   .song{
-    font-size:16px
+    font-size:15px;
   }
 
-  .hero .song{
-    font-size:20px
+  .top .song{
+    font-size:21px;
   }
 
   .artist{
-    font-size:12px
+    font-size:11px;
+    margin-top:5px;
   }
 
-  .button{
-    right:10px;
-    bottom:9px;
-    padding:6px 8px;
-    font-size:7px
-  }
-
-  .bar{
-    max-width:180px
+  .top .artist{
+    font-size:12px;
   }
 
   .info{
-    align-items:flex-start
+    padding-right:52px;
   }
 
-  h1{
-    letter-spacing:-2px
-  }
-}
-
-@media(max-width:420px){
-
-  .card{
-    grid-template-columns:48px 62px minmax(0,1fr);
+  .top .info{
+    padding-right:45px;
   }
 
-  .hero{
-    grid-template-columns:48px 78px minmax(0,1fr)!important
+  .meta{
+    margin-top:7px;
+    gap:4px;
   }
 
-  .cover{
-    width:62px;
-    height:62px
+  .badge{
+    font-size:7px;
+    padding:3px 6px;
   }
 
-  .hero .cover{
-    width:78px;
-    height:78px
+  .bar{
+    margin-top:7px;
   }
 
-  .hero .number{
-    font-size:38px
-  }
-
-  .song{
-    font-size:15px
-  }
-
-  .hero .song{
-    font-size:18px
+  .request{
+    right:8px;
+    bottom:8px;
+    padding:5px 7px;
+    font-size:7px;
   }
 }
 </style>
@@ -575,320 +432,335 @@ h1 span{
 
 <body>
 
-<section class="nova">
+<div class="wrap">
 
-<div class="inner">
+  <header class="header">
+    <div class="kicker">Nova Stereo · Tu radio online</div>
+    <h1 class="title">TOP 20 NOVA</h1>
+    <div class="subtitle">
+      Las nuevas más solicitadas · Tendencias musicales
+    </div>
+  </header>
 
-<header class="header">
-
-  <div class="pill">
-    <span class="dot"></span>
-    NOVA STEREO · RANKING EN VIVO
+  <div id="status" class="status">
+    Cargando TOP 20 NOVA...
   </div>
 
-  <h1>TOP <span>20 NOVA</span></h1>
+  <main id="list" class="list"></main>
 
-  <p class="subtitle">
-    Nuevas más solicitadas · Tendencias musicales
-  </p>
-
-  <div class="line"></div>
-
-</header>
-
-
-<div class="info">
-
-  <span>
-    Ranking musical <strong>Nova Stereo</strong>
-  </span>
-
-  <span class="update" id="updated">
-    Cargando tendencias…
-  </span>
+  <div class="footer">
+    Actualización automática · Nova Stereo
+  </div>
 
 </div>
-
-
-<main class="grid" id="list">
-
-  <article class="card hero">
-
-    <div class="number">01</div>
-
-    <div class="cover">
-      PORTADA
-    </div>
-
-    <div>
-
-      <div class="song">
-        Preparando el TOP 20…
-      </div>
-
-      <div class="artist">
-        Las canciones aparecerán aquí automáticamente
-      </div>
-
-      <div class="tags">
-        <span class="tag">NOVA</span>
-        <span class="tag hot">🔥 HOT</span>
-      </div>
-
-      <div class="bar">
-        <b style="width:95%"></b>
-      </div>
-
-    </div>
-
-    <button
-      class="button"
-      onclick="openWhatsApp('una canción')">
-      SOLICITAR
-    </button>
-
-  </article>
-
-
-  <article class="card">
-
-    <div class="number">02</div>
-
-    <div class="cover">PORTADA</div>
-
-    <div>
-      <div class="song">Conectando rankings</div>
-      <div class="artist">Tendencias musicales</div>
-
-      <div class="bar">
-        <b style="width:82%"></b>
-      </div>
-    </div>
-
-    <button
-      class="button"
-      onclick="openWhatsApp('una canción')">
-      SOLICITAR
-    </button>
-
-  </article>
-
-
-  <article class="card">
-
-    <div class="number">03</div>
-
-    <div class="cover">PORTADA</div>
-
-    <div>
-      <div class="song">Conectando rankings</div>
-      <div class="artist">Tendencias musicales</div>
-
-      <div class="bar">
-        <b style="width:75%"></b>
-      </div>
-    </div>
-
-    <button
-      class="button"
-      onclick="openWhatsApp('una canción')">
-      SOLICITAR
-    </button>
-
-  </article>
-
-</main>
-
-
-<footer class="footer">
-
-  <strong>¿No encuentras tu canción?</strong>
-
-  <p>
-    Solicítala directamente a Nova Stereo.
-  </p>
-
-  <a
-    class="whatsapp"
-    href="https://wa.me/50685838631?text=Hola%20Nova%20Stereo%2C%20quiero%20solicitar%20una%20canci%C3%B3n."
-    target="_blank"
-    rel="noopener">
-    SOLICITAR UNA CANCIÓN
-  </a>
-
-</footer>
-
-</div>
-</section>
-
 
 <script>
 
-function openWhatsApp(song){
+/* ============================================================
+   FUENTE REAL DEL RANKING
+   ============================================================ */
 
-  const msg =
-    Hola Nova Stereo, quiero solicitar la canción: ${song};
+const JSON_URL =
+  'https://hcastro3122-hcj.github.io/nova-stereo-top20/top20.json?v='
+  + Date.now();
+
+const WHATSAPP =
+  'https://wa.me/50685838631';
+
+/* ============================================================
+   SEGURIDAD PARA TEXTO HTML
+   ============================================================ */
+
+function esc(value){
+  return String(value ?? '')
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#039;');
+}
+
+/* ============================================================
+   ARTWORK
+   ============================================================ */
+
+function getArtwork(song){
+
+  const url =
+    song.cover ||
+    song.artwork ||
+    song.image ||
+    '';
+
+  return url;
+}
+
+/* ============================================================
+   BOTÓN SOLICITAR
+   ============================================================ */
+
+function requestSong(song){
+
+  const title = song.title || song.name || '';
+  const artist = song.artist || song.artistName || '';
+
+  const message =
+    'Hola Nova Stereo 👋%0A%0A' +
+    'Quiero solicitar esta canción:%0A' +
+    '🎵 ' + encodeURIComponent(title) + '%0A' +
+    '👤 ' + encodeURIComponent(artist);
 
   window.open(
-    'https://wa.me/50685838631?text=' +
-    encodeURIComponent(msg),
+    WHATSAPP + '?text=' + message,
     '_blank'
   );
-
 }
 
+/* ============================================================
+   RENDER
+   ============================================================ */
 
-function render(data){
+function renderSongs(songs){
 
-  const songs =
-    data && data.songs
-      ? data.songs
-      : [];
+  const list = document.getElementById('list');
+  const status = document.getElementById('status');
 
-  if(!songs.length)return;
+  if(!Array.isArray(songs) || songs.length === 0){
 
-  const max =
-    Math.max(
-      ...songs.map(
-        s => Number(s.score) || 1
-      )
-    );
+    status.textContent =
+      'No se encontraron canciones en este momento.';
 
-  document.getElementById('list').innerHTML =
-    songs.slice(0,20).map((s,i)=>{
+    status.classList.add('error');
 
-      const p = i + 1;
+    return;
+  }
 
-      const width =
-        Math.max(
-          10,
-          Math.round(
-            ((Number(s.score)||1) / max) * 100
-          )
-        );
+  status.style.display = 'none';
 
-      const cls =
-        p === 1
-          ? 'card hero'
-          : 'card';
+  list.innerHTML = songs.map((song,index)=>{
 
-      const image =
-        s.artwork
-          ? <img src="${escapeHtml(s.artwork)}" alt="">
-          : 'PORTADA';
+    const position =
+      Number(song.position) || (index + 1);
 
-      return `
-        <article class="${cls}">
+    const title =
+      song.title ||
+      song.name ||
+      'Sin título';
 
-          <div class="number">
-            ${String(p).padStart(2,'0')}
+    const artist =
+      song.artist ||
+      song.artistName ||
+      'Artista desconocido';
+
+    const artwork =
+      getArtwork(song);
+
+    const genre =
+      song.genre ||
+      'Tendencia';
+
+    const countries =
+      Array.isArray(song.countries)
+        ? song.countries.length
+        : 0;
+
+    const isHot =
+      position <= 5 ||
+      Number(song.score) >= 500;
+
+    const hotBadge =
+      isHot
+        ? '<span class="badge hot">🔥 HOT</span>'
+        : '';
+
+    const countryBadge =
+      countries > 0
+        ? '<span class="badge">' +
+          countries +
+          ' PAÍS' +
+          (countries === 1 ? '' : 'ES') +
+          '</span>'
+        : '';
+
+    const rank =
+      String(position).padStart(2,'0');
+
+    const topClass =
+      position === 1 ? 'top' : '';
+
+    const width =
+      Math.max(
+        12,
+        Math.min(
+          100,
+          100 - ((position - 1) * 4.2)
+        )
+      );
+
+    return `
+      <article class="card ${topClass}">
+
+        <div class="pos">
+          ${rank}
+        </div>
+
+        ${
+          artwork
+          ? `
+            <img
+              class="cover"
+              src="${esc(artwork)}"
+              alt="${esc(title)}"
+              loading="${position <= 3 ? 'eager' : 'lazy'}"
+              onerror="this.style.visibility='hidden'"
+            >
+          `
+          : `
+            <div class="cover"></div>
+          `
+        }
+
+        <div class="info">
+
+          <div
+            class="song"
+            title="${esc(title)}"
+          >
+            ${esc(title)}
           </div>
 
-          <div class="cover">
-            ${image}
+          <div
+            class="artist"
+            title="${esc(artist)}"
+          >
+            ${esc(artist)}
           </div>
 
-          <div>
-
-            <div class="song">
-              ${escapeHtml(s.name || 'Canción')}
-            </div>
-
-            <div class="artist">
-              ${escapeHtml(s.artistName || 'Artista')}
-            </div>
-
-            <div class="tags">
-
-              <span class="tag">
-                ${s.latin ? 'LATINO' : 'GLOBAL'}
-              </span>
-
-              ${
-                p <= 5
-                  ? '<span class="tag hot">🔥 HOT</span>'
-                  : ''
-              }
-
-            </div>
-
-            <div class="bar">
-              <b style="width:${width}%"></b>
-            </div>
-
+          <div class="meta">
+            <span class="badge">
+              ${esc(genre)}
+            </span>
+            ${countryBadge}
+            ${hotBadge}
           </div>
 
-          <button
-            class="button"
-            onclick="openWhatsApp(
-              ${JSON.stringify(
-                (s.name || 'Canción') +
-                ' — ' +
-                (s.artistName || 'Artista')
-              )}
-            )">
-            SOLICITAR
-          </button>
+          <div class="bar">
+            <span style="width:${width}%"></span>
+          </div>
 
-        </article>
-      `;
+        </div>
 
-    }).join('');
+        <button
+          class="request"
+          data-index="${index}"
+          type="button"
+        >
+          SOLICITAR
+        </button>
 
-  document.getElementById('updated').textContent =
-    'Actualizado ' +
-    new Date(
-      data.updatedAt || Date.now()
-    ).toLocaleTimeString(
-      'es-CR',
-      {
-        hour:'2-digit',
-        minute:'2-digit'
-      }
-    );
+      </article>
+    `;
 
+  }).join('');
+
+  document
+    .querySelectorAll('.request')
+    .forEach(button=>{
+
+      button.addEventListener(
+        'click',
+        function(){
+
+          const index =
+            Number(this.dataset.index);
+
+          requestSong(songs[index]);
+        }
+      );
+
+    });
 }
 
+/* ============================================================
+   CARGAR TOP20.JSON DIRECTAMENTE DESDE GITHUB PAGES
+   ============================================================ */
 
-function escapeHtml(v){
+async function loadRanking(){
 
-  return String(v).replace(
-    /[&<>"']/g,
-    c => ({
-      '&':'&amp;',
-      '<':'&lt;',
-      '>':'&gt;',
-      '"':'&quot;',
-      "'":'&#039;'
-    }[c])
-  );
+  const status =
+    document.getElementById('status');
 
-}
+  try{
 
+    const response =
+      await fetch(
+        JSON_URL,
+        {
+          method:'GET',
+          cache:'no-store'
+        }
+      );
 
-window.addEventListener(
-  'message',
-  e => {
+    if(!response.ok){
 
-    if(
-      e.data &&
-      e.data.type === 'NOVA_RANKING'
-    ){
-
-      render(e.data);
-
+      throw new Error(
+        'HTTP ' + response.status
+      );
     }
 
+    const data =
+      await response.json();
+
+    /*
+      El generador actual guarda:
+      {
+        "songs": [...]
+      }
+
+      También dejamos compatibilidad
+      por si el JSON viene directamente
+      como array.
+    */
+
+    const songs =
+      Array.isArray(data)
+        ? data
+        : Array.isArray(data.songs)
+          ? data.songs
+          : Array.isArray(data.top20)
+            ? data.top20
+            : [];
+
+    renderSongs(songs);
+
+  }catch(error){
+
+    console.error(
+      'Error cargando TOP 20 NOVA:',
+      error
+    );
+
+    status.textContent =
+      'No se pudo cargar el TOP 20. Reintentando...';
+
+    status.classList.add('error');
+
+    /*
+      Reintento automático
+    */
+
+    setTimeout(
+      loadRanking,
+      10000
+    );
   }
-);
+}
 
+/* ============================================================
+   INICIO
+   ============================================================ */
 
-window.parent.postMessage(
-  {
-    type:'NOVA_READY'
-  },
-  '*'
-);
+loadRanking();
 
 </script>
 
