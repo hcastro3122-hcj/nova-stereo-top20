@@ -1,33 +1,6 @@
 [
   {
     "position": 1,
-    "title": "BbY WOW",
-    "artist": "KAROL G, rusowsky & Judeline",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx",
-      "us"
-    ],
-    "score": 497.67,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 2,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "us"
-    ],
-    "score": 393.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 3,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -39,20 +12,7 @@
     "release_date": "2026-08-27"
   },
   {
-    "position": 4,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 374.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 5,
+    "position": 2,
     "title": "Por Amarte Así",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -64,7 +24,19 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 6,
+    "position": 3,
+    "title": "BbY WOW",
+    "artist": "KAROL G, rusowsky & Judeline",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 362.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 4,
     "title": "Æternum",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -76,7 +48,7 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 7,
+    "position": 5,
     "title": "Frente a Frente",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -88,31 +60,19 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 8,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "position": 6,
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 326.0,
-    "release_date": "2026-08-20"
+    "score": 339.0,
+    "release_date": "2026-07-31"
   },
   {
-    "position": 9,
-    "title": "Las mas bonitas son p#tas",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 317.0,
-    "release_date": "2026-06-26"
-  },
-  {
-    "position": 10,
+    "position": 7,
     "title": "CR7",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -124,32 +84,7 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 11,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 303.5,
-    "release_date": "2026-02-19"
-  },
-  {
-    "position": 12,
-    "title": "MERO TOTE",
-    "artist": "Blessd, De La Rose & Los Money Makers",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 303.0,
-    "release_date": "2026-06-18"
-  },
-  {
-    "position": 13,
+    "position": 8,
     "title": "La Factura",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -161,7 +96,7 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 14,
+    "position": 9,
     "title": "MDLD",
     "artist": "Natanael Cano & Bajo Perfil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -173,7 +108,7 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 15,
+    "position": 10,
     "title": "Nos Vamos de Dance",
     "artist": "Natanael Cano, Gabito Ballesteros & Javier Rosas",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -185,63 +120,123 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 16,
-    "title": "ZIZI",
-    "artist": "Ozuna & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "position": 11,
+    "title": "Apelativo",
+    "artist": "Natanael Cano & Crecer Germán",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 287.0,
-    "release_date": "2026-08-04"
+    "score": 284.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 12,
+    "title": "La Cherokee",
+    "artist": "Natanael Cano & Gabito Ballesteros",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 275.0,
+    "release_date": "2026-08-13"
+  },
+  {
+    "position": 13,
+    "title": "Aprevenido",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/7f/f0/b67ff021-5466-37ee-1f50-23300356613f/196874318911.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 266.0,
+    "release_date": "2026-07-02"
+  },
+  {
+    "position": 14,
+    "title": "Pa la Maña",
+    "artist": "Natanael Cano, Gabito Ballesteros & Adriel Favela",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/1f/0e/3b1f0e70-3c46-5964-f352-481fd4114135/196874596647.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 247.0,
+    "release_date": "2026-07-22"
+  },
+  {
+    "position": 15,
+    "title": "PUES YA NI PEDO",
+    "artist": "Chuyin & Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 240.0,
+    "release_date": "2026-05-07"
+  },
+  {
+    "position": 16,
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 230.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "Mainstay (feat. Luv Von)",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
+    "title": "RIKI",
+    "artist": "Neton Vega",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 251.0,
-    "release_date": "2026-08-27"
+    "score": 236.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 18,
-    "title": "Dope Girl",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
+    "title": "Dandy Hats",
+    "artist": "El Rabbanito",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/8a/47/778a471d-f657-8a9e-0816-e82a9e83ac7a/1099.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 247.0,
-    "release_date": "2026-08-27"
+    "score": 211.0,
+    "release_date": "2026-07-17"
   },
   {
     "position": 19,
-    "title": "SIATONTO",
-    "artist": "4bes, PWater Sounds & Jeybil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
+    "title": "La Fórmula",
+    "artist": "El Rabbanito",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/d0/b0/45d0b0cd-cc20-40aa-ef3a-01dcaf8d961a/1072.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 241.0,
-    "release_date": "2026-08-22"
+    "score": 180.0,
+    "release_date": "2026-06-17"
   },
   {
     "position": 20,
-    "title": "TP",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
+    "title": "DOLCE VITA",
+    "artist": "DANNA & Belinda",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/da/b8/8adab8d3-3b44-92f3-3217-537c750191b3/26UM1IM04510.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 237.0,
-    "release_date": "2026-08-27"
+    "score": 173.0,
+    "release_date": "2026-08-28"
   }
 ]
