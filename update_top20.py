@@ -1,369 +1,645 @@
 import json
 import re
+import time
 import urllib.request
-from datetime import datetime, timezone
-from collections import defaultdict
+import urllib.parse
+from html import unescape
 
+
+# ============================================================
+# TOP 20 NOVA
+# Tendencias actuales - prioridad Latinoamérica
+# ============================================================
 
 OUTPUT_FILE = "top20.json"
 
 
-SPOTIFY_SOURCES = [
-    {
-        "name": "Spotify Costa Rica",
-        "url": "https://open.spotify.com/embed/playlist/37i9dQZEVXbMZAjGMynsQX"
-    },
-    {
-        "name": "Spotify Global",
-        "url": "https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF"
-    },
-    {
-        "name": "Spotify Mexico",
-        "url": "https://open.spotify.com/embed/playlist/37i9dQZEVXbO3qyFxbkOE1"
-    }
+SOURCES = [
+
+    # Costa Rica - máxima prioridad
+    (
+        "spotify_cr",
+        "https://open.spotify.com/embed/playlist/37i9dQZEVXbMZAjGMynsQX"
+    ),
+
+    # México
+    (
+        "spotify_mx",
+        "https://open.spotify.com/embed/playlist/37i9dQZEVXbO3qyFxbkOE1"
+    ),
+
+    # Global
+    (
+        "spotify_global",
+        "https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF"
+    ),
+
+    # Apple Music - Costa Rica
+    (
+        "apple_cr",
+        "https://rss.applemarketingtools.com/api/v2/cr/music/most-played/100/songs.json"
+    ),
+
+    # Apple Music - México
+    (
+        "apple_mx",
+        "https://rss.applemarketingtools.com/api/v2/mx/music/most-played/100/songs.json"
+    ),
+
+    # Apple Music - Estados Unidos / referencia global
+    (
+        "apple_us",
+        "https://rss.applemarketingtools.com/api/v2/us/music/most-played/100/songs.json"
+    )
 ]
 
 
-APPLE_SOURCES = [
-    {
-        "name": "Apple Music USA",
-        "url": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/100/songs.json"
-    },
-    {
-        "name": "Apple Music Mexico",
-        "url": "https://rss.applemarketingtools.com/api/v2/mx/music/most-played/100/songs.json"
-    },
-    {
-        "name": "Apple Music Costa Rica",
-        "url": "https://rss.applemarketingtools.com/api/v2/cr/music/most-played/100/songs.json"
-    }
+# ============================================================
+# PALABRAS / GENEROS QUE QUEREMOS
+# ============================================================
+
+LATIN_KEYWORDS = [
+    "latin",
+    "latino",
+    "latina",
+    "latin pop",
+    "latin urban",
+    "reggaeton",
+    "bachata",
+    "salsa",
+    "merengue",
+    "cumbia",
+    "tropical",
+    "música latina",
+    "musica latina",
+    "regional",
+    "urbano latino"
 ]
 
+POP_KEYWORDS = [
+    "pop",
+    "dance pop",
+    "electropop",
+    "indie pop",
+    "synth pop",
+    "pop latino",
+    "latin pop"
+]
+
+
+# ============================================================
+# ARTISTAS / CONTENIDO QUE NO QUEREMOS PRIORIZAR
+# ============================================================
+
+EXCLUDE_KEYWORDS = [
+    "podcast",
+    "christmas",
+    "holiday",
+    "audiobook",
+    "soundtrack",
+    "classical"
+]
+
+
+# ============================================================
+# DESCARGAR URL
+# ============================================================
 
 def descargar(url):
-    solicitud = urllib.request.Request(
+
+    req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
+            "User-Agent":
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "Chrome/128.0 Safari/537.36"
-            ),
-            "Accept": "application/json,text/html,/"
+                "AppleWebKit/537.36 Chrome/131 Safari/537.36"
         }
     )
 
-    with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
-        return respuesta.read().decode("utf-8", errors="ignore")
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return response.read().decode("utf-8", errors="ignore")
 
 
-def limpiar(texto):
-    texto = re.sub(r"<[^>]*>", " ", texto)
-    texto = texto.replace("&amp;", "&")
-    texto = texto.replace("&quot;", '"')
-    texto = texto.replace("&#x27;", "'")
+# ============================================================
+# NORMALIZAR TEXTO
+# ============================================================
+
+def normalizar(texto):
+
+    texto = unescape(str(texto or ""))
+
     texto = re.sub(r"\s+", " ", texto)
+
     return texto.strip()
 
 
-def agregar_cancion(
-    canciones,
-    titulo,
-    artista,
-    posicion,
-    fuente
-):
-    titulo = limpiar(titulo)
-    artista = limpiar(artista)
+# ============================================================
+# SPOTIFY EMBED
+# ============================================================
 
-    if not titulo:
-        return
+def obtener_spotify(url, fuente):
 
-    if titulo.lower() in {
-        "",
-        "title",
-        "album",
-        "list",
-        "image"
-    }:
-        return
+    canciones = []
 
-    clave = (
-        titulo.lower(),
-        artista.lower()
-    )
+    try:
 
-    canciones[clave]["title"] = titulo
-    canciones[clave]["artist"] = artista
-    canciones[clave]["sources"].add(fuente)
+        html = descargar(url)
 
-    puntos = max(1, 101 - posicion)
-
-    canciones[clave]["score"] += puntos
-
-
-def obtener_spotify(html, fuente, canciones):
-    patron = re.compile(
-        r"<h3[^>]>(.?)</h3>\s*"
-        r"<h4[^>]>(.?)</h4>",
-        re.IGNORECASE | re.DOTALL
-    )
-
-    resultados = patron.findall(html)
-
-    posicion = 1
-
-    for titulo, artista in resultados:
-        agregar_cancion(
-            canciones,
-            titulo,
-            artista,
-            posicion,
-            fuente
-        )
-
-        posicion += 1
-
-        if posicion > 50:
-            break
-
-    if resultados:
-        return
-
-    patrones_titulo = [
-        r"<h3[^>]>(.?)</h3>",
-        r'<div[^>]data-testid="tracklist-row"[^>]>'
-    ]
-
-    titulos = []
-
-    for patron_titulo in patrones_titulo:
-        encontrados = re.findall(
-            patron_titulo,
+        # Estructura utilizada por Spotify Embed
+        patron = re.findall(
+            r'<h3[^>]>(.?)</h3>\s*<h4[^>]>(.?)</h4>',
             html,
-            re.IGNORECASE | re.DOTALL
+            flags=re.IGNORECASE | re.DOTALL
         )
 
-        for elemento in encontrados:
-            texto = limpiar(elemento)
+        for posicion, item in enumerate(patron, start=1):
 
-            if texto and texto not in titulos:
-                titulos.append(texto)
+            titulo = re.sub("<.*?>", "", item[0])
+            artista = re.sub("<.*?>", "", item[1])
 
-    for posicion, titulo in enumerate(
-        titulos[:50],
-        start=1
-    ):
-        agregar_cancion(
-            canciones,
-            titulo,
-            "Artista",
-            posicion,
-            fuente
+            titulo = normalizar(titulo)
+            artista = normalizar(artista)
+
+            if not titulo or not artista:
+                continue
+
+            canciones.append({
+                "title": titulo,
+                "artist": artista,
+                "position": posicion,
+                "source": fuente,
+                "genre": ""
+            })
+
+    except Exception as error:
+
+        print(
+            "Error Spotify:",
+            fuente,
+            error
         )
 
+    return canciones
 
-def obtener_apple(datos, fuente, canciones):
-    contenido = json.loads(datos)
 
-    resultados = (
-        contenido
-        .get("feed", {})
-        .get("results", [])
+# ============================================================
+# APPLE MUSIC RSS
+# ============================================================
+
+def obtener_apple(url, fuente):
+
+    canciones = []
+
+    try:
+
+        texto = descargar(url)
+
+        data = json.loads(texto)
+
+        resultados = (
+            data.get("feed", {})
+                .get("results", [])
+        )
+
+        for posicion, item in enumerate(
+            resultados,
+            start=1
+        ):
+
+            titulo = normalizar(
+                item.get("name", "")
+            )
+
+            artista = normalizar(
+                item.get("artistName", "")
+            )
+
+            genero = normalizar(
+                item.get("genres", [{}])[0].get(
+                    "name",
+                    ""
+                )
+                if item.get("genres")
+                else ""
+            )
+
+            imagen = item.get(
+                "artworkUrl100",
+                ""
+            )
+
+            if not titulo or not artista:
+                continue
+
+            canciones.append({
+                "title": titulo,
+                "artist": artista,
+                "position": posicion,
+                "source": fuente,
+                "genre": genero,
+                "cover": imagen
+            })
+
+    except Exception as error:
+
+        print(
+            "Error Apple:",
+            fuente,
+            error
+        )
+
+    return canciones
+
+
+# ============================================================
+# CLASIFICACION MUSICAL
+# ============================================================
+
+def es_latina(cancion):
+
+    texto = (
+        cancion["title"] + " " +
+        cancion["artist"] + " " +
+        cancion.get("genre", "")
+    ).lower()
+
+    return any(
+        palabra in texto
+        for palabra in LATIN_KEYWORDS
     )
 
-    for posicion, cancion in enumerate(
-        resultados,
-        start=1
-    ):
-        titulo = cancion.get("name", "")
-        artista = cancion.get(
-            "artistName",
-            "Artista"
+
+def es_pop(cancion):
+
+    texto = (
+        cancion["title"] + " " +
+        cancion["artist"] + " " +
+        cancion.get("genre", "")
+    ).lower()
+
+    return any(
+        palabra in texto
+        for palabra in POP_KEYWORDS
+    )
+
+
+def esta_excluida(cancion):
+
+    texto = (
+        cancion["title"] + " " +
+        cancion["artist"] + " " +
+        cancion.get("genre", "")
+    ).lower()
+
+    return any(
+        palabra in texto
+        for palabra in EXCLUDE_KEYWORDS
+    )
+
+
+# ============================================================
+# BUSCAR CARATULA
+# ============================================================
+
+def buscar_caratula(titulo, artista):
+
+    try:
+
+        termino = urllib.parse.quote(
+            titulo + " " + artista
         )
 
-        agregar_cancion(
-            canciones,
+        url = (
+            "https://itunes.apple.com/search"
+            "?term=" + termino +
+            "&entity=song"
+            "&limit=5"
+        )
+
+        texto = descargar(url)
+
+        data = json.loads(texto)
+
+        resultados = data.get(
+            "results",
+            []
+        )
+
+        if not resultados:
+            return ""
+
+        # Intentar encontrar coincidencia de artista
+        titulo_l = titulo.lower()
+        artista_l = artista.lower()
+
+        mejor = resultados[0]
+
+        for resultado in resultados:
+
+            nombre = str(
+                resultado.get(
+                    "trackName",
+                    ""
+                )
+            ).lower()
+
+            artista_resultado = str(
+                resultado.get(
+                    "artistName",
+                    ""
+                )
+            ).lower()
+
+            if (
+                titulo_l in nombre
+                and artista_l in artista_resultado
+            ):
+
+                mejor = resultado
+                break
+
+        imagen = mejor.get(
+            "artworkUrl100",
+            ""
+        )
+
+        if imagen:
+
+            imagen = imagen.replace(
+                "100x100bb",
+                "600x600bb"
+            )
+
+        return imagen
+
+    except Exception as error:
+
+        print(
+            "Error buscando caratula:",
             titulo,
             artista,
-            posicion,
+            error
+        )
+
+        return ""
+
+
+# ============================================================
+# PUNTUACION
+# ============================================================
+
+def calcular_puntos(cancion):
+
+    posicion = cancion["position"]
+    fuente = cancion["source"]
+
+    puntos = max(
+        1,
+        101 - posicion
+    )
+
+    # ========================================================
+    # COSTA RICA = máxima prioridad
+    # ========================================================
+
+    if "cr" in fuente:
+        puntos += 90
+
+    # ========================================================
+    # MEXICO = segunda prioridad
+    # ========================================================
+
+    if "mx" in fuente:
+        puntos += 65
+
+    # ========================================================
+    # GLOBAL
+    # ========================================================
+
+    if "global" in fuente:
+        puntos += 35
+
+    # ========================================================
+    # APPLE / SPOTIFY
+    # ========================================================
+
+    if fuente.startswith("apple"):
+        puntos += 20
+
+    if fuente.startswith("spotify"):
+        puntos += 25
+
+    # ========================================================
+    # LATINO
+    # ========================================================
+
+    if es_latina(cancion):
+        puntos += 100
+
+    # ========================================================
+    # POP
+    # ========================================================
+
+    if es_pop(cancion):
+        puntos += 70
+
+    # ========================================================
+    # EXCLUSION
+    # ========================================================
+
+    if esta_excluida(cancion):
+        puntos -= 500
+
+    return puntos
+
+
+# ============================================================
+# GENERAR TOP 20
+# ============================================================
+
+def generar_top20():
+
+    todas = []
+
+    for fuente, url in SOURCES:
+
+        print(
+            "Consultando:",
             fuente
         )
 
+        if fuente.startswith("spotify"):
 
-def construir_ranking():
-    canciones = defaultdict(
-        lambda: {
-            "title": "",
-            "artist": "",
-            "score": 0,
-            "sources": set()
-        }
+            canciones = obtener_spotify(
+                url,
+                fuente
+            )
+
+        else:
+
+            canciones = obtener_apple(
+                url,
+                fuente
+            )
+
+        todas.extend(canciones)
+
+    print(
+        "Canciones encontradas:",
+        len(todas)
     )
 
-    fuentes_exitosas = 0
+    # ========================================================
+    # AGRUPAR CANCIONES REPETIDAS
+    # ========================================================
 
-    print()
-    print("FUENTES DE NOVA STEREO")
-    print("----------------------")
+    agrupadas = {}
 
-    for fuente in SPOTIFY_SOURCES:
-        try:
-            print(
-                "Consultando:",
-                fuente["name"]
-            )
+    for cancion in todas:
 
-            html = descargar(
-                fuente["url"]
-            )
-
-            antes = len(canciones)
-
-            obtener_spotify(
-                html,
-                fuente["name"],
-                canciones
-            )
-
-            if len(canciones) > antes:
-                fuentes_exitosas += 1
-                print("OK:", fuente["name"])
-            else:
-                print(
-                    "Sin canciones:",
-                    fuente["name"]
-                )
-
-        except Exception as error:
-            print(
-                "Error en",
-                fuente["name"],
-                ":",
-                error
-            )
-
-    for fuente in APPLE_SOURCES:
-        try:
-            print(
-                "Consultando:",
-                fuente["name"]
-            )
-
-            datos = descargar(
-                fuente["url"]
-            )
-
-            antes = len(canciones)
-
-            obtener_apple(
-                datos,
-                fuente["name"],
-                canciones
-            )
-
-            if len(canciones) > antes:
-                fuentes_exitosas += 1
-                print("OK:", fuente["name"])
-            else:
-                print(
-                    "Sin canciones:",
-                    fuente["name"]
-                )
-
-        except Exception as error:
-            print(
-                "Error en",
-                fuente["name"],
-                ":",
-                error
-            )
-
-    if fuentes_exitosas == 0:
-        raise RuntimeError(
-            "No se pudo obtener información "
-            "de ninguna fuente musical."
+        clave = (
+            normalizar(
+                cancion["title"]
+            ).lower()
+            + "|||"
+            +
+            normalizar(
+                cancion["artist"]
+            ).lower()
         )
 
-    lista = []
+        if clave not in agrupadas:
 
-    for cancion in canciones.values():
+            agrupadas[clave] = {
+                "title": cancion["title"],
+                "artist": cancion["artist"],
+                "genre": cancion.get(
+                    "genre",
+                    ""
+                ),
+                "cover": cancion.get(
+                    "cover",
+                    ""
+                ),
+                "sources": [],
+                "score": 0
+            }
 
-        cantidad_fuentes = len(
-            cancion["sources"]
+        registro = agrupadas[clave]
+
+        registro["sources"].append(
+            cancion["source"]
         )
 
-        # Premio por aparecer en varias fuentes.
-        bonificacion = cantidad_fuentes * 35
-
-        # Premio especial por presencia en Costa Rica.
-        presencia_cr = any(
-            "Costa Rica" in fuente
-            for fuente in cancion["sources"]
+        registro["score"] += calcular_puntos(
+            cancion
         )
 
-        if presencia_cr:
-            bonificacion += 80
+        # Conservar carátula si ya apareció
+        if (
+            not registro["cover"]
+            and cancion.get("cover")
+        ):
 
-        puntaje_final = (
-            cancion["score"]
-            + bonificacion
-        )
+            registro["cover"] = cancion[
+                "cover"
+            ]
 
-        lista.append({
-            "title": cancion["title"],
-            "artist": cancion["artist"],
-            "score": puntaje_final,
-            "sources": sorted(
-                cancion["sources"]
-            )
-        })
+        if (
+            not registro["genre"]
+            and cancion.get("genre")
+        ):
 
-    lista.sort(
-        key=lambda elemento: (
-            elemento["score"],
-            len(elemento["sources"])
-        ),
+            registro["genre"] = cancion[
+                "genre"
+            ]
+
+    # ========================================================
+    # ORDENAR
+    # ========================================================
+
+    ranking = sorted(
+        agrupadas.values(),
+        key=lambda x: x["score"],
         reverse=True
     )
 
-    return lista[:20]
+    # ========================================================
+    # PRIMERA SELECCION
+    # ========================================================
 
+    seleccion = []
 
-def guardar(ranking):
-    resultado = {
-        "name": "TOP 20 NOVA",
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
-        "sources": [
-            "Spotify Costa Rica",
-            "Spotify Global",
-            "Spotify Mexico",
-            "Apple Music USA",
-            "Apple Music Mexico",
-            "Apple Music Costa Rica"
-        ],
-        "songs": []
-    }
+    for cancion in ranking:
+
+        if len(seleccion) >= 20:
+            break
+
+        # Evitar contenido claramente no musical
+        if esta_excluida(cancion):
+            continue
+
+        seleccion.append(cancion)
+
+    # ========================================================
+    # CONSEGUIR CARATULAS FALTANTES
+    # ========================================================
+
+    for cancion in seleccion:
+
+        if not cancion.get("cover"):
+
+            print(
+                "Buscando caratula:",
+                cancion["title"]
+            )
+
+            cancion["cover"] = buscar_caratula(
+                cancion["title"],
+                cancion["artist"]
+            )
+
+            # Evitar demasiadas consultas seguidas
+            time.sleep(0.25)
+
+    # ========================================================
+    # CREAR JSON FINAL
+    # ========================================================
+
+    resultado = []
 
     for posicion, cancion in enumerate(
-        ranking,
+        seleccion,
         start=1
     ):
-        resultado["songs"].append({
+
+        resultado.append({
             "position": posicion,
             "title": cancion["title"],
             "artist": cancion["artist"],
-            "score": cancion["score"],
-            "sources": cancion["sources"]
+            "cover": cancion.get(
+                "cover",
+                ""
+            ),
+            "genre": cancion.get(
+                "genre",
+                ""
+            )
         })
+
+    if len(resultado) != 20:
+
+        raise Exception(
+            "No se pudieron obtener "
+            "20 canciones."
+        )
 
     with open(
         OUTPUT_FILE,
         "w",
         encoding="utf-8"
     ) as archivo:
+
         json.dump(
             resultado,
             archivo,
@@ -371,42 +647,14 @@ def guardar(ranking):
             indent=2
         )
 
-
-def iniciar():
-    print()
-    print("========================================")
-    print("       TOP 20 NOVA")
-    print("       RANKING MUSICAL AUTOMATICO")
-    print("========================================")
-
-    ranking = construir_ranking()
-
-    if len(ranking) < 20:
-        print(
-            "Advertencia: solamente se encontraron",
-            len(ranking),
-            "canciones."
-        )
-
-    guardar(ranking)
-
-    print()
-    print("TOP 20 NOVA ACTUALIZADO")
-    print("------------------------")
-
-    for cancion in ranking:
-        print(
-            f"{ranking.index(cancion) + 1:02d}. "
-            f"{cancion['title']} - "
-            f"{cancion['artist']}"
-        )
-
-    print()
     print(
-        "Archivo generado:",
-        OUTPUT_FILE
+        "TOP 20 NOVA generado correctamente."
     )
-    print()
+
+    print(
+        "Canciones:",
+        len(resultado)
+    )
 
 
-iniciar()
+generar_top20()
