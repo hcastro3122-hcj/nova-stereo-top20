@@ -23,7 +23,7 @@
       "cr",
       "us"
     ],
-    "score": 393.0,
+    "score": 397.0,
     "release_date": "2026-08-07"
   },
   {
@@ -60,11 +60,23 @@
     "countries": [
       "mx"
     ],
-    "score": 370.0,
+    "score": 368.0,
     "release_date": "2026-08-28"
   },
   {
     "position": 6,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 356.0,
+    "release_date": "2026-09-03"
+  },
+  {
+    "position": 7,
     "title": "Æternum",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -72,11 +84,11 @@
     "countries": [
       "mx"
     ],
-    "score": 357.0,
+    "score": 356.0,
     "release_date": "2026-08-28"
   },
   {
-    "position": 7,
+    "position": 8,
     "title": "Frente a Frente",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -84,11 +96,11 @@
     "countries": [
       "mx"
     ],
-    "score": 343.0,
+    "score": 338.0,
     "release_date": "2026-08-28"
   },
   {
-    "position": 8,
+    "position": 9,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -96,11 +108,11 @@
     "countries": [
       "cr"
     ],
-    "score": 326.0,
+    "score": 321.0,
     "release_date": "2026-08-20"
   },
   {
-    "position": 9,
+    "position": 10,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -110,18 +122,6 @@
     ],
     "score": 317.0,
     "release_date": "2026-06-26"
-  },
-  {
-    "position": 10,
-    "title": "CR7",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 306.0,
-    "release_date": "2026-08-28"
   },
   {
     "position": 11,
@@ -150,6 +150,30 @@
   },
   {
     "position": 13,
+    "title": "CR7",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 300.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 14,
+    "title": "Con quién andará?",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 290.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 15,
     "title": "La Factura",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -157,31 +181,7 @@
     "countries": [
       "mx"
     ],
-    "score": 297.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 14,
-    "title": "MDLD",
-    "artist": "Natanael Cano & Bajo Perfil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 290.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 15,
-    "title": "Nos Vamos de Dance",
-    "artist": "Natanael Cano, Gabito Ballesteros & Javier Rosas",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 288.0,
+    "score": 289.0,
     "release_date": "2026-08-28"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 287.0,
+    "score": 285.0,
     "release_date": "2026-08-04"
   },
   {
@@ -205,7 +205,7 @@
     "countries": [
       "us"
     ],
-    "score": 251.0,
+    "score": 250.0,
     "release_date": "2026-08-27"
   },
   {
@@ -217,7 +217,7 @@
     "countries": [
       "us"
     ],
-    "score": 247.0,
+    "score": 245.0,
     "release_date": "2026-08-27"
   },
   {
@@ -229,7 +229,7 @@
     "countries": [
       "cr"
     ],
-    "score": 241.0,
+    "score": 240.0,
     "release_date": "2026-08-22"
   },
   {
