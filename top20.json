@@ -1,242 +1,242 @@
 [
   {
     "position": 1,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 380.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 2,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 370.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 3,
     "title": "BbY WOW",
     "artist": "KAROL G, rusowsky & Judeline",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
     "score": 362.0,
     "release_date": "2026-08-07"
   },
   {
-    "position": 4,
-    "title": "Æternum",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "position": 2,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 357.0,
-    "release_date": "2026-08-28"
+    "score": 350.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 3,
+    "title": "Ojos Brujos",
+    "artist": "Clarent & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 326.0,
+    "release_date": "2026-08-20"
+  },
+  {
+    "position": 4,
+    "title": "Las mas bonitas son p#tas",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 317.0,
+    "release_date": "2026-06-26"
   },
   {
     "position": 5,
-    "title": "Frente a Frente",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "title": "MERO TOTE",
+    "artist": "Blessd, De La Rose & Los Money Makers",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 343.0,
-    "release_date": "2026-08-28"
+    "score": 303.0,
+    "release_date": "2026-06-18"
   },
   {
     "position": 6,
+    "title": "ZIZI",
+    "artist": "Ozuna & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 287.0,
+    "release_date": "2026-08-04"
+  },
+  {
+    "position": 7,
+    "title": "Con quién andará?",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 284.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 8,
+    "title": "De Lejitos (Remix)",
+    "artist": "Jay Wheeler & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 283.0,
+    "release_date": "2026-05-28"
+  },
+  {
+    "position": 9,
     "title": "Te Estoy Correteando",
     "artist": "LATIN MAFIA & Fred again..",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 339.0,
+    "score": 283.0,
     "release_date": "2026-07-31"
   },
   {
-    "position": 7,
-    "title": "CR7",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 306.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 8,
-    "title": "La Factura",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 297.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 9,
-    "title": "MDLD",
-    "artist": "Natanael Cano & Bajo Perfil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 290.0,
-    "release_date": "2026-08-28"
-  },
-  {
     "position": 10,
-    "title": "Nos Vamos de Dance",
-    "artist": "Natanael Cano, Gabito Ballesteros & Javier Rosas",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "title": "Maybe",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 288.0,
-    "release_date": "2026-08-28"
+    "score": 269.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 11,
-    "title": "Apelativo",
-    "artist": "Natanael Cano & Crecer Germán",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "title": "La Monda",
+    "artist": "De La Rose & Ryan Castro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 284.0,
-    "release_date": "2026-08-28"
+    "score": 268.0,
+    "release_date": "2026-07-09"
   },
   {
     "position": 12,
-    "title": "La Cherokee",
-    "artist": "Natanael Cano & Gabito Ballesteros",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
+    "title": "Dardos",
+    "artist": "Romeo Santos & Prince Royce",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/66/a9/6066a9a2-b1e8-d171-d8b3-7d044c040b94/196873751887.jpg/100x100bb.jpg",
+    "genre": "Tropical",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 275.0,
-    "release_date": "2026-08-13"
+    "score": 258.0,
+    "release_date": "2025-11-27"
   },
   {
     "position": 13,
-    "title": "Aprevenido",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/7f/f0/b67ff021-5466-37ee-1f50-23300356613f/196874318911.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 266.0,
-    "release_date": "2026-07-02"
-  },
-  {
-    "position": 14,
-    "title": "Pa la Maña",
-    "artist": "Natanael Cano, Gabito Ballesteros & Adriel Favela",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/1f/0e/3b1f0e70-3c46-5964-f352-481fd4114135/196874596647.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 247.0,
-    "release_date": "2026-07-22"
-  },
-  {
-    "position": 15,
-    "title": "PUES YA NI PEDO",
-    "artist": "Chuyin & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 240.0,
-    "release_date": "2026-05-07"
-  },
-  {
-    "position": 16,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 230.0,
+    "score": 251.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 14,
+    "title": "Fuga",
+    "artist": "Jay Wheeler",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 249.0,
+    "release_date": "2026-05-28"
+  },
+  {
+    "position": 15,
+    "title": "L a k e n o s h i",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 248.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 16,
+    "title": "POR SI MAÑANA NO ESTOY",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 246.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "RIKI",
-    "artist": "Neton Vega",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
+    "title": "SIATONTO",
+    "artist": "4bes, PWater Sounds & Jeybil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 236.0,
-    "release_date": "2026-08-07"
+    "score": 241.0,
+    "release_date": "2026-08-22"
   },
   {
     "position": 18,
-    "title": "Dandy Hats",
-    "artist": "El Rabbanito",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/8a/47/778a471d-f657-8a9e-0816-e82a9e83ac7a/1099.jpg/100x100bb.jpg",
+    "title": "WHINE UP",
+    "artist": "DJ Kendo & I-Octane",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 211.0,
-    "release_date": "2026-07-17"
+    "score": 227.0,
+    "release_date": "2026-08-12"
   },
   {
     "position": 19,
-    "title": "La Fórmula",
-    "artist": "El Rabbanito",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/d0/b0/45d0b0cd-cc20-40aa-ef3a-01dcaf8d961a/1072.jpg/100x100bb.jpg",
+    "title": "Voy pa' La calle",
+    "artist": "Dorian Ampie",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/ae/65/67ae659e-ac04-68ea-572f-abd823480a1b/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 180.0,
-    "release_date": "2026-06-17"
+    "score": 184.0,
+    "release_date": "2026-07-21"
   },
   {
     "position": 20,
-    "title": "DOLCE VITA",
-    "artist": "DANNA & Belinda",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/da/b8/8adab8d3-3b44-92f3-3217-537c750191b3/26UM1IM04510.rgb.jpg/100x100bb.jpg",
+    "title": "After",
+    "artist": "Conep",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/22/e0/fc/22e0fc2b-e3d8-52e9-e243-927d4f676cdd/199316664928_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 173.0,
-    "release_date": "2026-08-28"
+    "score": 174.0,
+    "release_date": "2026-06-29"
   }
 ]
