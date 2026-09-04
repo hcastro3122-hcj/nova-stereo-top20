@@ -4,421 +4,258 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TOP 20 NOVA — Nova Stereo</title>
+<title>TOP 20 NOVA</title>
 
 <style>
-
-:root{
-    --bg:#05070a;
-    --panel:#0b0f14;
-    --panel-2:#0e1319;
-    --text:#ffffff;
-    --muted:#89929d;
-    --cyan:#00e5ff;
-    --blue:#268cff;
-    --orange:#ff7a18;
-    --line:rgba(255,255,255,.075);
-}
 
 *{
     box-sizing:border-box;
 }
 
-html{
-    scroll-behavior:smooth;
-}
-
 body{
     margin:0;
-    background:
-        radial-gradient(
-            circle at 50% -10%,
-            rgba(0,229,255,.09),
-            transparent 38%
-        ),
-        var(--bg);
-    color:var(--text);
-    font-family:
-        Inter,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Arial,
-        sans-serif;
+    background:#05070a;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
 }
-
-/* =========================================================
-   CONTENEDOR
-========================================================= */
 
 .nova-wrap{
-    width:min(1180px, calc(100% - 32px));
-    margin:0 auto;
-    padding:54px 0 70px;
+    width:calc(100% - 30px);
+    max-width:1150px;
+    margin:auto;
+    padding:45px 0 60px;
 }
 
-/* =========================================================
-   CABECERA
-========================================================= */
+/* CABECERA */
 
 .nova-header{
     text-align:center;
-    margin-bottom:48px;
+    margin-bottom:45px;
 }
 
-.nova-kicker{
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
+.kicker{
+    color:#00e5ff;
     font-size:11px;
-    font-weight:800;
-    letter-spacing:3px;
-    color:var(--cyan);
-    text-transform:uppercase;
-    margin-bottom:13px;
+    font-weight:bold;
+    letter-spacing:4px;
+    margin-bottom:14px;
 }
 
-.nova-kicker::before,
-.nova-kicker::after{
-    content:"";
-    width:28px;
-    height:1px;
-    background:linear-gradient(
-        90deg,
-        transparent,
-        var(--cyan)
-    );
-}
-
-.nova-kicker::after{
-    background:linear-gradient(
-        90deg,
-        var(--cyan),
-        transparent
-    );
-}
-
-.nova-title{
+.title{
     margin:0;
-    font-size:clamp(38px, 6vw, 72px);
-    line-height:.92;
-    font-weight:950;
+    font-size:clamp(42px,7vw,72px);
+    line-height:.95;
+    font-weight:900;
     letter-spacing:-3px;
 }
 
-.nova-title span{
-    background:linear-gradient(
-        90deg,
-        var(--cyan),
-        #ffffff 48%,
-        var(--orange)
-    );
-    -webkit-background-clip:text;
-    background-clip:text;
-    color:transparent;
+.title span{
+    color:#00e5ff;
 }
 
-.nova-subtitle{
-    margin:17px auto 0;
+.subtitle{
     max-width:650px;
-    color:var(--muted);
+    margin:17px auto 0;
+    color:#7f8994;
     font-size:14px;
     line-height:1.6;
 }
 
-/* =========================================================
-   SEPARADOR
-========================================================= */
+/* LINEA */
 
-.section-line{
+.section-label{
     display:flex;
     align-items:center;
     gap:15px;
-    margin:0 0 25px;
+    margin-bottom:20px;
 }
 
-.section-line::before{
+.section-label::before,
+.section-label::after{
     content:"";
-    flex:1;
     height:1px;
-    background:linear-gradient(
-        90deg,
-        transparent,
-        var(--line)
-    );
+    flex:1;
+    background:rgba(255,255,255,.08);
 }
 
-.section-line::after{
-    content:"";
-    flex:1;
-    height:1px;
-    background:linear-gradient(
-        90deg,
-        var(--line),
-        transparent
-    );
-}
-
-.section-line span{
-    color:#626c76;
-    font-size:10px;
-    font-weight:800;
+.section-label span{
+    color:#69737d;
+    font-size:9px;
+    font-weight:bold;
     letter-spacing:2px;
     text-transform:uppercase;
 }
 
-/* =========================================================
-   #1 — DESTACADO
-========================================================= */
+/* #1 */
 
 .featured{
     position:relative;
-    overflow:hidden;
+    display:grid;
+    grid-template-columns:340px 1fr;
+    align-items:center;
+    gap:40px;
 
-    min-height:430px;
+    padding:35px;
 
-    border:1px solid rgba(0,229,255,.18);
-    border-radius:30px;
+    margin-bottom:45px;
+
+    border-radius:28px;
 
     background:
         radial-gradient(
-            circle at 78% 35%,
-            rgba(0,229,255,.13),
-            transparent 30%
-        ),
-        radial-gradient(
-            circle at 15% 100%,
-            rgba(255,122,24,.08),
+            circle at 85% 30%,
+            rgba(0,229,255,.10),
             transparent 30%
         ),
         linear-gradient(
             145deg,
-            #0b1117,
-            #070a0e
+            #0c1218,
+            #080b0f
         );
 
+    border:1px solid rgba(0,229,255,.16);
+
     box-shadow:
-        0 25px 80px rgba(0,0,0,.45),
-        inset 0 1px 0 rgba(255,255,255,.035);
-
-    display:grid;
-    grid-template-columns:360px 1fr;
-    align-items:center;
-
-    padding:36px;
-    margin-bottom:48px;
-}
-
-.featured::before{
-    content:"";
-    position:absolute;
-    width:300px;
-    height:300px;
-    right:-120px;
-    top:-140px;
-
-    background:var(--cyan);
-    opacity:.06;
-    filter:blur(80px);
-    border-radius:50%;
-}
-
-.featured-cover-wrap{
-    position:relative;
-    display:flex;
-    justify-content:center;
+        0 25px 70px rgba(0,0,0,.45);
 }
 
 .featured-cover{
     width:300px;
     height:300px;
+
+    display:block;
+    margin:auto;
+
     object-fit:cover;
 
-    border-radius:24px;
+    border-radius:23px;
 
     background:#10151b;
 
     box-shadow:
-        0 22px 55px rgba(0,0,0,.6),
-        0 0 0 1px rgba(0,229,255,.18),
-        0 0 45px rgba(0,229,255,.10);
-}
-
-.featured-number{
-    position:absolute;
-    left:15px;
-    bottom:-12px;
-
-    font-size:76px;
-    font-weight:950;
-    line-height:.8;
-
-    color:rgba(255,255,255,.08);
-    letter-spacing:-5px;
+        0 20px 50px rgba(0,0,0,.6),
+        0 0 0 1px rgba(0,229,255,.18);
 }
 
 .featured-info{
-    padding:10px 20px 10px 45px;
+    min-width:0;
 }
 
-.rank-label{
-    display:flex;
-    align-items:center;
-    gap:10px;
-
-    color:var(--orange);
+.number-one{
+    color:#ff7a18;
     font-size:11px;
-    font-weight:900;
-    letter-spacing:2px;
-    text-transform:uppercase;
-
+    font-weight:bold;
+    letter-spacing:3px;
     margin-bottom:17px;
-}
-
-.rank-label::before{
-    content:"";
-    width:30px;
-    height:2px;
-    background:var(--orange);
-    box-shadow:0 0 10px rgba(255,122,24,.5);
 }
 
 .featured-title{
     margin:0;
 
-    font-size:clamp(34px, 5vw, 58px);
-    line-height:.98;
-    letter-spacing:-2.5px;
-    font-weight:950;
+    font-size:clamp(35px,5vw,58px);
+    line-height:1;
+
+    font-weight:900;
+
+    letter-spacing:-2px;
 }
 
 .featured-artist{
     margin-top:13px;
 
-    color:#c1c8cf;
+    color:#bdc5cc;
+
     font-size:16px;
     font-weight:600;
 }
 
-.featured-meta{
-    display:flex;
-    align-items:center;
-    gap:9px;
+.featured-genre{
+    margin-top:18px;
 
-    margin-top:21px;
+    color:#59646f;
 
-    color:#68727d;
-    font-size:11px;
-    font-weight:800;
-    letter-spacing:1.4px;
+    font-size:9px;
+    font-weight:bold;
+
+    letter-spacing:2px;
+
     text-transform:uppercase;
 }
 
-.featured-meta .dot{
-    width:4px;
-    height:4px;
-    border-radius:50%;
-    background:var(--cyan);
-    box-shadow:0 0 8px var(--cyan);
-}
-
-.request-btn{
+.request{
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    gap:9px;
 
-    margin-top:30px;
+    margin-top:28px;
 
-    min-width:145px;
-    height:44px;
+    min-width:125px;
+    height:42px;
+
     padding:0 20px;
 
     border-radius:999px;
 
-    color:#ffffff;
+    color:#fff;
+
     text-decoration:none;
 
-    font-size:11px;
-    font-weight:900;
-    letter-spacing:1.3px;
+    font-size:10px;
+    font-weight:bold;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(0,229,255,.13),
-            rgba(38,140,255,.12)
-        );
+    letter-spacing:1.5px;
 
-    border:1px solid rgba(0,229,255,.45);
+    border:1px solid rgba(0,229,255,.42);
 
-    box-shadow:
-        0 0 20px rgba(0,229,255,.06);
+    background:rgba(0,229,255,.06);
 
-    transition:
-        transform .25s ease,
-        border-color .25s ease,
-        box-shadow .25s ease,
-        background .25s ease;
+    transition:.25s ease;
 }
 
-.request-btn:hover{
+.request:hover{
     transform:translateY(-2px);
 
-    border-color:var(--cyan);
+    border-color:#00e5ff;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(0,229,255,.22),
-            rgba(38,140,255,.18)
-        );
+    background:rgba(0,229,255,.13);
 
-    box-shadow:
-        0 0 25px rgba(0,229,255,.16);
+    box-shadow:0 0 25px rgba(0,229,255,.12);
 }
 
-.request-btn svg{
-    width:15px;
-    height:15px;
-}
-
-/* =========================================================
-   LISTA
-========================================================= */
+/* LISTA */
 
 .ranking{
     display:flex;
     flex-direction:column;
-    gap:13px;
+
+    gap:12px;
 }
 
 .song{
     position:relative;
 
     display:grid;
-    grid-template-columns:58px 74px 1fr auto;
+
+    grid-template-columns:60px 70px 1fr 115px;
+
     align-items:center;
 
-    min-height:102px;
-    padding:13px 17px 13px 10px;
+    min-height:98px;
 
-    border:1px solid var(--line);
-    border-radius:20px;
+    padding:12px 18px 12px 8px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.065);
 
     background:
         linear-gradient(
             110deg,
             rgba(255,255,255,.025),
-            rgba(255,255,255,.012)
+            rgba(255,255,255,.008)
         );
 
-    transition:
-        transform .25s ease,
-        border-color .25s ease,
-        background .25s ease,
-        box-shadow .25s ease;
+    transition:.25s ease;
 }
 
 .song:hover{
@@ -430,102 +267,76 @@ body{
         linear-gradient(
             110deg,
             rgba(0,229,255,.045),
-            rgba(255,255,255,.012)
+            rgba(255,255,255,.01)
         );
-
-    box-shadow:
-        0 12px 35px rgba(0,0,0,.25);
 }
-
-/* línea decorativa lateral */
 
 .song::before{
     content:"";
+
     position:absolute;
+
     left:0;
     top:25%;
+
     width:2px;
     height:50%;
 
-    border-radius:2px;
+    border-radius:5px;
 
-    background:linear-gradient(
-        180deg,
-        transparent,
-        rgba(0,229,255,.5),
-        transparent
-    );
+    background:#00e5ff;
 
-    opacity:.45;
+    opacity:.35;
 }
 
-/* =========================================================
-   NÚMERO
-========================================================= */
-
-.song-rank{
+.rank{
     text-align:center;
 
-    color:#4c5660;
+    color:#515c67;
 
-    font-size:18px;
-    font-weight:950;
-    letter-spacing:-1px;
+    font-size:17px;
+    font-weight:900;
 }
 
-.song:nth-child(3n) .song-rank{
-    color:#59636e;
-}
-
-/* =========================================================
-   CARÁTULA
-========================================================= */
-
-.song-cover{
-    width:70px;
-    height:70px;
+.cover{
+    width:68px;
+    height:68px;
 
     object-fit:cover;
 
-    border-radius:14px;
+    border-radius:13px;
 
     background:#11161c;
 
-    box-shadow:
-        0 8px 22px rgba(0,0,0,.35),
-        0 0 0 1px rgba(255,255,255,.045);
-
     display:block;
-}
 
-/* =========================================================
-   INFORMACIÓN
-========================================================= */
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.4);
+}
 
 .song-info{
     min-width:0;
-    padding:0 22px;
+
+    padding:0 20px;
 }
 
 .song-title{
     margin:0;
 
-    font-size:16px;
-    line-height:1.25;
+    color:#fff;
 
-    font-weight:850;
+    font-size:16px;
+    font-weight:800;
 
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
-
-    letter-spacing:-.2px;
 }
 
-.song-artist{
-    margin-top:7px;
+.artist{
+    margin-top:6px;
 
-    color:#747e89;
+    color:#77818c;
 
     font-size:12px;
     font-weight:600;
@@ -535,78 +346,39 @@ body{
     text-overflow:ellipsis;
 }
 
-.song-genre{
+.genre{
     display:inline-block;
 
-    margin-top:8px;
+    margin-top:7px;
 
-    color:#56616d;
+    color:#525e69;
 
     font-size:8px;
-    font-weight:900;
-    letter-spacing:1.3px;
+
+    font-weight:bold;
+
+    letter-spacing:1.5px;
+
     text-transform:uppercase;
 }
 
-/* =========================================================
-   BOTÓN
-========================================================= */
-
-.song-action{
-    padding-left:15px;
+.action{
+    text-align:right;
 }
 
-.song-action .request-btn{
-    margin-top:0;
-    min-width:112px;
-    height:38px;
-    padding:0 16px;
+.action .request{
+    margin:0;
+
+    min-width:105px;
+
+    height:37px;
+
+    padding:0 14px;
 
     font-size:9px;
 }
 
-/* =========================================================
-   FOOTER
-========================================================= */
-
-.nova-footer{
-    text-align:center;
-    margin-top:52px;
-}
-
-.nova-footer-line{
-    width:100%;
-    height:1px;
-
-    background:
-        linear-gradient(
-            90deg,
-            transparent,
-            var(--line),
-            transparent
-        );
-
-    margin-bottom:28px;
-}
-
-.nova-footer strong{
-    display:block;
-
-    font-size:13px;
-    font-weight:900;
-    letter-spacing:1.5px;
-}
-
-.nova-footer p{
-    margin:8px 0 0;
-
-    color:#69737e;
-    font-size:11px;
-}
-
-/* =========================================================
-   ESTADOS
-========================================================= */
+/* LOADING */
 
 .loading{
     min-height:300px;
@@ -615,32 +387,57 @@ body{
     align-items:center;
     justify-content:center;
 
-    color:#68737e;
+    color:#69747f;
 
-    font-size:12px;
-    letter-spacing:1.5px;
+    font-size:11px;
+
+    letter-spacing:2px;
+
     text-transform:uppercase;
 }
 
+/* ERROR */
+
 .error{
     padding:40px;
+
     text-align:center;
 
-    color:#89929d;
-
     border:1px solid rgba(255,255,255,.08);
+
     border-radius:20px;
+
+    color:#8b959f;
+
+    background:#090d12;
 }
 
-/* =========================================================
-   TABLET
-========================================================= */
+/* FOOTER */
 
-@media(max-width:850px){
+.footer{
+    margin-top:50px;
+
+    padding-top:25px;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    text-align:center;
+
+    color:#56616b;
+
+    font-size:10px;
+
+    letter-spacing:1.5px;
+}
+
+/* TABLET */
+
+@media(max-width:800px){
 
     .featured{
         grid-template-columns:260px 1fr;
-        padding:28px;
+        gap:25px;
+        padding:25px;
     }
 
     .featured-cover{
@@ -648,86 +445,67 @@ body{
         height:230px;
     }
 
-    .featured-info{
-        padding-left:25px;
-    }
-
     .featured-title{
         font-size:40px;
     }
 
+    .song{
+        grid-template-columns:50px 65px 1fr 100px;
+    }
+
+    .cover{
+        width:62px;
+        height:62px;
+    }
+
 }
 
-/* =========================================================
-   CELULAR
-========================================================= */
+/* CELULAR */
 
-@media(max-width:650px){
+@media(max-width:600px){
 
     .nova-wrap{
-        width:min(100% - 20px, 520px);
-        padding-top:35px;
+        width:calc(100% - 20px);
+        padding-top:30px;
     }
 
     .nova-header{
-        margin-bottom:35px;
+        margin-bottom:32px;
     }
 
-    .nova-title{
-        font-size:45px;
-        letter-spacing:-2px;
+    .title{
+        font-size:43px;
     }
 
-    .nova-subtitle{
+    .subtitle{
         font-size:12px;
-        padding:0 12px;
     }
 
-    /* DESTACADO */
+    /* #1 */
 
     .featured{
         display:block;
 
-        min-height:auto;
-
         padding:22px;
-
-        border-radius:25px;
 
         text-align:center;
 
-        margin-bottom:38px;
-    }
-
-    .featured-cover-wrap{
-        margin-bottom:25px;
+        border-radius:24px;
     }
 
     .featured-cover{
         width:min(75vw,280px);
         height:min(75vw,280px);
 
-        border-radius:21px;
+        margin-bottom:25px;
     }
 
-    .featured-number{
-        left:calc(50% - 145px);
-        bottom:-9px;
-
-        font-size:62px;
-    }
-
-    .featured-info{
-        padding:0;
-    }
-
-    .rank-label{
-        justify-content:center;
+    .number-one{
+        margin-bottom:14px;
     }
 
     .featured-title{
-        font-size:35px;
-        letter-spacing:-1.5px;
+        font-size:34px;
     }
 
     .featured-artist{
@@ -735,95 +513,75 @@ body{
         line-height:1.4;
     }
 
-    .featured-meta{
-        justify-content:center;
-        font-size:9px;
+    .featured-genre{
+        margin-top:14px;
     }
 
-    .request-btn{
-        margin-top:23px;
+    .featured .request{
+        margin-top:22px;
     }
 
-    /* LISTA */
+    /* CANCIONES */
 
     .ranking{
         gap:10px;
     }
 
     .song{
-        grid-template-columns:38px 58px 1fr;
+        display:grid;
 
-        min-height:82px;
+        grid-template-columns:35px 55px 1fr;
 
-        padding:10px 10px 10px 5px;
+        min-height:91px;
 
-        border-radius:17px;
+        padding:10px 8px;
+
+        border-radius:16px;
     }
 
-    .song-rank{
-        font-size:14px;
+    .rank{
+        font-size:13px;
     }
 
-    .song-cover{
-        width:55px;
-        height:55px;
-        border-radius:11px;
+    .cover{
+        width:52px;
+        height:52px;
+
+        border-radius:10px;
     }
 
     .song-info{
-        padding:0 10px;
+        padding:0 8px;
     }
 
     .song-title{
         font-size:13px;
     }
 
-    .song-artist{
+    .artist{
         margin-top:5px;
         font-size:10px;
     }
 
-    .song-genre{
+    .genre{
         margin-top:5px;
         font-size:7px;
     }
 
-    .song-action{
+    .action{
         grid-column:3;
-        padding:7px 10px 0 10px;
+
+        text-align:left;
+
+        padding:6px 8px 0;
     }
 
-    .song-action .request-btn{
+    .action .request{
         width:100%;
-        height:32px;
+
+        height:31px;
+
         min-width:0;
-
-        font-size:8px;
-    }
-
-}
-
-/* =========================================================
-   CELULAR MUY PEQUEÑO
-========================================================= */
-
-@media(max-width:390px){
-
-    .nova-title{
-        font-size:38px;
-    }
-
-    .featured-title{
-        font-size:31px;
-    }
-
-    .song{
-        grid-template-columns:34px 52px 1fr;
-    }
-
-    .song-cover{
-        width:50px;
-        height:50px;
     }
 
 }
@@ -835,52 +593,36 @@ body{
 
 <div class="nova-wrap">
 
-    <!-- CABECERA -->
-
     <header class="nova-header">
 
-        <div class="nova-kicker">
+        <div class="kicker">
             NOVA STEREO
         </div>
 
-        <h1 class="nova-title">
+        <h1 class="title">
             TOP <span>20</span> NOVA
         </h1>
 
-        <p class="nova-subtitle">
+        <p class="subtitle">
             Las canciones que están sonando fuerte ahora.
-            Música latina, tendencias y los éxitos que marcan el momento.
+            Tendencias, música latina y los éxitos del momento.
         </p>
 
     </header>
 
 
-    <!-- CONTENIDO DINÁMICO -->
-
-    <main id="app">
+    <div id="app">
 
         <div class="loading">
-            Cargando TOP 20 NOVA...
+            CARGANDO TOP 20 NOVA...
         </div>
 
-    </main>
+    </div>
 
 
-    <!-- FOOTER -->
-
-    <footer class="nova-footer">
-
-        <div class="nova-footer-line"></div>
-
-        <strong>
-            NOVA STEREO
-        </strong>
-
-        <p>
-            Tu radio online · Música que conecta contigo
-        </p>
-
-    </footer>
+    <div class="footer">
+        NOVA STEREO · TU RADIO ONLINE
+    </div>
 
 </div>
 
@@ -893,196 +635,103 @@ const JSON_URL =
 const WHATSAPP =
     "50685838631";
 
-const REFRESH_TIME =
-    10 * 60 * 1000;
 
+function escapeHTML(text){
 
-/* =========================================================
-   ESCAPE HTML
-========================================================= */
-
-function escapeHTML(value){
-
-    return String(value ?? "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+    return String(text || "")
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;");
 
 }
 
 
-/* =========================================================
-   WHATSAPP
-========================================================= */
+function fallbackImage(){
 
-function whatsappURL(song){
+    return "https://dummyimage.com/600x600/0b1117/00e5ff&text=NOVA+STEREO";
 
-    const message =
-        Hola Nova Stereo, quiero solicitar la canción "${song.title}" de ${song.artist}.;
+}
+
+
+function getCover(song){
+
+    if(
+        song &&
+        typeof song.cover === "string" &&
+        song.cover.trim() !== ""
+    ){
+
+        return song.cover;
+
+    }
+
+    return fallbackImage();
+
+}
+
+
+function getWhatsApp(song){
+
+    const text =
+        "Hola Nova Stereo, quiero solicitar la canción \"" +
+        (song.title || "") +
+        "\" de " +
+        (song.artist || "") +
+        ".";
 
     return (
         "https://wa.me/" +
         WHATSAPP +
         "?text=" +
-        encodeURIComponent(message)
+        encodeURIComponent(text)
     );
 
 }
 
 
-/* =========================================================
-   PORTADA DE RESPALDO
-========================================================= */
-
-function fallbackCover(){
-
-    const svg = `
-        <svg xmlns="http://www.w3.org/2000/svg"
-             width="600"
-             height="600"
-             viewBox="0 0 600 600">
-
-            <rect width="600"
-                  height="600"
-                  fill="#080d12"/>
-
-            <circle
-                cx="300"
-                cy="300"
-                r="205"
-                fill="none"
-                stroke="#00e5ff"
-                stroke-width="4"
-                opacity=".5"/>
-
-            <circle
-                cx="300"
-                cy="300"
-                r="165"
-                fill="none"
-                stroke="#ff7a18"
-                stroke-width="2"
-                opacity=".35"/>
-
-            <text
-                x="300"
-                y="285"
-                text-anchor="middle"
-                fill="white"
-                font-family="Arial"
-                font-size="55"
-                font-weight="900">
-                NOVA
-            </text>
-
-            <text
-                x="300"
-                y="340"
-                text-anchor="middle"
-                fill="#00e5ff"
-                font-family="Arial"
-                font-size="30"
-                font-weight="700">
-                STEREO
-            </text>
-
-        </svg>
-    `;
-
-    return "data:image/svg+xml;charset=UTF-8," +
-        encodeURIComponent(svg);
-
-}
-
-
-/* =========================================================
-   CREAR IMAGEN
-========================================================= */
-
-function coverURL(song){
-
-    if(song.cover && song.cover.trim()){
-        return song.cover;
-    }
-
-    return fallbackCover();
-
-}
-
-
-/* =========================================================
-   BOTÓN
-========================================================= */
-
-function requestButton(song){
+function button(song){
 
     return `
         <a
-            class="request-btn"
-            href="${whatsappURL(song)}"
+            class="request"
+            href="${getWhatsApp(song)}"
             target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Solicitar ${escapeHTML(song.title)}"
+            rel="noopener"
         >
-
-            <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            >
-                <path d="M21 11.5a8.38 8.38 0 0 1-9 8.3 8.5 8.5 0 0 1-4-.95L3 20l1.2-4.5A8.2 8.2 0 0 1 3 11.5a8.5 8.5 0 1 1 18 0Z"/>
-                <path d="M8 11.5h.01"/>
-                <path d="M12 11.5h.01"/>
-                <path d="M16 11.5h.01"/>
-            </svg>
-
             SOLICITAR
-
         </a>
     `;
 
 }
 
 
-/* =========================================================
-   CANCIÓN #1
-========================================================= */
-
 function renderFeatured(song){
 
     return `
 
-        <div class="section-line">
+        <div class="section-label">
             <span>La número uno</span>
         </div>
 
         <section class="featured">
 
-            <div class="featured-cover-wrap">
+            <div>
 
                 <img
                     class="featured-cover"
-                    src="${escapeHTML(coverURL(song))}"
+                    src="${escapeHTML(getCover(song))}"
                     alt="${escapeHTML(song.title)}"
-                    loading="eager"
-                    onerror="this.onerror=null;this.src='${fallbackCover()}'"
+                    onerror="this.onerror=null;this.src='${fallbackImage()}'"
                 >
-
-                <div class="featured-number">
-                    01
-                </div>
 
             </div>
 
 
             <div class="featured-info">
 
-                <div class="rank-label">
+                <div class="number-one">
                     TOP 01
                 </div>
 
@@ -1094,21 +743,11 @@ function renderFeatured(song){
                     ${escapeHTML(song.artist)}
                 </div>
 
-                <div class="featured-meta">
-
-                    <span>
-                        ${escapeHTML(song.genre || "Tendencia")}
-                    </span>
-
-                    <span class="dot"></span>
-
-                    <span>
-                        NOVA STEREO
-                    </span>
-
+                <div class="featured-genre">
+                    ${escapeHTML(song.genre || "NOVA STEREO")}
                 </div>
 
-                ${requestButton(song)}
+                ${button(song)}
 
             </div>
 
@@ -1119,30 +758,26 @@ function renderFeatured(song){
 }
 
 
-/* =========================================================
-   CANCIONES 02–20
-========================================================= */
-
 function renderSong(song){
 
     const position =
-        String(song.position).padStart(2, "0");
+        String(song.position || "").padStart(2,"0");
 
     return `
 
         <article class="song">
 
-            <div class="song-rank">
+            <div class="rank">
                 ${position}
             </div>
 
 
             <img
-                class="song-cover"
-                src="${escapeHTML(coverURL(song))}"
+                class="cover"
+                src="${escapeHTML(getCover(song))}"
                 alt="${escapeHTML(song.title)}"
                 loading="lazy"
-                onerror="this.onerror=null;this.src='${fallbackCover()}'"
+                onerror="this.onerror=null;this.src='${fallbackImage()}'"
             >
 
 
@@ -1152,20 +787,20 @@ function renderSong(song){
                     ${escapeHTML(song.title)}
                 </h3>
 
-                <div class="song-artist">
+                <div class="artist">
                     ${escapeHTML(song.artist)}
                 </div>
 
-                <span class="song-genre">
+                <span class="genre">
                     ${escapeHTML(song.genre || "NOVA")}
                 </span>
 
             </div>
 
 
-            <div class="song-action">
+            <div class="action">
 
-                ${requestButton(song)}
+                ${button(song)}
 
             </div>
 
@@ -1176,11 +811,7 @@ function renderSong(song){
 }
 
 
-/* =========================================================
-   CARGAR RANKING
-========================================================= */
-
-async function loadRanking(){
+async function loadTop20(){
 
     const app =
         document.getElementById("app");
@@ -1189,38 +820,53 @@ async function loadRanking(){
 
         const response =
             await fetch(
-                JSON_URL +
-                "?t=" +
-                Date.now(),
+                JSON_URL + "?nocache=" + Date.now(),
                 {
+                    method:"GET",
                     cache:"no-store"
                 }
             );
 
         if(!response.ok){
+
             throw new Error(
-                "No se pudo cargar top20.json"
+                "HTTP " + response.status
             );
+
         }
 
         const data =
             await response.json();
 
-        if(!Array.isArray(data) || !data.length){
+        if(!Array.isArray(data)){
+
             throw new Error(
-                "El ranking está vacío"
+                "top20.json no contiene una lista"
             );
+
+        }
+
+        if(data.length === 0){
+
+            throw new Error(
+                "top20.json está vacío"
+            );
+
         }
 
         const songs =
             data
                 .slice()
-                .sort(
-                    (a,b) =>
+                .sort(function(a,b){
+
+                    return (
                         Number(a.position || 999) -
                         Number(b.position || 999)
-                )
+                    );
+
+                })
                 .slice(0,20);
+
 
         const first =
             songs[0];
@@ -1228,26 +874,42 @@ async function loadRanking(){
         const rest =
             songs.slice(1);
 
-        app.innerHTML = `
 
-            ${renderFeatured(first)}
+        let html =
+            renderFeatured(first);
 
-            <div class="section-line">
+
+        html += `
+
+            <div class="section-label">
                 <span>Posiciones 02 — 20</span>
             </div>
 
             <section class="ranking">
-
-                ${rest.map(renderSong).join("")}
-
-            </section>
-
         `;
+
+
+        for(let i = 0; i < rest.length; i++){
+
+            html += renderSong(rest[i]);
+
+        }
+
+
+        html += `
+            </section>
+        `;
+
+
+        app.innerHTML = html;
 
     }
     catch(error){
 
-        console.error(error);
+        console.error(
+            "Error cargando TOP 20 NOVA:",
+            error
+        );
 
         app.innerHTML = `
 
@@ -1259,7 +921,7 @@ async function loadRanking(){
 
                 <br><br>
 
-                Intenta actualizar la página en unos segundos.
+                ${escapeHTML(error.message)}
 
             </div>
 
@@ -1270,21 +932,7 @@ async function loadRanking(){
 }
 
 
-/* =========================================================
-   INICIO
-========================================================= */
-
-loadRanking();
-
-
-/* =========================================================
-   ACTUALIZACIÓN AUTOMÁTICA
-========================================================= */
-
-setInterval(
-    loadRanking,
-    REFRESH_TIME
-);
+loadTop20();
 
 </script>
 
