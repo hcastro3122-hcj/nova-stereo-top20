@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
+      "mx",
       "us"
     ],
-    "score": 424.5,
+    "score": 498.0,
     "release_date": "2026-08-07"
   },
   {
@@ -22,11 +23,23 @@
       "cr",
       "us"
     ],
-    "score": 394.0,
+    "score": 390.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 3,
+    "title": "Mar Azul",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 380.0,
+    "release_date": "2026-08-27"
+  },
+  {
+    "position": 4,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -38,7 +51,56 @@
     "release_date": "2026-09-03"
   },
   {
-    "position": 4,
+    "position": 5,
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 369.5,
+    "release_date": "2026-07-31"
+  },
+  {
+    "position": 6,
+    "title": "Por Amarte Así",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 365.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 7,
+    "title": "Æternum",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 345.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 8,
+    "title": "Frente a Frente",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 327.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 9,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -50,7 +112,7 @@
     "release_date": "2026-06-26"
   },
   {
-    "position": 5,
+    "position": 10,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -58,11 +120,11 @@
     "countries": [
       "cr"
     ],
-    "score": 312.0,
+    "score": 308.0,
     "release_date": "2026-08-20"
   },
   {
-    "position": 6,
+    "position": 11,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -70,11 +132,24 @@
     "countries": [
       "cr"
     ],
-    "score": 303.0,
+    "score": 304.0,
     "release_date": "2026-06-18"
   },
   {
-    "position": 7,
+    "position": 12,
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 301.5,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 13,
     "title": "MATADORA",
     "artist": "KAROL G",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -82,35 +157,23 @@
     "countries": [
       "cr"
     ],
-    "score": 299.0,
+    "score": 293.0,
     "release_date": "2026-07-24"
   },
   {
-    "position": 8,
-    "title": "De Lejitos (Remix)",
-    "artist": "Jay Wheeler & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "position": 14,
+    "title": "Malas Mañas",
+    "artist": "Kenia Os & Xavi",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/4c/f4/384cf4a2-a094-d4d0-0459-97c515d71404/196874590164.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 286.0,
-    "release_date": "2026-05-28"
+    "score": 291.0,
+    "release_date": "2026-09-03"
   },
   {
-    "position": 9,
-    "title": "Con quién andará?",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 285.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 10,
+    "position": 15,
     "title": "ZIZI",
     "artist": "Ozuna & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
@@ -118,80 +181,20 @@
     "countries": [
       "cr"
     ],
-    "score": 281.0,
+    "score": 286.0,
     "release_date": "2026-08-04"
   },
   {
-    "position": 11,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 278.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 12,
-    "title": "La Monda",
-    "artist": "De La Rose & Ryan Castro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 274.0,
-    "release_date": "2026-07-09"
-  },
-  {
-    "position": 13,
-    "title": "Alguien que te amaba",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 272.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 14,
-    "title": "Maybe",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 267.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 15,
-    "title": "Fuga",
-    "artist": "Jay Wheeler",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 260.0,
-    "release_date": "2026-05-28"
-  },
-  {
     "position": 16,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "title": "CR7",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 251.0,
-    "release_date": "2026-02-19"
+    "score": 286.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 17,
@@ -202,7 +205,7 @@
     "countries": [
       "cr"
     ],
-    "score": 248.0,
+    "score": 249.0,
     "release_date": "2026-08-22"
   },
   {
@@ -214,7 +217,7 @@
     "countries": [
       "us"
     ],
-    "score": 246.0,
+    "score": 245.0,
     "release_date": "2026-08-27"
   },
   {
@@ -226,19 +229,19 @@
     "countries": [
       "us"
     ],
-    "score": 239.0,
+    "score": 242.0,
     "release_date": "2026-08-27"
   },
   {
     "position": 20,
-    "title": "WHINE UP",
-    "artist": "DJ Kendo & I-Octane",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
+    "title": "RIKI",
+    "artist": "Neton Vega",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 229.0,
-    "release_date": "2026-08-12"
+    "score": 236.0,
+    "release_date": "2026-08-07"
   }
 ]
