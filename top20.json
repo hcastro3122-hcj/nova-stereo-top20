@@ -7,27 +7,13 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
-      "us"
+      "mx"
     ],
-    "score": 497.67,
+    "score": 425.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 2,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "us"
-    ],
-    "score": 390.5,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 3,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -35,8 +21,20 @@
     "countries": [
       "mx"
     ],
-    "score": 380.0,
+    "score": 379.0,
     "release_date": "2026-08-27"
+  },
+  {
+    "position": 3,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 378.0,
+    "release_date": "2026-09-03"
   },
   {
     "position": 4,
@@ -48,20 +46,21 @@
       "cr",
       "mx"
     ],
-    "score": 375.0,
+    "score": 374.5,
     "release_date": "2026-07-31"
   },
   {
     "position": 5,
-    "title": "CAPCANA COCOA",
-    "artist": "Blessd & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "cr",
+      "mx"
     ],
-    "score": 371.0,
-    "release_date": "2026-09-03"
+    "score": 370.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 6,
@@ -72,7 +71,7 @@
     "countries": [
       "mx"
     ],
-    "score": 368.0,
+    "score": 367.0,
     "release_date": "2026-08-28"
   },
   {
@@ -84,7 +83,7 @@
     "countries": [
       "mx"
     ],
-    "score": 351.0,
+    "score": 350.0,
     "release_date": "2026-08-28"
   },
   {
@@ -96,7 +95,7 @@
     "countries": [
       "mx"
     ],
-    "score": 332.0,
+    "score": 331.0,
     "release_date": "2026-08-28"
   },
   {
@@ -108,7 +107,7 @@
     "countries": [
       "cr"
     ],
-    "score": 321.0,
+    "score": 319.0,
     "release_date": "2026-08-20"
   },
   {
@@ -120,7 +119,7 @@
     "countries": [
       "cr"
     ],
-    "score": 317.0,
+    "score": 315.0,
     "release_date": "2026-06-26"
   },
   {
@@ -150,6 +149,18 @@
   },
   {
     "position": 13,
+    "title": "Con quién andará?",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 294.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 14,
     "title": "CR7",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -157,19 +168,7 @@
     "countries": [
       "mx"
     ],
-    "score": 294.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 14,
-    "title": "La Factura",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 285.0,
+    "score": 292.0,
     "release_date": "2026-08-28"
   },
   {
@@ -181,7 +180,7 @@
     "countries": [
       "cr"
     ],
-    "score": 284.0,
+    "score": 283.0,
     "release_date": "2026-05-28"
   },
   {
@@ -193,35 +192,11 @@
     "countries": [
       "cr"
     ],
-    "score": 282.0,
+    "score": 281.0,
     "release_date": "2026-08-04"
   },
   {
     "position": 17,
-    "title": "Mainstay (feat. Luv Von)",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 251.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 18,
-    "title": "Dope Girl",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 246.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 19,
     "title": "SIATONTO",
     "artist": "4bes, PWater Sounds & Jeybil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
@@ -229,11 +204,11 @@
     "countries": [
       "cr"
     ],
-    "score": 239.0,
+    "score": 246.0,
     "release_date": "2026-08-22"
   },
   {
-    "position": 20,
+    "position": 18,
     "title": "RIKI",
     "artist": "Neton Vega",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
@@ -243,5 +218,29 @@
     ],
     "score": 236.0,
     "release_date": "2026-08-07"
+  },
+  {
+    "position": 19,
+    "title": "WHINE UP",
+    "artist": "DJ Kendo & I-Octane",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "cr"
+    ],
+    "score": 229.0,
+    "release_date": "2026-08-12"
+  },
+  {
+    "position": 20,
+    "title": "Dandy Hats",
+    "artist": "El Rabbanito",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/8a/47/778a471d-f657-8a9e-0816-e82a9e83ac7a/1099.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "mx"
+    ],
+    "score": 211.0,
+    "release_date": "2026-07-17"
   }
 ]
