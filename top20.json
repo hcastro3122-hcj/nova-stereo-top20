@@ -21,14 +21,25 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
       "us"
     ],
-    "score": 444.33,
+    "score": 393.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 3,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 380.0,
+    "release_date": "2026-09-03"
+  },
+  {
+    "position": 4,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -40,18 +51,6 @@
     "release_date": "2026-08-27"
   },
   {
-    "position": 4,
-    "title": "CAPCANA COCOA",
-    "artist": "Blessd & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 379.0,
-    "release_date": "2026-09-03"
-  },
-  {
     "position": 5,
     "title": "Te Estoy Correteando",
     "artist": "LATIN MAFIA & Fred again..",
@@ -61,7 +60,7 @@
       "cr",
       "mx"
     ],
-    "score": 370.5,
+    "score": 367.0,
     "release_date": "2026-07-31"
   },
   {
@@ -85,7 +84,7 @@
     "countries": [
       "mx"
     ],
-    "score": 342.0,
+    "score": 338.0,
     "release_date": "2026-08-28"
   },
   {
@@ -97,7 +96,7 @@
     "countries": [
       "mx"
     ],
-    "score": 328.0,
+    "score": 322.0,
     "release_date": "2026-08-28"
   },
   {
@@ -114,18 +113,6 @@
   },
   {
     "position": 10,
-    "title": "MATADORA",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 306.0,
-    "release_date": "2026-07-24"
-  },
-  {
-    "position": 11,
     "title": "Malas Mañas",
     "artist": "Kenia Os & Xavi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/4c/f4/384cf4a2-a094-d4d0-0459-97c515d71404/196874590164.jpg/100x100bb.jpg",
@@ -133,11 +120,11 @@
     "countries": [
       "mx"
     ],
-    "score": 306.0,
+    "score": 305.0,
     "release_date": "2026-09-03"
   },
   {
-    "position": 12,
+    "position": 11,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -147,6 +134,18 @@
     ],
     "score": 304.0,
     "release_date": "2026-06-18"
+  },
+  {
+    "position": 12,
+    "title": "MATADORA",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 302.0,
+    "release_date": "2026-07-24"
   },
   {
     "position": 13,
@@ -170,7 +169,7 @@
     "countries": [
       "cr"
     ],
-    "score": 298.0,
+    "score": 294.0,
     "release_date": "2026-08-20"
   },
   {
@@ -194,23 +193,11 @@
     "countries": [
       "cr"
     ],
-    "score": 285.0,
+    "score": 282.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 17,
-    "title": "Mainstay (feat. Luv Von)",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 242.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 18,
     "title": "Dope Girl",
     "artist": "Rod Wave",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
@@ -218,11 +205,11 @@
     "countries": [
       "us"
     ],
-    "score": 237.0,
+    "score": 239.0,
     "release_date": "2026-08-27"
   },
   {
-    "position": 19,
+    "position": 18,
     "title": "RIKI",
     "artist": "Neton Vega",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
@@ -232,6 +219,18 @@
     ],
     "score": 236.0,
     "release_date": "2026-08-07"
+  },
+  {
+    "position": 19,
+    "title": "Mainstay (feat. Luv Von)",
+    "artist": "Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 236.0,
+    "release_date": "2026-08-27"
   },
   {
     "position": 20,
