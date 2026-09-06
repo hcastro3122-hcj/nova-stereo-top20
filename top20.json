@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 498.0,
+    "score": 497.67,
     "release_date": "2026-08-07"
   },
   {
@@ -23,7 +23,7 @@
       "cr",
       "us"
     ],
-    "score": 387.5,
+    "score": 387.0,
     "release_date": "2026-08-07"
   },
   {
@@ -60,7 +60,7 @@
       "cr",
       "mx"
     ],
-    "score": 365.0,
+    "score": 364.5,
     "release_date": "2026-07-31"
   },
   {
@@ -96,7 +96,7 @@
     "countries": [
       "mx"
     ],
-    "score": 319.0,
+    "score": 318.0,
     "release_date": "2026-08-28"
   },
   {
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 306.0,
+    "score": 305.0,
     "release_date": "2026-06-18"
   },
   {
@@ -145,23 +145,11 @@
     "countries": [
       "mx"
     ],
-    "score": 296.0,
+    "score": 298.0,
     "release_date": "2026-09-03"
   },
   {
     "position": 13,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 292.0,
-    "release_date": "2026-08-20"
-  },
-  {
-    "position": 14,
     "title": "MATADORA",
     "artist": "KAROL G",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -169,8 +157,20 @@
     "countries": [
       "cr"
     ],
-    "score": 291.0,
+    "score": 292.0,
     "release_date": "2026-07-24"
+  },
+  {
+    "position": 14,
+    "title": "Ojos Brujos",
+    "artist": "Clarent & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 291.0,
+    "release_date": "2026-08-20"
   },
   {
     "position": 15,
@@ -181,7 +181,7 @@
     "countries": [
       "cr"
     ],
-    "score": 286.0,
+    "score": 285.0,
     "release_date": "2026-05-28"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 275.0,
     "release_date": "2026-08-04"
   },
   {
@@ -205,7 +205,7 @@
     "countries": [
       "us"
     ],
-    "score": 240.0,
+    "score": 239.0,
     "release_date": "2026-08-27"
   },
   {
@@ -229,7 +229,7 @@
     "countries": [
       "us"
     ],
-    "score": 234.0,
+    "score": 235.0,
     "release_date": "2026-08-27"
   },
   {
