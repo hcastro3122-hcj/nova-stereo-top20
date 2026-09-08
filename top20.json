@@ -72,7 +72,7 @@
       "cr",
       "us"
     ],
-    "score": 355.0,
+    "score": 355.5,
     "release_date": "2026-08-07"
   },
   {
@@ -84,7 +84,7 @@
     "countries": [
       "mx"
     ],
-    "score": 323.0,
+    "score": 321.0,
     "release_date": "2026-08-28"
   },
   {
@@ -108,23 +108,11 @@
     "countries": [
       "cr"
     ],
-    "score": 307.0,
+    "score": 310.0,
     "release_date": "2026-06-18"
   },
   {
     "position": 10,
-    "title": "Frente a Frente",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 306.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 11,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -132,23 +120,11 @@
     "countries": [
       "cr"
     ],
-    "score": 304.0,
+    "score": 306.0,
     "release_date": "2026-08-20"
   },
   {
-    "position": 12,
-    "title": "Malas Mañas",
-    "artist": "Kenia Os & Xavi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/4c/f4/384cf4a2-a094-d4d0-0459-97c515d71404/196874590164.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 302.0,
-    "release_date": "2026-09-03"
-  },
-  {
-    "position": 13,
+    "position": 11,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -157,8 +133,32 @@
       "cr",
       "mx"
     ],
-    "score": 300.0,
+    "score": 302.5,
     "release_date": "2026-02-19"
+  },
+  {
+    "position": 12,
+    "title": "Frente a Frente",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 302.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 13,
+    "title": "Malas Mañas",
+    "artist": "Kenia Os & Xavi",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/4c/f4/384cf4a2-a094-d4d0-0459-97c515d71404/196874590164.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 300.0,
+    "release_date": "2026-09-03"
   },
   {
     "position": 14,
@@ -169,7 +169,7 @@
     "countries": [
       "cr"
     ],
-    "score": 294.0,
+    "score": 293.0,
     "release_date": "2026-07-24"
   },
   {
@@ -181,7 +181,7 @@
     "countries": [
       "cr"
     ],
-    "score": 285.0,
+    "score": 282.0,
     "release_date": "2026-05-28"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 278.0,
     "release_date": "2026-08-04"
   },
   {
@@ -205,7 +205,7 @@
     "countries": [
       "us"
     ],
-    "score": 237.0,
+    "score": 242.0,
     "release_date": "2026-08-27"
   },
   {
@@ -217,7 +217,7 @@
     "countries": [
       "cr"
     ],
-    "score": 230.0,
+    "score": 231.0,
     "release_date": "2026-08-22"
   },
   {
@@ -241,7 +241,7 @@
     "countries": [
       "us"
     ],
-    "score": 225.0,
+    "score": 228.0,
     "release_date": "2026-08-27"
   }
 ]
