@@ -47,7 +47,7 @@
       "cr",
       "mx"
     ],
-    "score": 368.5,
+    "score": 371.5,
     "release_date": "2026-07-31"
   },
   {
@@ -59,7 +59,7 @@
     "countries": [
       "mx"
     ],
-    "score": 359.0,
+    "score": 358.0,
     "release_date": "2026-08-28"
   },
   {
@@ -72,23 +72,11 @@
       "cr",
       "us"
     ],
-    "score": 355.5,
+    "score": 352.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 7,
-    "title": "Æternum",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 321.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 8,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -100,6 +88,18 @@
     "release_date": "2026-06-26"
   },
   {
+    "position": 8,
+    "title": "Æternum",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 317.0,
+    "release_date": "2026-08-28"
+  },
+  {
     "position": 9,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
@@ -108,7 +108,7 @@
     "countries": [
       "cr"
     ],
-    "score": 310.0,
+    "score": 308.0,
     "release_date": "2026-06-18"
   },
   {
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 306.0,
+    "score": 303.0,
     "release_date": "2026-08-20"
   },
   {
@@ -133,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.5,
+    "score": 301.5,
     "release_date": "2026-02-19"
   },
   {
@@ -145,7 +145,7 @@
     "countries": [
       "mx"
     ],
-    "score": 302.0,
+    "score": 299.0,
     "release_date": "2026-08-28"
   },
   {
@@ -157,7 +157,7 @@
     "countries": [
       "mx"
     ],
-    "score": 300.0,
+    "score": 298.0,
     "release_date": "2026-09-03"
   },
   {
@@ -169,7 +169,7 @@
     "countries": [
       "cr"
     ],
-    "score": 293.0,
+    "score": 286.0,
     "release_date": "2026-07-24"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 281.0,
     "release_date": "2026-08-04"
   },
   {
@@ -205,7 +205,7 @@
     "countries": [
       "us"
     ],
-    "score": 242.0,
+    "score": 243.0,
     "release_date": "2026-08-27"
   },
   {
@@ -222,6 +222,18 @@
   },
   {
     "position": 19,
+    "title": "Mainstay (feat. Luv Von)",
+    "artist": "Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 231.0,
+    "release_date": "2026-08-27"
+  },
+  {
+    "position": 20,
     "title": "WHINE UP",
     "artist": "DJ Kendo & I-Octane",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
@@ -231,17 +243,5 @@
     ],
     "score": 228.0,
     "release_date": "2026-08-12"
-  },
-  {
-    "position": 20,
-    "title": "Mainstay (feat. Luv Von)",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 228.0,
-    "release_date": "2026-08-27"
   }
 ]
