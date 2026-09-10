@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 405.0,
+    "score": 478.0,
     "release_date": "2026-08-07"
   },
   {
@@ -26,18 +27,6 @@
   },
   {
     "position": 3,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 377.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 4,
     "title": "Te Estoy Correteando",
     "artist": "LATIN MAFIA & Fred again..",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
@@ -46,11 +35,36 @@
       "cr",
       "mx"
     ],
-    "score": 375.5,
+    "score": 377.0,
     "release_date": "2026-07-31"
   },
   {
+    "position": 4,
+    "title": "Mar Azul",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 376.0,
+    "release_date": "2026-08-27"
+  },
+  {
     "position": 5,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "us"
+    ],
+    "score": 355.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 6,
     "title": "Por Amarte Así",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -62,19 +76,19 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 6,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "position": 7,
+    "title": "Ojos Brujos",
+    "artist": "Clarent & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 322.0,
-    "release_date": "2026-08-07"
+    "score": 334.0,
+    "release_date": "2026-08-28"
   },
   {
-    "position": 7,
+    "position": 8,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -86,18 +100,6 @@
     "release_date": "2026-06-26"
   },
   {
-    "position": 8,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 313.0,
-    "release_date": "2026-08-20"
-  },
-  {
     "position": 9,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
@@ -106,7 +108,7 @@
     "countries": [
       "cr"
     ],
-    "score": 308.0,
+    "score": 309.0,
     "release_date": "2026-06-18"
   },
   {
@@ -124,18 +126,6 @@
   },
   {
     "position": 11,
-    "title": "Æternum",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 296.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 12,
     "title": "Malas Mañas",
     "artist": "Kenia Os & Xavi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/4c/f4/384cf4a2-a094-d4d0-0459-97c515d71404/196874590164.jpg/100x100bb.jpg",
@@ -143,8 +133,20 @@
     "countries": [
       "mx"
     ],
-    "score": 291.0,
+    "score": 297.0,
     "release_date": "2026-09-03"
+  },
+  {
+    "position": 12,
+    "title": "Æternum",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 291.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 13,
@@ -155,7 +157,7 @@
     "countries": [
       "cr"
     ],
-    "score": 290.0,
+    "score": 284.0,
     "release_date": "2026-07-24"
   },
   {
@@ -167,7 +169,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 277.0,
     "release_date": "2026-05-28"
   },
   {
@@ -179,7 +181,7 @@
     "countries": [
       "cr"
     ],
-    "score": 272.0,
+    "score": 273.0,
     "release_date": "2026-07-09"
   },
   {
@@ -191,11 +193,23 @@
     "countries": [
       "cr"
     ],
-    "score": 263.0,
+    "score": 260.0,
     "release_date": "2026-08-04"
   },
   {
     "position": 17,
+    "title": "Dope Girl",
+    "artist": "Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 244.0,
+    "release_date": "2026-08-27"
+  },
+  {
+    "position": 18,
     "title": "SIATONTO",
     "artist": "4bes, PWater Sounds & Jeybil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
@@ -207,19 +221,19 @@
     "release_date": "2026-08-22"
   },
   {
-    "position": 18,
-    "title": "Dónde estás",
-    "artist": "Barbas & Omar Camacho",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a9/32/b5a932c8-8c14-3011-528b-7fd019196782/823375409649_Cover.jpg/100x100bb.jpg",
+    "position": 19,
+    "title": "Mainstay (feat. Luv Von)",
+    "artist": "Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 227.0,
-    "release_date": "2026-09-04"
+    "score": 231.0,
+    "release_date": "2026-08-27"
   },
   {
-    "position": 19,
+    "position": 20,
     "title": "WHINE UP",
     "artist": "DJ Kendo & I-Octane",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
@@ -227,19 +241,7 @@
     "countries": [
       "cr"
     ],
-    "score": 225.0,
+    "score": 226.0,
     "release_date": "2026-08-12"
-  },
-  {
-    "position": 20,
-    "title": "RIKI",
-    "artist": "Neton Vega",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 216.0,
-    "release_date": "2026-08-07"
   }
 ]
