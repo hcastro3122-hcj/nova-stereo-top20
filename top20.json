@@ -35,23 +35,11 @@
       "cr",
       "mx"
     ],
-    "score": 377.0,
+    "score": 376.0,
     "release_date": "2026-07-31"
   },
   {
     "position": 4,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 376.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 5,
     "title": "Ahí",
     "artist": "KAROL G & Drake",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -60,8 +48,20 @@
       "cr",
       "us"
     ],
-    "score": 355.0,
+    "score": 358.0,
     "release_date": "2026-08-07"
+  },
+  {
+    "position": 5,
+    "title": "Mar Azul",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 356.0,
+    "release_date": "2026-08-27"
   },
   {
     "position": 6,
@@ -84,7 +84,7 @@
     "countries": [
       "cr"
     ],
-    "score": 334.0,
+    "score": 330.0,
     "release_date": "2026-08-28"
   },
   {
@@ -121,7 +121,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.0,
+    "score": 302.5,
     "release_date": "2026-02-19"
   },
   {
@@ -133,7 +133,7 @@
     "countries": [
       "mx"
     ],
-    "score": 297.0,
+    "score": 296.0,
     "release_date": "2026-09-03"
   },
   {
@@ -145,7 +145,7 @@
     "countries": [
       "mx"
     ],
-    "score": 291.0,
+    "score": 290.0,
     "release_date": "2026-08-28"
   },
   {
@@ -157,7 +157,7 @@
     "countries": [
       "cr"
     ],
-    "score": 284.0,
+    "score": 288.0,
     "release_date": "2026-07-24"
   },
   {
@@ -181,35 +181,23 @@
     "countries": [
       "cr"
     ],
-    "score": 273.0,
+    "score": 272.0,
     "release_date": "2026-07-09"
   },
   {
     "position": 16,
-    "title": "ZIZI",
-    "artist": "Ozuna & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "title": "Con quién andará?",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 260.0,
-    "release_date": "2026-08-04"
+    "score": 258.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 17,
-    "title": "Dope Girl",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 244.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 18,
     "title": "SIATONTO",
     "artist": "4bes, PWater Sounds & Jeybil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
@@ -221,19 +209,7 @@
     "release_date": "2026-08-22"
   },
   {
-    "position": 19,
-    "title": "Mainstay (feat. Luv Von)",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 231.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 20,
+    "position": 18,
     "title": "WHINE UP",
     "artist": "DJ Kendo & I-Octane",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/27/16/1e271653-a344-1c24-8c6f-6e532685483f/8718521313074.jpg/100x100bb.jpg",
@@ -243,5 +219,29 @@
     ],
     "score": 226.0,
     "release_date": "2026-08-12"
+  },
+  {
+    "position": 19,
+    "title": "Dónde estás",
+    "artist": "Barbas & Omar Camacho",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a9/32/b5a932c8-8c14-3011-528b-7fd019196782/823375409649_Cover.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "mx"
+    ],
+    "score": 226.0,
+    "release_date": "2026-09-04"
+  },
+  {
+    "position": 20,
+    "title": "Dope Girl",
+    "artist": "Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 222.0,
+    "release_date": "2026-08-27"
   }
 ]
