@@ -35,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 373.0,
+    "score": 372.0,
     "release_date": "2026-07-31"
   },
   {
@@ -59,7 +59,7 @@
     "countries": [
       "cr"
     ],
-    "score": 319.0,
+    "score": 322.0,
     "release_date": "2026-08-07"
   },
   {
@@ -108,7 +108,7 @@
       "cr",
       "mx"
     ],
-    "score": 300.5,
+    "score": 300.0,
     "release_date": "2026-02-19"
   },
   {
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 286.0,
+    "score": 285.0,
     "release_date": "2026-08-28"
   },
   {
@@ -132,7 +132,7 @@
     "countries": [
       "cr"
     ],
-    "score": 277.0,
+    "score": 278.0,
     "release_date": "2026-05-28"
   },
   {
@@ -144,23 +144,11 @@
     "countries": [
       "cr"
     ],
-    "score": 269.0,
+    "score": 268.0,
     "release_date": "2026-07-24"
   },
   {
     "position": 13,
-    "title": "ZIZI",
-    "artist": "Ozuna & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 260.0,
-    "release_date": "2026-08-04"
-  },
-  {
-    "position": 14,
     "title": "La Monda",
     "artist": "De La Rose & Ryan Castro",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
@@ -168,8 +156,20 @@
     "countries": [
       "cr"
     ],
-    "score": 259.0,
+    "score": 257.0,
     "release_date": "2026-07-09"
+  },
+  {
+    "position": 14,
+    "title": "ZIZI",
+    "artist": "Ozuna & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 254.0,
+    "release_date": "2026-08-04"
   },
   {
     "position": 15,
@@ -180,7 +180,7 @@
     "countries": [
       "cr"
     ],
-    "score": 242.0,
+    "score": 243.0,
     "release_date": "2026-05-28"
   },
   {
@@ -209,7 +209,7 @@
   },
   {
     "position": 18,
-    "title": "So Good (feat. Kendrick Lamar)",
+    "title": "He Belongs",
     "artist": "Jhené Aiko",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
@@ -221,7 +221,7 @@
   },
   {
     "position": 19,
-    "title": "He Belongs",
+    "title": "So Good (feat. Kendrick Lamar)",
     "artist": "Jhené Aiko",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
