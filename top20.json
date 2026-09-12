@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 405.0,
+    "score": 478.0,
     "release_date": "2026-08-07"
   },
   {
@@ -21,7 +22,7 @@
     "countries": [
       "cr"
     ],
-    "score": 379.0,
+    "score": 378.0,
     "release_date": "2026-09-03"
   },
   {
@@ -34,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 370.5,
+    "score": 373.0,
     "release_date": "2026-07-31"
   },
   {
@@ -46,7 +47,7 @@
     "countries": [
       "mx"
     ],
-    "score": 350.0,
+    "score": 351.0,
     "release_date": "2026-08-27"
   },
   {
@@ -58,7 +59,7 @@
     "countries": [
       "cr"
     ],
-    "score": 324.0,
+    "score": 319.0,
     "release_date": "2026-08-07"
   },
   {
@@ -82,7 +83,7 @@
     "countries": [
       "mx"
     ],
-    "score": 314.0,
+    "score": 311.0,
     "release_date": "2026-08-28"
   },
   {
@@ -94,7 +95,7 @@
     "countries": [
       "cr"
     ],
-    "score": 307.0,
+    "score": 306.0,
     "release_date": "2026-06-18"
   },
   {
@@ -107,7 +108,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.0,
+    "score": 300.5,
     "release_date": "2026-02-19"
   },
   {
@@ -119,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 292.0,
+    "score": 286.0,
     "release_date": "2026-08-28"
   },
   {
@@ -131,7 +132,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 277.0,
     "release_date": "2026-05-28"
   },
   {
@@ -143,7 +144,7 @@
     "countries": [
       "cr"
     ],
-    "score": 277.0,
+    "score": 269.0,
     "release_date": "2026-07-24"
   },
   {
@@ -155,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 266.0,
+    "score": 260.0,
     "release_date": "2026-08-04"
   },
   {
@@ -167,7 +168,7 @@
     "countries": [
       "cr"
     ],
-    "score": 261.0,
+    "score": 259.0,
     "release_date": "2026-07-09"
   },
   {
@@ -179,7 +180,7 @@
     "countries": [
       "cr"
     ],
-    "score": 244.0,
+    "score": 242.0,
     "release_date": "2026-05-28"
   },
   {
@@ -191,11 +192,47 @@
     "countries": [
       "cr"
     ],
-    "score": 242.0,
+    "score": 240.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 17,
+    "title": "Ghost",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 255.0,
+    "release_date": "2026-09-11"
+  },
+  {
+    "position": 18,
+    "title": "So Good (feat. Kendrick Lamar)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 254.0,
+    "release_date": "2026-09-11"
+  },
+  {
+    "position": 19,
+    "title": "He Belongs",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 253.0,
+    "release_date": "2026-09-11"
+  },
+  {
+    "position": 20,
     "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
     "artist": "Kris R., ROA, Clarent & Luar La L",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
@@ -205,41 +242,5 @@
     ],
     "score": 252.0,
     "release_date": "2026-09-10"
-  },
-  {
-    "position": 18,
-    "title": "SIATONTO",
-    "artist": "4bes, PWater Sounds & Jeybil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "cr"
-    ],
-    "score": 231.0,
-    "release_date": "2026-08-22"
-  },
-  {
-    "position": 19,
-    "title": "Dónde estás",
-    "artist": "Barbas & Omar Camacho",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a9/32/b5a932c8-8c14-3011-528b-7fd019196782/823375409649_Cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 226.0,
-    "release_date": "2026-09-04"
-  },
-  {
-    "position": 20,
-    "title": "RIKI",
-    "artist": "Neton Vega",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 216.0,
-    "release_date": "2026-08-07"
   }
 ]
