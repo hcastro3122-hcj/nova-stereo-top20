@@ -35,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 375.5,
+    "score": 366.5,
     "release_date": "2026-07-31"
   },
   {
@@ -47,7 +47,7 @@
     "countries": [
       "mx"
     ],
-    "score": 352.0,
+    "score": 350.0,
     "release_date": "2026-08-27"
   },
   {
@@ -59,7 +59,7 @@
     "countries": [
       "cr"
     ],
-    "score": 323.0,
+    "score": 322.0,
     "release_date": "2026-08-07"
   },
   {
@@ -83,7 +83,7 @@
     "countries": [
       "mx"
     ],
-    "score": 311.0,
+    "score": 307.0,
     "release_date": "2026-08-28"
   },
   {
@@ -95,7 +95,7 @@
     "countries": [
       "cr"
     ],
-    "score": 304.0,
+    "score": 305.0,
     "release_date": "2026-06-18"
   },
   {
@@ -108,20 +108,20 @@
       "cr",
       "mx"
     ],
-    "score": 300.0,
+    "score": 300.5,
     "release_date": "2026-02-19"
   },
   {
     "position": 10,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "title": "De Lejitos (Remix)",
+    "artist": "Jay Wheeler & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 287.0,
-    "release_date": "2026-08-28"
+    "score": 275.0,
+    "release_date": "2026-05-28"
   },
   {
     "position": 11,
@@ -132,20 +132,20 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 275.0,
     "release_date": "2026-07-24"
   },
   {
     "position": 12,
-    "title": "De Lejitos (Remix)",
-    "artist": "Jay Wheeler & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "title": "La Monda",
+    "artist": "De La Rose & Ryan Castro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 274.0,
-    "release_date": "2026-05-28"
+    "score": 257.0,
+    "release_date": "2026-07-09"
   },
   {
     "position": 13,
@@ -156,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 258.0,
+    "score": 254.0,
     "release_date": "2026-08-04"
   },
   {
@@ -168,23 +168,11 @@
     "countries": [
       "cr"
     ],
-    "score": 253.0,
+    "score": 249.0,
     "release_date": "2025-11-27"
   },
   {
     "position": 15,
-    "title": "La Monda",
-    "artist": "De La Rose & Ryan Castro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 252.0,
-    "release_date": "2026-07-09"
-  },
-  {
-    "position": 16,
     "title": "L a k e n o s h i",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -192,8 +180,20 @@
     "countries": [
       "cr"
     ],
-    "score": 241.0,
+    "score": 240.0,
     "release_date": "2026-02-19"
+  },
+  {
+    "position": 16,
+    "title": "PUES YA NI PEDO",
+    "artist": "Chuyin & Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 237.0,
+    "release_date": "2026-05-07"
   },
   {
     "position": 17,
@@ -233,14 +233,14 @@
   },
   {
     "position": 20,
-    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
-    "artist": "Kris R., ROA, Clarent & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
+    "title": "Ceiling (Freestyle)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
     "score": 252.0,
-    "release_date": "2026-09-10"
+    "release_date": "2026-09-11"
   }
 ]
