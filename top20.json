@@ -35,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 370.5,
+    "score": 371.0,
     "release_date": "2026-07-31"
   },
   {
@@ -47,7 +47,7 @@
     "countries": [
       "mx"
     ],
-    "score": 349.0,
+    "score": 350.0,
     "release_date": "2026-08-27"
   },
   {
@@ -59,7 +59,7 @@
     "countries": [
       "cr"
     ],
-    "score": 323.0,
+    "score": 320.0,
     "release_date": "2026-08-07"
   },
   {
@@ -71,23 +71,11 @@
     "countries": [
       "cr"
     ],
-    "score": 315.0,
+    "score": 314.0,
     "release_date": "2026-06-26"
   },
   {
     "position": 7,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 306.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 8,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -95,8 +83,20 @@
     "countries": [
       "cr"
     ],
-    "score": 301.0,
+    "score": 305.0,
     "release_date": "2026-06-18"
+  },
+  {
+    "position": 8,
+    "title": "Por Amarte Así",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 303.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 9,
@@ -108,7 +108,7 @@
       "cr",
       "mx"
     ],
-    "score": 299.0,
+    "score": 298.5,
     "release_date": "2026-02-19"
   },
   {
@@ -120,23 +120,11 @@
     "countries": [
       "cr"
     ],
-    "score": 273.0,
+    "score": 274.0,
     "release_date": "2026-05-28"
   },
   {
     "position": 11,
-    "title": "MATADORA",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 273.0,
-    "release_date": "2026-07-24"
-  },
-  {
-    "position": 12,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -144,8 +132,20 @@
     "countries": [
       "cr"
     ],
-    "score": 270.0,
+    "score": 264.0,
     "release_date": "2026-08-28"
+  },
+  {
+    "position": 12,
+    "title": "MATADORA",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 262.0,
+    "release_date": "2026-07-24"
   },
   {
     "position": 13,
@@ -156,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 257.0,
+    "score": 260.0,
     "release_date": "2026-07-09"
   },
   {
@@ -168,7 +168,7 @@
     "countries": [
       "cr"
     ],
-    "score": 248.0,
+    "score": 253.0,
     "release_date": "2026-08-04"
   },
   {
@@ -180,7 +180,7 @@
     "countries": [
       "cr"
     ],
-    "score": 246.0,
+    "score": 243.0,
     "release_date": "2025-11-27"
   },
   {
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 240.0,
+    "score": 241.0,
     "release_date": "2026-02-19"
   },
   {
@@ -233,14 +233,14 @@
   },
   {
     "position": 20,
-    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
-    "artist": "Kris R., ROA, Clarent & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
+    "title": "Ceiling (Freestyle)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 251.0,
-    "release_date": "2026-09-10"
+    "score": 252.0,
+    "release_date": "2026-09-11"
   }
 ]
