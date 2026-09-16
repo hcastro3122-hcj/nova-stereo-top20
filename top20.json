@@ -7,10 +7,9 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
-      "us"
+      "mx"
     ],
-    "score": 478.0,
+    "score": 405.0,
     "release_date": "2026-08-07"
   },
   {
@@ -35,7 +34,7 @@
       "cr",
       "mx"
     ],
-    "score": 372.5,
+    "score": 375.5,
     "release_date": "2026-07-31"
   },
   {
@@ -113,18 +112,6 @@
   },
   {
     "position": 10,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 269.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 11,
     "title": "De Lejitos (Remix)",
     "artist": "Jay Wheeler & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -132,8 +119,20 @@
     "countries": [
       "cr"
     ],
-    "score": 268.0,
+    "score": 272.0,
     "release_date": "2026-05-28"
+  },
+  {
+    "position": 11,
+    "title": "Ojos Brujos",
+    "artist": "Clarent & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 266.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 12,
@@ -144,20 +143,20 @@
     "countries": [
       "cr"
     ],
-    "score": 257.0,
+    "score": 256.0,
     "release_date": "2026-07-09"
   },
   {
     "position": 13,
-    "title": "ZIZI",
-    "artist": "Ozuna & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "title": "MATADORA",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 252.0,
-    "release_date": "2026-08-04"
+    "score": 251.0,
+    "release_date": "2026-07-24"
   },
   {
     "position": 14,
@@ -169,20 +168,20 @@
       "cr",
       "mx"
     ],
-    "score": 247.0,
+    "score": 249.5,
     "release_date": "2025-12-10"
   },
   {
     "position": 15,
-    "title": "MATADORA",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "title": "ZIZI",
+    "artist": "Ozuna & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 243.0,
-    "release_date": "2026-07-24"
+    "score": 248.0,
+    "release_date": "2026-08-04"
   },
   {
     "position": 16,
@@ -193,55 +192,55 @@
     "countries": [
       "cr"
     ],
-    "score": 242.0,
+    "score": 241.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "So Good (feat. Kendrick Lamar)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
+    "artist": "Kris R., ROA, Clarent & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 255.0,
-    "release_date": "2026-09-11"
+    "score": 248.0,
+    "release_date": "2026-09-10"
   },
   {
     "position": 18,
-    "title": "He Belongs",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
+    "title": "SIATONTO",
+    "artist": "4bes, PWater Sounds & Jeybil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 254.0,
-    "release_date": "2026-09-11"
+    "score": 232.0,
+    "release_date": "2026-08-22"
   },
   {
     "position": 19,
-    "title": "Ghost",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "title": "Dónde estás",
+    "artist": "Barbas & Omar Camacho",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a9/32/b5a932c8-8c14-3011-528b-7fd019196782/823375409649_Cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 253.0,
-    "release_date": "2026-09-11"
+    "score": 226.0,
+    "release_date": "2026-09-04"
   },
   {
     "position": 20,
-    "title": "Ceiling (Freestyle)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
+    "title": "RIKI",
+    "artist": "Neton Vega",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 250.0,
-    "release_date": "2026-09-11"
+    "score": 216.0,
+    "release_date": "2026-08-07"
   }
 ]
