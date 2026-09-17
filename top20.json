@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 405.0,
+    "score": 478.0,
     "release_date": "2026-08-07"
   },
   {
@@ -34,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 375.5,
+    "score": 375.0,
     "release_date": "2026-07-31"
   },
   {
@@ -75,18 +76,6 @@
   },
   {
     "position": 7,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 301.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 8,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -95,11 +84,11 @@
       "cr",
       "mx"
     ],
-    "score": 299.0,
+    "score": 299.5,
     "release_date": "2026-02-19"
   },
   {
-    "position": 9,
+    "position": 8,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -107,7 +96,19 @@
     "countries": [
       "cr"
     ],
-    "score": 285.0,
+    "score": 299.0,
+    "release_date": "2026-08-28"
+  },
+  {
+    "position": 9,
+    "title": "Por Amarte Así",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 299.0,
     "release_date": "2026-08-28"
   },
   {
@@ -131,7 +132,7 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 276.0,
     "release_date": "2026-05-28"
   },
   {
@@ -143,11 +144,23 @@
     "countries": [
       "cr"
     ],
-    "score": 256.0,
+    "score": 255.0,
     "release_date": "2026-07-09"
   },
   {
     "position": 13,
+    "title": "ZIZI",
+    "artist": "Ozuna & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 248.0,
+    "release_date": "2026-08-04"
+  },
+  {
+    "position": 14,
     "title": "Cuando No Era Cantante (Remix)",
     "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
@@ -156,20 +169,8 @@
       "cr",
       "mx"
     ],
-    "score": 247.0,
+    "score": 246.0,
     "release_date": "2025-12-10"
-  },
-  {
-    "position": 14,
-    "title": "ZIZI",
-    "artist": "Ozuna & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/74/b0/d274b0a3-b700-1aa4-b56d-b2d1b7995c13/196874578162.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 245.0,
-    "release_date": "2026-08-04"
   },
   {
     "position": 15,
@@ -185,62 +186,63 @@
   },
   {
     "position": 16,
-    "title": "MATADORA",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "title": "POR SI MAÑANA NO ESTOY",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 244.0,
-    "release_date": "2026-07-24"
+    "score": 243.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
-    "artist": "Kris R., ROA, Clarent & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "cr",
+      "us"
     ],
-    "score": 244.0,
-    "release_date": "2026-09-10"
-  },
-  {
-    "position": 18,
-    "title": "SIATONTO",
-    "artist": "4bes, PWater Sounds & Jeybil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "cr"
-    ],
-    "score": 232.0,
-    "release_date": "2026-08-22"
-  },
-  {
-    "position": 19,
-    "title": "Dónde estás",
-    "artist": "Barbas & Omar Camacho",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a9/32/b5a932c8-8c14-3011-528b-7fd019196782/823375409649_Cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 225.0,
+    "score": 269.5,
     "release_date": "2026-09-04"
   },
   {
-    "position": 20,
-    "title": "RIKI",
-    "artist": "Neton Vega",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
+    "position": 18,
+    "title": "So Good (feat. Kendrick Lamar)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 216.0,
-    "release_date": "2026-08-07"
+    "score": 254.0,
+    "release_date": "2026-09-11"
+  },
+  {
+    "position": 19,
+    "title": "He Belongs",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 252.0,
+    "release_date": "2026-09-11"
+  },
+  {
+    "position": 20,
+    "title": "Ghost",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 250.0,
+    "release_date": "2026-09-11"
   }
 ]
