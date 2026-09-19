@@ -1,242 +1,242 @@
 [
   {
     "position": 1,
+    "title": "VAMO A VEL",
+    "artist": "ROA & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 376.0,
+    "release_date": "2026-09-18"
+  },
+  {
+    "position": 2,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 358.0,
+    "release_date": "2026-09-03"
+  },
+  {
+    "position": 3,
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 346.0,
+    "release_date": "2026-09-18"
+  },
+  {
+    "position": 4,
     "title": "BbY WOW",
     "artist": "KAROL G, Judeline & rusowsky",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
     "score": 342.0,
     "release_date": "2026-08-07"
   },
   {
-    "position": 2,
-    "title": "Yonaguni",
-    "artist": "Bad Bunny",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
+    "position": 5,
+    "title": "Macacoa 2000 (from GTAVI: The Album)",
+    "artist": "Rauw Alejandro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/16/97bd1633-fc65-b682-83a6-06694a6fb652/075679559364.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": -330.0,
-    "release_date": "2021-06-04"
-  },
-  {
-    "position": 3,
-    "title": "MIA (feat. Drake)",
-    "artist": "Bad Bunny",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/09/aa/f8/09aaf8da-8eaf-bf60-0c23-48a88d546cbd/26991.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "us"
-    ],
-    "score": -364.0,
-    "release_date": "2018-10-11"
-  },
-  {
-    "position": 4,
-    "title": "Last Thing You Need",
-    "artist": "Morgan Wallen",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 256.0,
+    "score": 335.0,
     "release_date": "2026-09-19"
   },
   {
-    "position": 5,
-    "title": "So Good (feat. Kendrick Lamar)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 251.0,
-    "release_date": "2026-09-11"
-  },
-  {
     "position": 6,
-    "title": "MISS MY DAWG",
-    "artist": "Yeat & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 250.0,
-    "release_date": "2026-09-18"
+    "score": 315.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 7,
-    "title": "He Belongs",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "Las mas bonitas son p#tas",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 243.0,
-    "release_date": "2026-09-11"
+    "score": 314.0,
+    "release_date": "2026-06-26"
   },
   {
     "position": 8,
-    "title": "Ghost",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "MERO TOTE",
+    "artist": "Blessd, De La Rose & Los Money Makers",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 237.0,
-    "release_date": "2026-09-11"
+    "score": 280.0,
+    "release_date": "2026-06-18"
   },
   {
     "position": 9,
-    "title": "Nicole Kidman",
-    "artist": "ADÉLA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 229.0,
-    "release_date": "2026-09-04"
+    "score": 278.0,
+    "release_date": "2026-07-31"
   },
   {
     "position": 10,
-    "title": "Ceiling (Freestyle)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "De Lejitos (Remix)",
+    "artist": "Jay Wheeler & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 219.0,
-    "release_date": "2026-09-11"
+    "score": 274.0,
+    "release_date": "2026-05-28"
   },
   {
     "position": 11,
-    "title": "Been By Now",
-    "artist": "Morgan Wallen",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 213.0,
-    "release_date": "2026-07-24"
+    "score": 251.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 12,
-    "title": "Dope Girl",
-    "artist": "Rod Wave",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "A Xon De Que",
+    "artist": "Feid",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/91/0c/e7910c76-ba72-6e2e-928c-e241d408b204/26UMGIM87502.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 212.0,
-    "release_date": "2026-08-27"
+    "score": 248.0,
+    "release_date": "2026-07-10"
   },
   {
     "position": 13,
-    "title": "Dead Fresh",
-    "artist": "Lil Baby",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/80/37/748037d7-71c1-feff-4d38-3ef0a25578b6/26UMGIM85451.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "L a k e n o s h i",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 192.0,
-    "release_date": "2026-07-17"
+    "score": 239.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 14,
-    "title": "Love Bomb",
-    "artist": "Jhené Aiko & Ab-Soul",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "Fuga",
+    "artist": "Jay Wheeler",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 185.0,
-    "release_date": "2026-09-11"
+    "score": 237.0,
+    "release_date": "2026-05-28"
   },
   {
     "position": 15,
-    "title": "Like, Whatever (feat. Tyga)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "POR SI MAÑANA NO ESTOY",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 183.0,
-    "release_date": "2026-09-11"
+    "score": 236.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 16,
-    "title": "Nothing Nice to Say",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "title": "WO OH OH",
+    "artist": "Omar Courtz & ROA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 173.0,
-    "release_date": "2026-09-11"
+    "score": 231.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "Janice STFU",
-    "artist": "Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/100x100bb.jpg",
+    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
+    "artist": "Kris R., ROA, Clarent & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 169.0,
-    "release_date": "2026-05-15"
+    "score": 239.0,
+    "release_date": "2026-09-10"
   },
   {
     "position": 18,
-    "title": "I Can't Love You Anymore",
-    "artist": "Ella Langley & Morgan Wallen",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/100x100bb.jpg",
+    "title": "SIATONTO",
+    "artist": "4bes, PWater Sounds & Jeybil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 161.0,
-    "release_date": "2026-04-24"
+    "score": 232.0,
+    "release_date": "2026-08-22"
   },
   {
     "position": 19,
-    "title": "WTF GOIN",
-    "artist": "Belly Gang Kushington & 21 Savage",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/d5/7b/14d57b74-7680-e414-2424-f03f1173da3a/820233646390.jpg/100x100bb.jpg",
+    "title": "Los Locos De La Recta",
+    "artist": "Amenti",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/a3/3e/5ba33ebe-1193-4cc0-2aed-580c572c52aa/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 156.0,
-    "release_date": "2026-06-19"
+    "score": 216.0,
+    "release_date": "2026-09-06"
   },
   {
     "position": 20,
-    "title": "stupid song",
-    "artist": "Olivia Rodrigo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg",
+    "title": "ELLA",
+    "artist": "Blessd",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/1a/c4/a91ac467-492b-7074-f312-78fac070ef5c/1200220155996.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 151.0,
-    "release_date": "2026-06-12"
+    "score": 209.0,
+    "release_date": "2026-09-17"
   }
 ]
