@@ -7,14 +7,25 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
-      "us"
+      "mx"
     ],
-    "score": 478.0,
+    "score": 405.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 2,
+    "title": "VAMO A VEL",
+    "artist": "ROA & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 376.0,
+    "release_date": "2026-09-18"
+  },
+  {
+    "position": 3,
     "title": "Te Estoy Correteando",
     "artist": "LATIN MAFIA & Fred again..",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
@@ -23,23 +34,24 @@
       "cr",
       "mx"
     ],
-    "score": 376.0,
+    "score": 373.5,
     "release_date": "2026-07-31"
   },
   {
-    "position": 3,
-    "title": "VAMO A VEL",
-    "artist": "ROA & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "position": 4,
+    "title": "Macacoa 2000 (from GTAVI: The Album)",
+    "artist": "Rauw Alejandro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/16/97bd1633-fc65-b682-83a6-06694a6fb652/075679559364.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "cr",
+      "mx"
     ],
-    "score": 373.0,
-    "release_date": "2026-09-18"
+    "score": 364.5,
+    "release_date": "2026-09-17"
   },
   {
-    "position": 4,
+    "position": 5,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -51,7 +63,7 @@
     "release_date": "2026-09-03"
   },
   {
-    "position": 5,
+    "position": 6,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -63,7 +75,19 @@
     "release_date": "2026-08-27"
   },
   {
-    "position": 6,
+    "position": 7,
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 325.0,
+    "release_date": "2026-09-18"
+  },
+  {
+    "position": 8,
     "title": "Ahí",
     "artist": "KAROL G & Drake",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -71,11 +95,11 @@
     "countries": [
       "cr"
     ],
-    "score": 316.0,
+    "score": 318.0,
     "release_date": "2026-08-07"
   },
   {
-    "position": 7,
+    "position": 9,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -87,7 +111,7 @@
     "release_date": "2026-06-26"
   },
   {
-    "position": 8,
+    "position": 10,
     "title": "Por Amarte Así",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -95,11 +119,11 @@
     "countries": [
       "mx"
     ],
-    "score": 305.0,
+    "score": 308.0,
     "release_date": "2026-08-28"
   },
   {
-    "position": 9,
+    "position": 11,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -108,23 +132,23 @@
       "cr",
       "mx"
     ],
-    "score": 301.0,
+    "score": 301.5,
     "release_date": "2026-02-19"
   },
   {
-    "position": 10,
-    "title": "Macacoa 2000 (from GTAVI: The Album)",
-    "artist": "Rauw Alejandro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/16/97bd1633-fc65-b682-83a6-06694a6fb652/075679559364.jpg/100x100bb.jpg",
+    "position": 12,
+    "title": "BORRAXXO Te Esperaré",
+    "artist": "Feid & Vicente García",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
     "score": 286.0,
-    "release_date": "2026-09-17"
+    "release_date": "2026-09-18"
   },
   {
-    "position": 11,
+    "position": 13,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -136,7 +160,7 @@
     "release_date": "2026-06-18"
   },
   {
-    "position": 12,
+    "position": 14,
     "title": "De Lejitos (Remix)",
     "artist": "Jay Wheeler & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -148,7 +172,7 @@
     "release_date": "2026-05-28"
   },
   {
-    "position": 13,
+    "position": 15,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -156,11 +180,11 @@
     "countries": [
       "cr"
     ],
-    "score": 276.0,
+    "score": 265.0,
     "release_date": "2026-08-28"
   },
   {
-    "position": 14,
+    "position": 16,
     "title": "Cuando No Era Cantante (Remix)",
     "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
@@ -173,76 +197,51 @@
     "release_date": "2025-12-10"
   },
   {
-    "position": 15,
-    "title": "MATADORA",
-    "artist": "KAROL G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 249.0,
-    "release_date": "2026-07-24"
-  },
-  {
-    "position": 16,
-    "title": "L a k e n o s h i",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 244.0,
-    "release_date": "2026-02-19"
-  },
-  {
     "position": 17,
-    "title": "Nicole Kidman",
-    "artist": "ADÉLA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
+    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
+    "artist": "Kris R., ROA, Clarent & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr",
-      "us"
+      "cr"
     ],
-    "score": 276.5,
-    "release_date": "2026-09-04"
+    "score": 242.0,
+    "release_date": "2026-09-10"
   },
   {
     "position": 18,
-    "title": "Last Thing You Need (from GTAVI: The Album)",
-    "artist": "Morgan Wallen",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/ab/6b/a2ab6b7e-7da3-e05f-b53a-885a4f64b0e1/075679559340.jpg/100x100bb.jpg",
+    "title": "SIATONTO",
+    "artist": "4bes, PWater Sounds & Jeybil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 255.0,
-    "release_date": "2026-09-17"
+    "score": 232.0,
+    "release_date": "2026-08-22"
   },
   {
     "position": 19,
-    "title": "So Good (feat. Kendrick Lamar)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "title": "Los Locos De La Recta",
+    "artist": "Amenti",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/a3/3e/5ba33ebe-1193-4cc0-2aed-580c572c52aa/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 252.0,
-    "release_date": "2026-09-11"
+    "score": 215.0,
+    "release_date": "2026-09-06"
   },
   {
     "position": 20,
-    "title": "He Belongs",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/100x100bb.jpg",
+    "title": "RIKI",
+    "artist": "Neton Vega",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 250.0,
-    "release_date": "2026-09-11"
+    "score": 215.0,
+    "release_date": "2026-08-07"
   }
 ]
