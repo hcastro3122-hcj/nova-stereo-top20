@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "us"
+    ],
+    "score": 404.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 2,
     "title": "VAMO A VEL",
     "artist": "ROA & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
@@ -12,7 +25,7 @@
     "release_date": "2026-09-18"
   },
   {
-    "position": 2,
+    "position": 3,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -24,7 +37,7 @@
     "release_date": "2026-09-03"
   },
   {
-    "position": 3,
+    "position": 4,
     "title": "PARADIXE",
     "artist": "Feid, El Americano 4KT & Pirlo",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
@@ -36,18 +49,6 @@
     "release_date": "2026-09-18"
   },
   {
-    "position": 4,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 342.0,
-    "release_date": "2026-08-07"
-  },
-  {
     "position": 5,
     "title": "Macacoa 2000 (from GTAVI: The Album)",
     "artist": "Rauw Alejandro",
@@ -56,7 +57,7 @@
     "countries": [
       "cr"
     ],
-    "score": 335.0,
+    "score": 337.0,
     "release_date": "2026-09-19"
   },
   {
@@ -68,7 +69,7 @@
     "countries": [
       "cr"
     ],
-    "score": 315.0,
+    "score": 319.0,
     "release_date": "2026-08-07"
   },
   {
@@ -97,18 +98,6 @@
   },
   {
     "position": 9,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 278.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 10,
     "title": "De Lejitos (Remix)",
     "artist": "Jay Wheeler & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -116,11 +105,35 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 273.0,
     "release_date": "2026-05-28"
   },
   {
+    "position": 10,
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 271.0,
+    "release_date": "2026-07-31"
+  },
+  {
     "position": 11,
+    "title": "MATADORA",
+    "artist": "KAROL G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 256.0,
+    "release_date": "2026-07-24"
+  },
+  {
+    "position": 12,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -132,18 +145,6 @@
     "release_date": "2026-02-19"
   },
   {
-    "position": 12,
-    "title": "A Xon De Que",
-    "artist": "Feid",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/91/0c/e7910c76-ba72-6e2e-928c-e241d408b204/26UMGIM87502.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 248.0,
-    "release_date": "2026-07-10"
-  },
-  {
     "position": 13,
     "title": "L a k e n o s h i",
     "artist": "Omar Courtz",
@@ -152,20 +153,20 @@
     "countries": [
       "cr"
     ],
-    "score": 239.0,
+    "score": 242.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 14,
-    "title": "Fuga",
-    "artist": "Jay Wheeler",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "title": "A Xon De Que",
+    "artist": "Feid",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/91/0c/e7910c76-ba72-6e2e-928c-e241d408b204/26UMGIM87502.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 237.0,
-    "release_date": "2026-05-28"
+    "score": 240.0,
+    "release_date": "2026-07-10"
   },
   {
     "position": 15,
@@ -181,62 +182,63 @@
   },
   {
     "position": 16,
-    "title": "WO OH OH",
-    "artist": "Omar Courtz & ROA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "title": "La Monda",
+    "artist": "De La Rose & Ryan Castro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 231.0,
-    "release_date": "2026-02-19"
+    "score": 233.0,
+    "release_date": "2026-07-09"
   },
   {
     "position": 17,
-    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
-    "artist": "Kris R., ROA, Clarent & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "cr",
+      "us"
     ],
-    "score": 239.0,
-    "release_date": "2026-09-10"
+    "score": 258.5,
+    "release_date": "2026-09-04"
   },
   {
     "position": 18,
-    "title": "SIATONTO",
-    "artist": "4bes, PWater Sounds & Jeybil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
+    "title": "Last Thing You Need",
+    "artist": "Morgan Wallen",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 232.0,
-    "release_date": "2026-08-22"
+    "score": 257.0,
+    "release_date": "2026-09-19"
   },
   {
     "position": 19,
-    "title": "Los Locos De La Recta",
-    "artist": "Amenti",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/a3/3e/5ba33ebe-1193-4cc0-2aed-580c572c52aa/artwork.jpg/100x100bb.jpg",
+    "title": "So Good (feat. Kendrick Lamar)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 216.0,
-    "release_date": "2026-09-06"
+    "score": 251.0,
+    "release_date": "2026-09-11"
   },
   {
     "position": 20,
-    "title": "ELLA",
-    "artist": "Blessd",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/1a/c4/a91ac467-492b-7074-f312-78fac070ef5c/1200220155996.jpg/100x100bb.jpg",
+    "title": "MISS MY DAWG",
+    "artist": "Yeat & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 209.0,
-    "release_date": "2026-09-17"
+    "score": 249.0,
+    "release_date": "2026-09-18"
   }
 ]
