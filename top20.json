@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 405.0,
+    "score": 477.67,
     "release_date": "2026-08-07"
   },
   {
@@ -22,7 +23,7 @@
       "cr",
       "mx"
     ],
-    "score": 386.0,
+    "score": 384.5,
     "release_date": "2026-09-19"
   },
   {
@@ -83,7 +84,7 @@
     "countries": [
       "cr"
     ],
-    "score": 344.0,
+    "score": 345.0,
     "release_date": "2026-09-18"
   },
   {
@@ -107,7 +108,7 @@
     "countries": [
       "cr"
     ],
-    "score": 313.0,
+    "score": 312.0,
     "release_date": "2026-08-07"
   },
   {
@@ -119,7 +120,7 @@
     "countries": [
       "mx"
     ],
-    "score": 310.0,
+    "score": 309.0,
     "release_date": "2026-08-28"
   },
   {
@@ -132,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 299.5,
+    "score": 298.0,
     "release_date": "2026-02-19"
   },
   {
@@ -169,7 +170,7 @@
       "cr",
       "mx"
     ],
-    "score": 247.0,
+    "score": 245.5,
     "release_date": "2025-12-10"
   },
   {
@@ -193,55 +194,56 @@
     "countries": [
       "cr"
     ],
-    "score": 237.0,
+    "score": 236.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 17,
-    "title": "SIATONTO",
-    "artist": "4bes, PWater Sounds & Jeybil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
+    "title": "Last Thing You Need",
+    "artist": "Morgan Wallen",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 233.0,
-    "release_date": "2026-08-22"
+    "score": 257.0,
+    "release_date": "2026-09-19"
   },
   {
     "position": 18,
-    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
-    "artist": "Kris R., ROA, Clarent & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "cr",
+      "us"
     ],
-    "score": 233.0,
-    "release_date": "2026-09-10"
+    "score": 256.5,
+    "release_date": "2026-09-04"
   },
   {
     "position": 19,
-    "title": "RIKI",
-    "artist": "Neton Vega",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
+    "title": "So Good (feat. Kendrick Lamar)",
+    "artist": "Jhené Aiko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 216.0,
-    "release_date": "2026-08-07"
+    "score": 251.0,
+    "release_date": "2026-09-11"
   },
   {
     "position": 20,
-    "title": "Los Locos De La Recta",
-    "artist": "Amenti",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/a3/3e/5ba33ebe-1193-4cc0-2aed-580c572c52aa/artwork.jpg/100x100bb.jpg",
+    "title": "MISS MY DAWG",
+    "artist": "Yeat & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 205.0,
-    "release_date": "2026-09-06"
+    "score": 249.0,
+    "release_date": "2026-09-18"
   }
 ]
