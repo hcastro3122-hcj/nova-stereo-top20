@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 477.67,
+    "score": 477.33,
     "release_date": "2026-08-07"
   },
   {
@@ -23,7 +23,7 @@
       "cr",
       "mx"
     ],
-    "score": 386.5,
+    "score": 387.0,
     "release_date": "2026-09-19"
   },
   {
@@ -48,7 +48,7 @@
       "cr",
       "mx"
     ],
-    "score": 366.0,
+    "score": 369.0,
     "release_date": "2026-07-31"
   },
   {
@@ -84,7 +84,7 @@
     "countries": [
       "cr"
     ],
-    "score": 347.0,
+    "score": 350.0,
     "release_date": "2026-09-18"
   },
   {
@@ -101,18 +101,6 @@
   },
   {
     "position": 9,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 312.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 10,
     "title": "Por Amarte Así",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -120,8 +108,20 @@
     "countries": [
       "mx"
     ],
-    "score": 311.0,
+    "score": 310.0,
     "release_date": "2026-08-28"
+  },
+  {
+    "position": 10,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 309.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 11,
@@ -133,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 299.5,
+    "score": 298.5,
     "release_date": "2026-02-19"
   },
   {
@@ -145,7 +145,7 @@
     "countries": [
       "cr"
     ],
-    "score": 280.0,
+    "score": 279.0,
     "release_date": "2026-06-18"
   },
   {
@@ -157,7 +157,7 @@
     "countries": [
       "cr"
     ],
-    "score": 277.0,
+    "score": 276.0,
     "release_date": "2026-05-28"
   },
   {
@@ -170,7 +170,7 @@
       "cr",
       "mx"
     ],
-    "score": 252.5,
+    "score": 252.0,
     "release_date": "2025-12-10"
   },
   {
@@ -187,15 +187,15 @@
   },
   {
     "position": 16,
-    "title": "La Monda",
-    "artist": "De La Rose & Ryan Castro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
+    "title": "POR SI MAÑANA NO ESTOY",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 241.0,
-    "release_date": "2026-07-09"
+    "score": 240.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 17,
@@ -207,7 +207,7 @@
       "cr",
       "us"
     ],
-    "score": 259.0,
+    "score": 261.0,
     "release_date": "2026-09-04"
   },
   {
