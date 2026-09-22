@@ -7,10 +7,9 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
-      "us"
+      "mx"
     ],
-    "score": 477.33,
+    "score": 405.0,
     "release_date": "2026-08-07"
   },
   {
@@ -23,7 +22,7 @@
       "cr",
       "mx"
     ],
-    "score": 389.0,
+    "score": 391.5,
     "release_date": "2026-09-19"
   },
   {
@@ -48,7 +47,7 @@
       "cr",
       "mx"
     ],
-    "score": 369.0,
+    "score": 369.5,
     "release_date": "2026-07-31"
   },
   {
@@ -72,7 +71,7 @@
     "countries": [
       "mx"
     ],
-    "score": 357.0,
+    "score": 358.0,
     "release_date": "2026-08-27"
   },
   {
@@ -84,7 +83,7 @@
     "countries": [
       "cr"
     ],
-    "score": 347.0,
+    "score": 356.0,
     "release_date": "2026-09-18"
   },
   {
@@ -108,7 +107,7 @@
     "countries": [
       "mx"
     ],
-    "score": 311.0,
+    "score": 313.0,
     "release_date": "2026-08-28"
   },
   {
@@ -120,7 +119,7 @@
     "countries": [
       "cr"
     ],
-    "score": 310.0,
+    "score": 309.0,
     "release_date": "2026-08-07"
   },
   {
@@ -133,7 +132,7 @@
       "cr",
       "mx"
     ],
-    "score": 300.5,
+    "score": 303.0,
     "release_date": "2026-02-19"
   },
   {
@@ -145,7 +144,7 @@
     "countries": [
       "cr"
     ],
-    "score": 280.0,
+    "score": 283.0,
     "release_date": "2026-06-18"
   },
   {
@@ -157,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 276.0,
     "release_date": "2026-05-28"
   },
   {
@@ -170,7 +169,7 @@
       "cr",
       "mx"
     ],
-    "score": 254.5,
+    "score": 259.5,
     "release_date": "2025-12-10"
   },
   {
@@ -182,7 +181,7 @@
     "countries": [
       "cr"
     ],
-    "score": 246.0,
+    "score": 248.0,
     "release_date": "2026-07-09"
   },
   {
@@ -199,51 +198,50 @@
   },
   {
     "position": 17,
-    "title": "Nicole Kidman",
-    "artist": "ADÉLA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
+    "title": "COMPA COLETO (uy_como)",
+    "artist": "ARIA VEGA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/a3/68/c0a36849-cbc1-c6a6-f444-1f8cbedb76ed/1200220074808.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr",
-      "us"
+      "cr"
     ],
-    "score": 263.5,
-    "release_date": "2026-09-04"
+    "score": 240.0,
+    "release_date": "2026-09-17"
   },
   {
     "position": 18,
-    "title": "Last Thing You Need (from GTAVI: The Album)",
-    "artist": "Morgan Wallen",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/ab/6b/a2ab6b7e-7da3-e05f-b53a-885a4f64b0e1/075679559340.jpg/100x100bb.jpg",
+    "title": "GANAS REMIXXX (feat. De La Rose, Blessd)",
+    "artist": "Kris R., ROA, Clarent & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/b2/dd/17b2ddb6-d4f7-832b-7ccf-33a85982ec19/1200220093793.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 257.0,
-    "release_date": "2026-09-19"
+    "score": 233.0,
+    "release_date": "2026-09-10"
   },
   {
     "position": 19,
-    "title": "So Good (feat. Kendrick Lamar)",
-    "artist": "Jhené Aiko",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+    "title": "RIKI",
+    "artist": "Neton Vega",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/27/8a/fa278a65-c906-322a-b26a-352e59e50f6f/1963624838673_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "mx"
     ],
-    "score": 249.0,
-    "release_date": "2026-09-11"
+    "score": 216.0,
+    "release_date": "2026-08-07"
   },
   {
     "position": 20,
-    "title": "MISS MY DAWG",
-    "artist": "Yeat & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/100x100bb.jpg",
+    "title": "ELLA",
+    "artist": "Blessd",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/1a/c4/a91ac467-492b-7074-f312-78fac070ef5c/1200220155996.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 247.0,
-    "release_date": "2026-09-18"
+    "score": 214.0,
+    "release_date": "2026-09-17"
   }
 ]
