@@ -23,7 +23,7 @@
       "cr",
       "mx"
     ],
-    "score": 387.5,
+    "score": 387.0,
     "release_date": "2026-09-19"
   },
   {
@@ -48,7 +48,7 @@
       "cr",
       "mx"
     ],
-    "score": 375.0,
+    "score": 371.5,
     "release_date": "2026-07-31"
   },
   {
@@ -65,18 +65,6 @@
   },
   {
     "position": 6,
-    "title": "PARADIXE",
-    "artist": "Feid, El Americano 4KT & Pirlo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 358.0,
-    "release_date": "2026-09-18"
-  },
-  {
-    "position": 7,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -86,6 +74,18 @@
     ],
     "score": 358.0,
     "release_date": "2026-08-27"
+  },
+  {
+    "position": 7,
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 354.0,
+    "release_date": "2026-09-18"
   },
   {
     "position": 8,
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 306.0,
+    "score": 308.0,
     "release_date": "2026-08-07"
   },
   {
@@ -133,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.5,
+    "score": 302.0,
     "release_date": "2026-02-19"
   },
   {
@@ -145,7 +145,7 @@
     "countries": [
       "cr"
     ],
-    "score": 279.0,
+    "score": 281.0,
     "release_date": "2026-06-18"
   },
   {
@@ -157,7 +157,7 @@
     "countries": [
       "cr"
     ],
-    "score": 275.0,
+    "score": 276.0,
     "release_date": "2026-05-28"
   },
   {
@@ -170,7 +170,7 @@
       "cr",
       "mx"
     ],
-    "score": 255.0,
+    "score": 253.0,
     "release_date": "2025-12-10"
   },
   {
@@ -182,7 +182,7 @@
     "countries": [
       "cr"
     ],
-    "score": 249.0,
+    "score": 248.0,
     "release_date": "2026-07-09"
   },
   {
@@ -207,7 +207,7 @@
       "cr",
       "us"
     ],
-    "score": 268.5,
+    "score": 270.0,
     "release_date": "2026-09-04"
   },
   {
@@ -231,7 +231,7 @@
     "countries": [
       "us"
     ],
-    "score": 250.0,
+    "score": 249.0,
     "release_date": "2026-09-11"
   },
   {
