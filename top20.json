@@ -10,20 +10,20 @@
       "mx",
       "us"
     ],
-    "score": 477.33,
+    "score": 477.67,
     "release_date": "2026-08-07"
   },
   {
     "position": 2,
-    "title": "Macacoa 2000 (from GTAVI: The Album)",
+    "title": "Macacoa 2000",
     "artist": "Rauw Alejandro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/16/97bd1633-fc65-b682-83a6-06694a6fb652/075679559364.jpg/100x100bb.jpg",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr",
       "mx"
     ],
-    "score": 387.0,
+    "score": 383.5,
     "release_date": "2026-09-19"
   },
   {
@@ -35,7 +35,7 @@
     "countries": [
       "cr"
     ],
-    "score": 376.0,
+    "score": 375.0,
     "release_date": "2026-09-18"
   },
   {
@@ -48,7 +48,7 @@
       "cr",
       "mx"
     ],
-    "score": 371.5,
+    "score": 371.0,
     "release_date": "2026-07-31"
   },
   {
@@ -84,7 +84,7 @@
     "countries": [
       "cr"
     ],
-    "score": 354.0,
+    "score": 349.0,
     "release_date": "2026-09-18"
   },
   {
@@ -101,18 +101,6 @@
   },
   {
     "position": 9,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 310.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 10,
     "title": "Ahí",
     "artist": "KAROL G & Drake",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -120,8 +108,20 @@
     "countries": [
       "cr"
     ],
-    "score": 308.0,
+    "score": 306.0,
     "release_date": "2026-08-07"
+  },
+  {
+    "position": 10,
+    "title": "Por Amarte Así",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 305.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 11,
@@ -133,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.0,
+    "score": 303.0,
     "release_date": "2026-02-19"
   },
   {
@@ -145,7 +145,7 @@
     "countries": [
       "cr"
     ],
-    "score": 281.0,
+    "score": 279.0,
     "release_date": "2026-06-18"
   },
   {
@@ -170,7 +170,7 @@
       "cr",
       "mx"
     ],
-    "score": 253.0,
+    "score": 258.0,
     "release_date": "2025-12-10"
   },
   {
@@ -182,7 +182,7 @@
     "countries": [
       "cr"
     ],
-    "score": 248.0,
+    "score": 253.0,
     "release_date": "2026-07-09"
   },
   {
@@ -194,7 +194,7 @@
     "countries": [
       "cr"
     ],
-    "score": 244.0,
+    "score": 242.0,
     "release_date": "2026-02-19"
   },
   {
@@ -207,7 +207,7 @@
       "cr",
       "us"
     ],
-    "score": 270.0,
+    "score": 266.0,
     "release_date": "2026-09-04"
   },
   {
@@ -231,19 +231,19 @@
     "countries": [
       "us"
     ],
-    "score": 249.0,
+    "score": 250.0,
     "release_date": "2026-09-11"
   },
   {
     "position": 20,
-    "title": "MISS MY DAWG",
-    "artist": "Yeat & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/100x100bb.jpg",
+    "title": "COMPA COLETO (uy_como)",
+    "artist": "ARIA VEGA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/a3/68/c0a36849-cbc1-c6a6-f444-1f8cbedb76ed/1200220074808.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 246.0,
-    "release_date": "2026-09-18"
+    "score": 245.0,
+    "release_date": "2026-09-17"
   }
 ]
