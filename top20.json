@@ -23,7 +23,7 @@
       "cr",
       "mx"
     ],
-    "score": 378.0,
+    "score": 378.5,
     "release_date": "2026-09-19"
   },
   {
@@ -35,7 +35,7 @@
     "countries": [
       "cr"
     ],
-    "score": 376.0,
+    "score": 375.0,
     "release_date": "2026-09-18"
   },
   {
@@ -48,7 +48,7 @@
       "cr",
       "mx"
     ],
-    "score": 376.0,
+    "score": 373.0,
     "release_date": "2026-07-31"
   },
   {
@@ -84,7 +84,7 @@
     "countries": [
       "cr"
     ],
-    "score": 350.0,
+    "score": 345.0,
     "release_date": "2026-09-18"
   },
   {
@@ -96,7 +96,7 @@
     "countries": [
       "cr"
     ],
-    "score": 310.0,
+    "score": 311.0,
     "release_date": "2026-06-26"
   },
   {
@@ -108,7 +108,7 @@
     "countries": [
       "cr"
     ],
-    "score": 309.0,
+    "score": 311.0,
     "release_date": "2026-08-07"
   },
   {
@@ -121,7 +121,7 @@
       "cr",
       "mx"
     ],
-    "score": 302.5,
+    "score": 302.0,
     "release_date": "2026-02-19"
   },
   {
@@ -162,18 +162,6 @@
   },
   {
     "position": 14,
-    "title": "La Monda",
-    "artist": "De La Rose & Ryan Castro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 255.0,
-    "release_date": "2026-07-09"
-  },
-  {
-    "position": 15,
     "title": "Cuando No Era Cantante (Remix)",
     "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
@@ -182,8 +170,20 @@
       "cr",
       "mx"
     ],
-    "score": 253.5,
+    "score": 255.5,
     "release_date": "2025-12-10"
+  },
+  {
+    "position": 15,
+    "title": "La Monda",
+    "artist": "De La Rose & Ryan Castro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/81/99/a881991d-fdb2-cfe6-02cd-281e11e98cdf/1200214480233.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 251.0,
+    "release_date": "2026-07-09"
   },
   {
     "position": 16,
@@ -207,7 +207,7 @@
       "cr",
       "us"
     ],
-    "score": 266.5,
+    "score": 267.0,
     "release_date": "2026-09-04"
   },
   {
@@ -243,7 +243,7 @@
     "countries": [
       "us"
     ],
-    "score": 249.0,
+    "score": 248.0,
     "release_date": "2026-09-11"
   }
 ]
