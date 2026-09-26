@@ -6,10 +6,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 401.5,
+    "score": 476.0,
     "release_date": "2026-08-07"
   },
   {
@@ -26,6 +27,43 @@
   },
   {
     "position": 3,
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 368.0,
+    "release_date": "2026-07-31"
+  },
+  {
+    "position": 4,
+    "title": "VAMO A VEL",
+    "artist": "ROA & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 363.0,
+    "release_date": "2026-09-18"
+  },
+  {
+    "position": 5,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 355.0,
+    "release_date": "2026-09-03"
+  },
+  {
+    "position": 6,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -33,23 +71,72 @@
     "countries": [
       "mx"
     ],
-    "score": 352.0,
+    "score": 354.0,
     "release_date": "2026-08-27"
   },
   {
-    "position": 4,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "position": 7,
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 340.0,
-    "release_date": "2026-07-31"
+    "score": 327.0,
+    "release_date": "2026-09-18"
   },
   {
-    "position": 5,
+    "position": 8,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 303.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 9,
+    "title": "After",
+    "artist": "Conep & Young Miko",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/8b/45/df8b4525-16cf-691e-ad6a-92ae914e14d4/199316761030_cover.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 301.0,
+    "release_date": "2026-09-23"
+  },
+  {
+    "position": 10,
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 300.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 11,
+    "title": "Las mas bonitas son p#tas",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 287.0,
+    "release_date": "2026-06-26"
+  },
+  {
+    "position": 12,
     "title": "Por Amarte Así",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -61,136 +148,53 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 6,
-    "title": "PUES YA NI PEDO",
-    "artist": "Chuyin & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
+    "position": 13,
+    "title": "MERO TOTE",
+    "artist": "Blessd, De La Rose & Los Money Makers",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 225.0,
-    "release_date": "2026-05-07"
+    "score": 273.0,
+    "release_date": "2026-06-18"
   },
   {
-    "position": 7,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "position": 14,
+    "title": "De Lejitos (Remix)",
+    "artist": "Jay Wheeler & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 221.0,
-    "release_date": "2026-02-19"
+    "score": 269.0,
+    "release_date": "2026-05-28"
   },
   {
-    "position": 8,
-    "title": "daño",
-    "artist": "Peso Pluma & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 213.0,
-    "release_date": "2025-12-25"
-  },
-  {
-    "position": 9,
+    "position": 15,
     "title": "Cuando No Era Cantante (Remix)",
     "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 212.0,
+    "score": 252.5,
     "release_date": "2025-12-10"
   },
   {
-    "position": 10,
-    "title": "DEMENCIA",
-    "artist": "Junior H & Gael Valenzuela",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/01/31/ff013190-3956-b78b-2387-4c08ff846c57/ticket.bjhwaepu.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 186.0,
-    "release_date": "2026-02-11"
-  },
-  {
-    "position": 11,
-    "title": "dopamina",
-    "artist": "Peso Pluma & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 177.0,
-    "release_date": "2025-12-25"
-  },
-  {
-    "position": 12,
-    "title": "TU SANCHO",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -71.0,
-    "release_date": "2025-05-02"
-  },
-  {
-    "position": 13,
-    "title": "gervonta",
-    "artist": "Peso Pluma",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -75.0,
-    "release_date": "2024-12-05"
-  },
-  {
-    "position": 14,
-    "title": "Khé?",
-    "artist": "Rauw Alejandro & Romeo Santos",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/e8/09/abe8092d-ef44-61b9-6b50-ab7efb78ca51/196872401516.jpg/100x100bb.jpg",
-    "genre": "Tropical",
-    "countries": [
-      "mx"
-    ],
-    "score": -77.0,
-    "release_date": "2024-11-14"
-  },
-  {
-    "position": 15,
-    "title": "Marlboro Rojo",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -80.0,
-    "release_date": "2025-05-02"
-  },
-  {
     "position": 16,
-    "title": "ANSIEDAD",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
+    "title": "L a k e n o s h i",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": -82.0,
-    "release_date": "2025-05-02"
+    "score": 241.0,
+    "release_date": "2026-02-19"
   },
   {
     "position": 17,
@@ -199,10 +203,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 317.0,
+    "score": 387.33,
     "release_date": "2026-09-24"
   },
   {
@@ -212,10 +217,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 311.0,
+    "score": 380.0,
     "release_date": "2026-09-24"
   },
   {
@@ -225,10 +231,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 308.5,
+    "score": 377.0,
     "release_date": "2026-09-24"
   },
   {
@@ -238,10 +245,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 304.5,
+    "score": 368.67,
     "release_date": "2026-09-24"
   }
 ]
