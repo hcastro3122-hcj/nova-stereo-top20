@@ -47,7 +47,7 @@
     "countries": [
       "cr"
     ],
-    "score": 355.0,
+    "score": 356.0,
     "release_date": "2026-09-03"
   },
   {
@@ -83,7 +83,7 @@
     "countries": [
       "cr"
     ],
-    "score": 318.0,
+    "score": 319.0,
     "release_date": "2026-09-18"
   },
   {
@@ -95,7 +95,7 @@
     "countries": [
       "cr"
     ],
-    "score": 312.0,
+    "score": 313.0,
     "release_date": "2026-08-07"
   },
   {
@@ -132,23 +132,11 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 273.0,
     "release_date": "2026-06-18"
   },
   {
     "position": 12,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 272.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 13,
     "title": "De Lejitos (Remix)",
     "artist": "Jay Wheeler & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -156,8 +144,20 @@
     "countries": [
       "cr"
     ],
-    "score": 265.0,
+    "score": 263.0,
     "release_date": "2026-05-28"
+  },
+  {
+    "position": 13,
+    "title": "Por Amarte Así",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 249.0,
+    "release_date": "2026-08-28"
   },
   {
     "position": 14,
@@ -180,7 +180,7 @@
     "countries": [
       "cr"
     ],
-    "score": 236.0,
+    "score": 234.0,
     "release_date": "2026-02-19"
   },
   {
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 228.0,
+    "score": 229.0,
     "release_date": "2026-02-19"
   },
   {
@@ -206,7 +206,7 @@
       "mx",
       "us"
     ],
-    "score": 374.0,
+    "score": 373.33,
     "release_date": "2026-09-24"
   },
   {
@@ -220,7 +220,7 @@
       "mx",
       "us"
     ],
-    "score": 346.33,
+    "score": 344.33,
     "release_date": "2026-09-24"
   },
   {
@@ -234,7 +234,7 @@
       "mx",
       "us"
     ],
-    "score": 346.0,
+    "score": 343.33,
     "release_date": "2026-09-24"
   },
   {
@@ -247,7 +247,7 @@
       "cr",
       "us"
     ],
-    "score": 284.0,
+    "score": 282.0,
     "release_date": "2026-09-24"
   }
 ]
