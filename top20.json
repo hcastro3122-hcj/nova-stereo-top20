@@ -35,7 +35,7 @@
       "cr",
       "mx"
     ],
-    "score": 374.0,
+    "score": 370.5,
     "release_date": "2026-07-31"
   },
   {
@@ -71,7 +71,7 @@
     "countries": [
       "cr"
     ],
-    "score": 332.0,
+    "score": 337.0,
     "release_date": "2026-09-18"
   },
   {
@@ -83,7 +83,7 @@
     "countries": [
       "mx"
     ],
-    "score": 331.0,
+    "score": 329.0,
     "release_date": "2026-08-27"
   },
   {
@@ -95,7 +95,7 @@
     "countries": [
       "cr"
     ],
-    "score": 312.0,
+    "score": 314.0,
     "release_date": "2026-08-07"
   },
   {
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 288.0,
+    "score": 289.0,
     "release_date": "2026-06-26"
   },
   {
@@ -156,7 +156,7 @@
     "countries": [
       "mx"
     ],
-    "score": 247.0,
+    "score": 244.0,
     "release_date": "2026-08-28"
   },
   {
@@ -168,7 +168,7 @@
     "countries": [
       "cr"
     ],
-    "score": 239.0,
+    "score": 240.0,
     "release_date": "2026-02-19"
   },
   {
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 231.0,
+    "score": 234.0,
     "release_date": "2026-02-19"
   },
   {
@@ -206,7 +206,7 @@
       "mx",
       "us"
     ],
-    "score": 374.0,
+    "score": 377.0,
     "release_date": "2026-09-24"
   },
   {
@@ -220,7 +220,7 @@
       "mx",
       "us"
     ],
-    "score": 336.67,
+    "score": 337.67,
     "release_date": "2026-09-24"
   },
   {
@@ -231,10 +231,9 @@
     "genre": "Global",
     "countries": [
       "cr",
-      "mx",
       "us"
     ],
-    "score": 329.0,
+    "score": 275.5,
     "release_date": "2026-09-24"
   },
   {
@@ -247,7 +246,7 @@
       "cr",
       "us"
     ],
-    "score": 273.5,
+    "score": 271.5,
     "release_date": "2026-09-24"
   }
 ]
