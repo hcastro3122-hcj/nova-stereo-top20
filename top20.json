@@ -9,7 +9,7 @@
       "mx",
       "us"
     ],
-    "score": 403.5,
+    "score": 402.5,
     "release_date": "2026-08-07"
   },
   {
@@ -33,7 +33,7 @@
     "countries": [
       "mx"
     ],
-    "score": 338.0,
+    "score": 339.0,
     "release_date": "2026-07-31"
   },
   {
@@ -45,23 +45,11 @@
     "countries": [
       "mx"
     ],
-    "score": 329.0,
+    "score": 328.0,
     "release_date": "2026-08-27"
   },
   {
     "position": 5,
-    "title": "Por Amarte Así",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 245.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 6,
     "title": "PUES YA NI PEDO",
     "artist": "Chuyin & Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
@@ -69,11 +57,11 @@
     "countries": [
       "mx"
     ],
-    "score": 230.0,
+    "score": 229.0,
     "release_date": "2026-05-07"
   },
   {
-    "position": 7,
+    "position": 6,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -85,7 +73,7 @@
     "release_date": "2026-02-19"
   },
   {
-    "position": 8,
+    "position": 7,
     "title": "Cuando No Era Cantante (Remix)",
     "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
@@ -93,11 +81,11 @@
     "countries": [
       "mx"
     ],
-    "score": 218.0,
+    "score": 213.0,
     "release_date": "2025-12-10"
   },
   {
-    "position": 9,
+    "position": 8,
     "title": "daño",
     "artist": "Peso Pluma & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
@@ -105,11 +93,11 @@
     "countries": [
       "mx"
     ],
-    "score": 212.0,
+    "score": 210.0,
     "release_date": "2025-12-25"
   },
   {
-    "position": 10,
+    "position": 9,
     "title": "Gané",
     "artist": "Victor Mendivil & Gabito Ballesteros",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/62/27/b66227fd-60bf-b830-f44e-8a3c26069368/1963624690219_cover.jpg/100x100bb.jpg",
@@ -121,7 +109,7 @@
     "release_date": "2026-06-12"
   },
   {
-    "position": 11,
+    "position": 10,
     "title": "DEMENCIA",
     "artist": "Junior H & Gael Valenzuela",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/01/31/ff013190-3956-b78b-2387-4c08ff846c57/ticket.bjhwaepu.jpg/100x100bb.jpg",
@@ -129,11 +117,11 @@
     "countries": [
       "mx"
     ],
-    "score": 188.0,
+    "score": 186.0,
     "release_date": "2026-02-11"
   },
   {
-    "position": 12,
+    "position": 11,
     "title": "dopamina",
     "artist": "Peso Pluma & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
@@ -141,11 +129,11 @@
     "countries": [
       "mx"
     ],
-    "score": 179.0,
+    "score": 174.0,
     "release_date": "2025-12-25"
   },
   {
-    "position": 13,
+    "position": 12,
     "title": "TU SANCHO",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
@@ -157,7 +145,7 @@
     "release_date": "2025-05-02"
   },
   {
-    "position": 14,
+    "position": 13,
     "title": "gervonta",
     "artist": "Peso Pluma",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
@@ -167,6 +155,18 @@
     ],
     "score": -75.0,
     "release_date": "2024-12-05"
+  },
+  {
+    "position": 14,
+    "title": "Khé?",
+    "artist": "Rauw Alejandro & Romeo Santos",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/e8/09/abe8092d-ef44-61b9-6b50-ab7efb78ca51/196872401516.jpg/100x100bb.jpg",
+    "genre": "Tropical",
+    "countries": [
+      "mx"
+    ],
+    "score": -75.0,
+    "release_date": "2024-11-14"
   },
   {
     "position": 15,
@@ -202,7 +202,7 @@
       "mx",
       "us"
     ],
-    "score": 302.0,
+    "score": 299.5,
     "release_date": "2026-09-24"
   },
   {
@@ -226,7 +226,7 @@
     "countries": [
       "us"
     ],
-    "score": 253.0,
+    "score": 254.0,
     "release_date": "2026-09-24"
   },
   {
