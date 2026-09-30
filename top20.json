@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 476.33,
+    "score": 476.67,
     "release_date": "2026-08-07"
   },
   {
@@ -27,19 +27,6 @@
   },
   {
     "position": 3,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 370.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 4,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -51,7 +38,7 @@
     "release_date": "2026-09-03"
   },
   {
-    "position": 5,
+    "position": 4,
     "title": "VAMO A VEL",
     "artist": "ROA & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
@@ -59,8 +46,21 @@
     "countries": [
       "cr"
     ],
-    "score": 356.0,
+    "score": 353.0,
     "release_date": "2026-09-18"
+  },
+  {
+    "position": 5,
+    "title": "Te Estoy Correteando",
+    "artist": "LATIN MAFIA & Fred again..",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 347.0,
+    "release_date": "2026-07-31"
   },
   {
     "position": 6,
@@ -71,7 +71,7 @@
     "countries": [
       "cr"
     ],
-    "score": 340.0,
+    "score": 331.0,
     "release_date": "2026-09-18"
   },
   {
@@ -95,7 +95,7 @@
     "countries": [
       "cr"
     ],
-    "score": 317.0,
+    "score": 319.0,
     "release_date": "2026-08-07"
   },
   {
@@ -120,7 +120,7 @@
     "countries": [
       "cr"
     ],
-    "score": 288.0,
+    "score": 289.0,
     "release_date": "2026-06-26"
   },
   {
@@ -132,7 +132,7 @@
     "countries": [
       "cr"
     ],
-    "score": 280.0,
+    "score": 281.0,
     "release_date": "2026-06-18"
   },
   {
@@ -144,11 +144,24 @@
     "countries": [
       "cr"
     ],
-    "score": 270.0,
+    "score": 269.0,
     "release_date": "2026-05-28"
   },
   {
     "position": 13,
+    "title": "Cuando No Era Cantante (Remix)",
+    "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 250.5,
+    "release_date": "2025-12-10"
+  },
+  {
+    "position": 14,
     "title": "POR SI MAÑANA NO ESTOY",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -160,7 +173,7 @@
     "release_date": "2026-02-19"
   },
   {
-    "position": 14,
+    "position": 15,
     "title": "L a k e n o s h i",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -168,11 +181,11 @@
     "countries": [
       "cr"
     ],
-    "score": 239.0,
+    "score": 240.0,
     "release_date": "2026-02-19"
   },
   {
-    "position": 15,
+    "position": 16,
     "title": "Fuga",
     "artist": "Jay Wheeler",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -180,20 +193,8 @@
     "countries": [
       "cr"
     ],
-    "score": 235.0,
+    "score": 236.0,
     "release_date": "2026-05-28"
-  },
-  {
-    "position": 16,
-    "title": "WO OH OH",
-    "artist": "Omar Courtz & ROA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 234.0,
-    "release_date": "2026-02-19"
   },
   {
     "position": 17,
@@ -206,7 +207,7 @@
       "mx",
       "us"
     ],
-    "score": 375.33,
+    "score": 375.0,
     "release_date": "2026-09-24"
   },
   {
@@ -219,7 +220,7 @@
       "cr",
       "us"
     ],
-    "score": 277.5,
+    "score": 271.5,
     "release_date": "2026-09-24"
   },
   {
@@ -232,7 +233,7 @@
       "cr",
       "us"
     ],
-    "score": 257.5,
+    "score": 256.0,
     "release_date": "2026-09-04"
   },
   {
