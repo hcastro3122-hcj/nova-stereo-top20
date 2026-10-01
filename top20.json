@@ -33,7 +33,7 @@
     "countries": [
       "cr"
     ],
-    "score": 347.0,
+    "score": 352.0,
     "release_date": "2026-09-18"
   },
   {
@@ -45,7 +45,7 @@
     "countries": [
       "cr"
     ],
-    "score": 333.0,
+    "score": 335.0,
     "release_date": "2026-09-18"
   },
   {
@@ -57,7 +57,7 @@
     "countries": [
       "cr"
     ],
-    "score": 321.0,
+    "score": 320.0,
     "release_date": "2026-08-07"
   },
   {
@@ -69,7 +69,7 @@
     "countries": [
       "cr"
     ],
-    "score": 286.0,
+    "score": 287.0,
     "release_date": "2026-06-26"
   },
   {
@@ -93,7 +93,7 @@
     "countries": [
       "cr"
     ],
-    "score": 269.0,
+    "score": 266.0,
     "release_date": "2026-05-28"
   },
   {
@@ -117,7 +117,7 @@
     "countries": [
       "cr"
     ],
-    "score": 244.0,
+    "score": 241.0,
     "release_date": "2026-02-19"
   },
   {
@@ -129,7 +129,7 @@
     "countries": [
       "cr"
     ],
-    "score": 239.0,
+    "score": 240.0,
     "release_date": "2026-02-19"
   },
   {
@@ -141,7 +141,7 @@
     "countries": [
       "cr"
     ],
-    "score": 234.0,
+    "score": 233.0,
     "release_date": "2026-02-19"
   },
   {
@@ -153,7 +153,7 @@
     "countries": [
       "cr"
     ],
-    "score": 234.0,
+    "score": 233.0,
     "release_date": "2026-05-28"
   },
   {
@@ -189,7 +189,7 @@
     "countries": [
       "cr"
     ],
-    "score": 221.0,
+    "score": 225.0,
     "release_date": "2026-02-19"
   },
   {
@@ -202,7 +202,7 @@
       "cr",
       "us"
     ],
-    "score": 307.5,
+    "score": 303.5,
     "release_date": "2026-09-24"
   },
   {
@@ -215,23 +215,11 @@
       "cr",
       "us"
     ],
-    "score": 255.5,
+    "score": 257.5,
     "release_date": "2026-09-04"
   },
   {
     "position": 19,
-    "title": "Babylon",
-    "artist": "Taylor Swift",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 254.0,
-    "release_date": "2026-09-24"
-  },
-  {
-    "position": 20,
     "title": "Last Thing You Need",
     "artist": "Morgan Wallen",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
@@ -239,7 +227,19 @@
     "countries": [
       "us"
     ],
-    "score": 253.0,
+    "score": 254.0,
     "release_date": "2026-09-19"
+  },
+  {
+    "position": 20,
+    "title": "Babylon",
+    "artist": "Taylor Swift",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 253.0,
+    "release_date": "2026-09-24"
   }
 ]
