@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 476.33,
+    "score": 476.0,
     "release_date": "2026-08-05"
   },
   {
@@ -34,7 +34,7 @@
     "countries": [
       "cr"
     ],
-    "score": 371.0,
+    "score": 370.0,
     "release_date": "2026-10-01"
   },
   {
@@ -58,23 +58,11 @@
     "countries": [
       "cr"
     ],
-    "score": 331.0,
+    "score": 329.0,
     "release_date": "2026-09-18"
   },
   {
     "position": 6,
-    "title": "Jukiar",
-    "artist": "Clarent & Quevedo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f4/4e/9df44ed8-2e05-2da4-a4c4-e93be35104dc/1200220208883.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 325.0,
-    "release_date": "2026-10-01"
-  },
-  {
-    "position": 7,
     "title": "Ahí",
     "artist": "KAROL G & Drake",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
@@ -82,11 +70,11 @@
     "countries": [
       "cr"
     ],
-    "score": 322.0,
+    "score": 328.0,
     "release_date": "2026-08-07"
   },
   {
-    "position": 8,
+    "position": 7,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -94,8 +82,20 @@
     "countries": [
       "mx"
     ],
-    "score": 319.0,
+    "score": 318.0,
     "release_date": "2026-08-27"
+  },
+  {
+    "position": 8,
+    "title": "Jukiar",
+    "artist": "Clarent & Quevedo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f4/4e/9df44ed8-2e05-2da4-a4c4-e93be35104dc/1200220208883.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 316.0,
+    "release_date": "2026-10-01"
   },
   {
     "position": 9,
@@ -118,7 +118,7 @@
     "countries": [
       "cr"
     ],
-    "score": 304.0,
+    "score": 301.0,
     "release_date": "2026-09-18"
   },
   {
@@ -131,23 +131,11 @@
       "cr",
       "mx"
     ],
-    "score": 296.0,
+    "score": 294.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 12,
-    "title": "Ojos Brujos",
-    "artist": "Clarent & Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 290.0,
-    "release_date": "2026-08-28"
-  },
-  {
-    "position": 13,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -159,6 +147,18 @@
     "release_date": "2026-06-26"
   },
   {
+    "position": 13,
+    "title": "Ojos Brujos",
+    "artist": "Clarent & Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 285.0,
+    "release_date": "2026-08-28"
+  },
+  {
     "position": 14,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
@@ -167,7 +167,7 @@
     "countries": [
       "cr"
     ],
-    "score": 281.0,
+    "score": 279.0,
     "release_date": "2026-06-18"
   },
   {
@@ -179,7 +179,7 @@
     "countries": [
       "cr"
     ],
-    "score": 264.0,
+    "score": 261.0,
     "release_date": "2026-05-28"
   },
   {
@@ -192,7 +192,7 @@
       "cr",
       "mx"
     ],
-    "score": 260.0,
+    "score": 253.0,
     "release_date": "2025-12-10"
   },
   {
@@ -203,9 +203,10 @@
     "genre": "Global",
     "countries": [
       "cr",
+      "mx",
       "us"
     ],
-    "score": 285.5,
+    "score": 339.33,
     "release_date": "2026-09-24"
   },
   {
@@ -234,14 +235,15 @@
   },
   {
     "position": 20,
-    "title": "Cold Shoulder",
-    "artist": "Drake, Don Toliver & Yebba",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "us"
     ],
     "score": 255.0,
-    "release_date": "2026-10-02"
+    "release_date": "2026-09-04"
   }
 ]
