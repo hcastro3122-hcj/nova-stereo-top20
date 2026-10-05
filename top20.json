@@ -1,32 +1,6 @@
 [
   {
     "position": 1,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx",
-      "us"
-    ],
-    "score": 476.67,
-    "release_date": "2026-08-05"
-  },
-  {
-    "position": 2,
-    "title": "OLIVIA LA FLAKA",
-    "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 382.0,
-    "release_date": "2026-09-24"
-  },
-  {
-    "position": 3,
     "title": "YO QUIERO (REMIX)",
     "artist": "Hades66, Arcángel, Myke Towers & Luar La L",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/09/93/e109936a-671d-3409-6926-59ca3b873f6a/885288677782.jpg/100x100bb.jpg",
@@ -34,11 +8,11 @@
     "countries": [
       "cr"
     ],
-    "score": 365.0,
+    "score": 364.0,
     "release_date": "2026-10-01"
   },
   {
-    "position": 4,
+    "position": 2,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -46,8 +20,32 @@
     "countries": [
       "cr"
     ],
-    "score": 334.0,
+    "score": 335.0,
     "release_date": "2026-09-03"
+  },
+  {
+    "position": 3,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 322.0,
+    "release_date": "2026-08-05"
+  },
+  {
+    "position": 4,
+    "title": "VAMO A VEL",
+    "artist": "ROA & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 322.0,
+    "release_date": "2026-09-18"
   },
   {
     "position": 5,
@@ -58,59 +56,11 @@
     "countries": [
       "cr"
     ],
-    "score": 322.0,
+    "score": 320.0,
     "release_date": "2026-08-07"
   },
   {
     "position": 6,
-    "title": "VAMO A VEL",
-    "artist": "ROA & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 321.0,
-    "release_date": "2026-09-18"
-  },
-  {
-    "position": 7,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 317.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 8,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 307.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 9,
-    "title": "Jukiar",
-    "artist": "Clarent & Quevedo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/f4/4e/9df44ed8-2e05-2da4-a4c4-e93be35104dc/1200220208883.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 298.0,
-    "release_date": "2026-10-01"
-  },
-  {
-    "position": 10,
     "title": "PARADIXE",
     "artist": "Feid, El Americano 4KT & Pirlo",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
@@ -118,24 +68,11 @@
     "countries": [
       "cr"
     ],
-    "score": 297.0,
+    "score": 294.0,
     "release_date": "2026-09-18"
   },
   {
-    "position": 11,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 290.5,
-    "release_date": "2026-02-19"
-  },
-  {
-    "position": 12,
+    "position": 7,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -143,11 +80,11 @@
     "countries": [
       "cr"
     ],
-    "score": 290.0,
+    "score": 289.0,
     "release_date": "2026-06-26"
   },
   {
-    "position": 13,
+    "position": 8,
     "title": "Ojos Brujos",
     "artist": "Clarent & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/be/f7/1fbef76b-28cb-10cc-e2c5-47ad8b61f86d/1200214912208.jpg/100x100bb.jpg",
@@ -159,7 +96,7 @@
     "release_date": "2026-08-28"
   },
   {
-    "position": 14,
+    "position": 9,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -167,11 +104,11 @@
     "countries": [
       "cr"
     ],
-    "score": 271.0,
+    "score": 274.0,
     "release_date": "2026-06-18"
   },
   {
-    "position": 15,
+    "position": 10,
     "title": "De Lejitos (Remix)",
     "artist": "Jay Wheeler & Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
@@ -183,7 +120,19 @@
     "release_date": "2026-05-28"
   },
   {
-    "position": 16,
+    "position": 11,
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 250.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 12,
     "title": "L a k e n o s h i",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -191,56 +140,103 @@
     "countries": [
       "cr"
     ],
-    "score": 237.0,
+    "score": 238.0,
     "release_date": "2026-02-19"
   },
   {
+    "position": 13,
+    "title": "Dardos",
+    "artist": "Romeo Santos & Prince Royce",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/66/a9/6066a9a2-b1e8-d171-d8b3-7d044c040b94/196873751887.jpg/100x100bb.jpg",
+    "genre": "Tropical",
+    "countries": [
+      "cr"
+    ],
+    "score": 236.0,
+    "release_date": "2025-11-27"
+  },
+  {
+    "position": 14,
+    "title": "POR SI MAÑANA NO ESTOY",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 227.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 15,
+    "title": "WO OH OH",
+    "artist": "Omar Courtz & ROA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 224.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 16,
+    "title": "Fuga",
+    "artist": "Jay Wheeler",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/98/7a/71987aa4-557e-61fd-66c8-a5536d21d31c/ticket.snrwquok.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 219.0,
+    "release_date": "2026-05-28"
+  },
+  {
     "position": 17,
-    "title": "Patient Zero",
-    "artist": "Taylor Swift",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+    "title": "Catalina Santana",
+    "artist": "Dorian Ampie",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/35/f0/c535f0dc-8041-49a1-1539-91153746a6f4/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr",
-      "us"
+      "cr"
     ],
-    "score": 271.5,
-    "release_date": "2026-09-24"
+    "score": 247.0,
+    "release_date": "2026-09-29"
   },
   {
     "position": 18,
-    "title": "Solar Eclipse",
-    "artist": "Drake & Don Toliver",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
+    "title": "COMPA COLETO (uy_como)",
+    "artist": "ARIA VEGA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/a3/68/c0a36849-cbc1-c6a6-f444-1f8cbedb76ed/1200220074808.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 257.0,
-    "release_date": "2026-10-02"
+    "score": 226.0,
+    "release_date": "2026-09-17"
   },
   {
     "position": 19,
-    "title": "Quebec",
-    "artist": "Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
+    "title": "SIATONTO",
+    "artist": "4bes, PWater Sounds & Jeybil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/fe/81/bbfe81ba-db82-5571-ac07-272703d37182/artwork.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 256.0,
-    "release_date": "2026-10-02"
+    "score": 212.0,
+    "release_date": "2026-08-22"
   },
   {
     "position": 20,
-    "title": "Cold Shoulder",
-    "artist": "Drake, Don Toliver & Yebba",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
+    "title": "Peli De Terror",
+    "artist": "Køddy G",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/e0/de/dee0ded7-ae75-154d-8c9e-be4e89d241c5/708208022137_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 255.0,
-    "release_date": "2026-10-02"
+    "score": 206.0,
+    "release_date": "2026-09-16"
   }
 ]
