@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 456.67,
+    "score": 456.33,
     "release_date": "2026-08-05"
   },
   {
@@ -59,7 +59,7 @@
       "cr",
       "mx"
     ],
-    "score": 331.0,
+    "score": 331.5,
     "release_date": "2026-07-31"
   },
   {
@@ -71,23 +71,11 @@
     "countries": [
       "cr"
     ],
-    "score": 322.0,
+    "score": 323.0,
     "release_date": "2026-09-18"
   },
   {
     "position": 7,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 318.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 8,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -95,23 +83,23 @@
     "countries": [
       "mx"
     ],
-    "score": 316.0,
+    "score": 318.0,
     "release_date": "2026-08-27"
   },
   {
-    "position": 9,
-    "title": "PARADIXE",
-    "artist": "Feid, El Americano 4KT & Pirlo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "position": 8,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
     "score": 300.0,
-    "release_date": "2026-09-18"
+    "release_date": "2026-08-07"
   },
   {
-    "position": 10,
+    "position": 9,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -120,8 +108,20 @@
       "cr",
       "mx"
     ],
-    "score": 298.5,
+    "score": 299.5,
     "release_date": "2026-02-19"
+  },
+  {
+    "position": 10,
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 299.0,
+    "release_date": "2026-09-18"
   },
   {
     "position": 11,
@@ -132,7 +132,7 @@
     "countries": [
       "cr"
     ],
-    "score": 289.0,
+    "score": 288.0,
     "release_date": "2026-06-26"
   },
   {
@@ -144,7 +144,7 @@
     "countries": [
       "cr"
     ],
-    "score": 287.0,
+    "score": 283.0,
     "release_date": "2026-08-28"
   },
   {
@@ -156,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 280.0,
     "release_date": "2026-06-18"
   },
   {
@@ -168,7 +168,7 @@
     "countries": [
       "cr"
     ],
-    "score": 267.0,
+    "score": 270.0,
     "release_date": "2026-05-28"
   },
   {
@@ -181,7 +181,7 @@
       "cr",
       "mx"
     ],
-    "score": 256.0,
+    "score": 256.5,
     "release_date": "2025-12-10"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 240.0,
+    "score": 241.0,
     "release_date": "2026-05-28"
   },
   {
@@ -206,7 +206,7 @@
       "cr",
       "us"
     ],
-    "score": 270.5,
+    "score": 272.5,
     "release_date": "2026-09-24"
   },
   {
