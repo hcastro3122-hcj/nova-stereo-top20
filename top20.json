@@ -22,7 +22,7 @@
     "countries": [
       "cr"
     ],
-    "score": 370.0,
+    "score": 371.0,
     "release_date": "2026-10-09"
   },
   {
@@ -39,18 +39,6 @@
   },
   {
     "position": 4,
-    "title": "YO QUIERO (REMIX)",
-    "artist": "Hades66, Arcángel, Myke Towers & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/09/93/e109936a-671d-3409-6926-59ca3b873f6a/885288677782.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 339.0,
-    "release_date": "2026-10-01"
-  },
-  {
-    "position": 5,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -58,20 +46,32 @@
     "countries": [
       "cr"
     ],
-    "score": 331.0,
+    "score": 330.0,
     "release_date": "2026-09-03"
   },
   {
-    "position": 6,
-    "title": "PARADIXE",
-    "artist": "Feid, El Americano 4KT & Pirlo",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
+    "position": 5,
+    "title": "YO QUIERO (REMIX)",
+    "artist": "Hades66, Arcángel, Myke Towers & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/09/93/e109936a-671d-3409-6926-59ca3b873f6a/885288677782.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
-    "score": 317.0,
-    "release_date": "2026-09-18"
+    "score": 328.0,
+    "release_date": "2026-10-01"
+  },
+  {
+    "position": 6,
+    "title": "Suzuki (from GTAVI: The Album)",
+    "artist": "Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/43/25/a6432567-bbfe-3fbc-18b1-081b7bcd69a0/075679553690.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 323.0,
+    "release_date": "2026-10-08"
   },
   {
     "position": 7,
@@ -82,20 +82,20 @@
     "countries": [
       "mx"
     ],
-    "score": 317.0,
+    "score": 318.0,
     "release_date": "2026-08-27"
   },
   {
     "position": 8,
-    "title": "Suzuki (from GTAVI: The Album)",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/43/25/a6432567-bbfe-3fbc-18b1-081b7bcd69a0/075679553690.jpg/100x100bb.jpg",
+    "title": "PARADIXE",
+    "artist": "Feid, El Americano 4KT & Pirlo",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/d6/4c/8fd64cc6-e58c-2edc-1615-238b433a1170/26UM1IM12670.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "cr"
     ],
-    "score": 310.0,
-    "release_date": "2026-10-08"
+    "score": 316.0,
+    "release_date": "2026-09-18"
   },
   {
     "position": 9,
@@ -106,7 +106,7 @@
     "countries": [
       "mx"
     ],
-    "score": 304.0,
+    "score": 305.0,
     "release_date": "2026-07-31"
   },
   {
@@ -118,7 +118,7 @@
     "countries": [
       "cr"
     ],
-    "score": 298.0,
+    "score": 299.0,
     "release_date": "2026-09-18"
   },
   {
@@ -130,7 +130,7 @@
     "countries": [
       "cr"
     ],
-    "score": 292.0,
+    "score": 298.0,
     "release_date": "2026-08-07"
   },
   {
@@ -143,7 +143,7 @@
       "cr",
       "mx"
     ],
-    "score": 291.5,
+    "score": 292.0,
     "release_date": "2026-02-19"
   },
   {
@@ -167,7 +167,7 @@
     "countries": [
       "cr"
     ],
-    "score": 281.0,
+    "score": 280.0,
     "release_date": "2026-06-18"
   },
   {
@@ -191,7 +191,7 @@
     "countries": [
       "cr"
     ],
-    "score": 235.0,
+    "score": 234.0,
     "release_date": "2026-02-19"
   },
   {
@@ -216,7 +216,7 @@
       "cr",
       "us"
     ],
-    "score": 256.5,
+    "score": 255.5,
     "release_date": "2026-09-04"
   },
   {
@@ -240,7 +240,7 @@
     "countries": [
       "us"
     ],
-    "score": 253.0,
+    "score": 252.0,
     "release_date": "2026-10-02"
   }
 ]
