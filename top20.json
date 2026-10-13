@@ -7,9 +7,10 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 384.5,
+    "score": 457.0,
     "release_date": "2026-08-05"
   },
   {
@@ -57,7 +58,7 @@
     "countries": [
       "cr"
     ],
-    "score": 338.0,
+    "score": 336.0,
     "release_date": "2026-10-01"
   },
   {
@@ -82,7 +83,7 @@
       "cr",
       "mx"
     ],
-    "score": 331.5,
+    "score": 330.0,
     "release_date": "2026-07-31"
   },
   {
@@ -106,7 +107,7 @@
     "countries": [
       "cr"
     ],
-    "score": 325.0,
+    "score": 324.0,
     "release_date": "2026-09-18"
   },
   {
@@ -118,7 +119,7 @@
     "countries": [
       "cr"
     ],
-    "score": 312.0,
+    "score": 313.0,
     "release_date": "2026-09-18"
   },
   {
@@ -130,7 +131,7 @@
     "countries": [
       "mx"
     ],
-    "score": 298.0,
+    "score": 297.0,
     "release_date": "2026-10-08"
   },
   {
@@ -143,7 +144,7 @@
       "cr",
       "mx"
     ],
-    "score": 297.0,
+    "score": 296.0,
     "release_date": "2026-02-19"
   },
   {
@@ -196,50 +197,51 @@
   },
   {
     "position": 17,
-    "title": "Me Blindé (feat. Eiby)",
-    "artist": "Daniel Castro",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/cf/7e/11cf7e6c-89a1-be74-ecfc-876c562fbd2f/5972.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "cr",
+      "us"
     ],
-    "score": 252.0,
-    "release_date": "2026-10-08"
+    "score": 259.0,
+    "release_date": "2026-09-04"
   },
   {
     "position": 18,
-    "title": "Catalina Santana",
-    "artist": "Dorian Ampie",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/35/f0/c535f0dc-8041-49a1-1539-91153746a6f4/artwork.jpg/100x100bb.jpg",
+    "title": "Solar Eclipse",
+    "artist": "Drake & Don Toliver",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 247.0,
-    "release_date": "2026-09-29"
+    "score": 257.0,
+    "release_date": "2026-10-02"
   },
   {
     "position": 19,
-    "title": "Afr1n",
-    "artist": "Victor Mendivil, Omar Camacho & $HUPE",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/c1/d1/a7c1d1ab-ab26-c030-b76e-fc1388c79fe9/1963625045605_cover.png/100x100bb.jpg",
+    "title": "Quebec",
+    "artist": "Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 247.0,
-    "release_date": "2026-10-10"
+    "score": 254.0,
+    "release_date": "2026-10-02"
   },
   {
     "position": 20,
-    "title": "Peli De Terror",
-    "artist": "Køddy G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/e0/de/dee0ded7-ae75-154d-8c9e-be4e89d241c5/708208022137_cover.jpg/100x100bb.jpg",
+    "title": "Cold Shoulder",
+    "artist": "Drake, Don Toliver & Yebba",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/58/98/62589807-decc-d418-eb07-5060de9a2d3e/26UMGIM63617.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 233.0,
-    "release_date": "2026-09-16"
+    "score": 253.0,
+    "release_date": "2026-10-02"
   }
 ]
