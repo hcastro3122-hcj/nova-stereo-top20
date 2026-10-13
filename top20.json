@@ -58,7 +58,7 @@
     "countries": [
       "cr"
     ],
-    "score": 336.0,
+    "score": 340.0,
     "release_date": "2026-10-01"
   },
   {
@@ -83,7 +83,7 @@
       "cr",
       "mx"
     ],
-    "score": 330.0,
+    "score": 329.0,
     "release_date": "2026-07-31"
   },
   {
@@ -95,7 +95,7 @@
     "countries": [
       "mx"
     ],
-    "score": 329.0,
+    "score": 328.0,
     "release_date": "2026-08-27"
   },
   {
@@ -107,7 +107,7 @@
     "countries": [
       "cr"
     ],
-    "score": 324.0,
+    "score": 322.0,
     "release_date": "2026-09-18"
   },
   {
@@ -119,7 +119,7 @@
     "countries": [
       "cr"
     ],
-    "score": 313.0,
+    "score": 306.0,
     "release_date": "2026-09-18"
   },
   {
@@ -131,7 +131,7 @@
     "countries": [
       "mx"
     ],
-    "score": 297.0,
+    "score": 303.0,
     "release_date": "2026-10-08"
   },
   {
@@ -144,7 +144,7 @@
       "cr",
       "mx"
     ],
-    "score": 296.0,
+    "score": 298.0,
     "release_date": "2026-02-19"
   },
   {
@@ -156,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 292.0,
+    "score": 298.0,
     "release_date": "2026-08-07"
   },
   {
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 265.0,
+    "score": 266.0,
     "release_date": "2026-05-28"
   },
   {
@@ -234,14 +234,14 @@
   },
   {
     "position": 20,
-    "title": "Cold Shoulder",
-    "artist": "Drake, Don Toliver & Yebba",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/58/98/62589807-decc-d418-eb07-5060de9a2d3e/26UMGIM63617.rgb.jpg/100x100bb.jpg",
+    "title": "Me Blindé (feat. Eiby)",
+    "artist": "Daniel Castro",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/cf/7e/11cf7e6c-89a1-be74-ecfc-876c562fbd2f/5972.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 253.0,
-    "release_date": "2026-10-02"
+    "score": 252.0,
+    "release_date": "2026-10-08"
   }
 ]
