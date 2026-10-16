@@ -9,7 +9,7 @@
       "mx",
       "us"
     ],
-    "score": 384.0,
+    "score": 383.5,
     "release_date": "2026-08-05"
   },
   {
@@ -45,7 +45,7 @@
     "countries": [
       "mx"
     ],
-    "score": 327.0,
+    "score": 321.0,
     "release_date": "2026-08-27"
   },
   {
@@ -57,7 +57,7 @@
     "countries": [
       "mx"
     ],
-    "score": 302.0,
+    "score": 299.0,
     "release_date": "2026-07-31"
   },
   {
@@ -69,7 +69,7 @@
     "countries": [
       "mx"
     ],
-    "score": 216.0,
+    "score": 215.0,
     "release_date": "2026-05-07"
   },
   {
@@ -81,7 +81,7 @@
     "countries": [
       "mx"
     ],
-    "score": 206.0,
+    "score": 205.0,
     "release_date": "2026-02-19"
   },
   {
@@ -93,7 +93,7 @@
     "countries": [
       "mx"
     ],
-    "score": 205.0,
+    "score": 204.0,
     "release_date": "2025-12-10"
   },
   {
@@ -105,7 +105,7 @@
     "countries": [
       "mx"
     ],
-    "score": 196.0,
+    "score": 193.0,
     "release_date": "2025-12-25"
   },
   {
@@ -117,7 +117,7 @@
     "countries": [
       "mx"
     ],
-    "score": 168.0,
+    "score": 167.0,
     "release_date": "2026-02-11"
   },
   {
@@ -129,7 +129,7 @@
     "countries": [
       "mx"
     ],
-    "score": 155.0,
+    "score": 154.0,
     "release_date": "2025-12-25"
   },
   {
@@ -153,7 +153,7 @@
     "countries": [
       "mx"
     ],
-    "score": -76.0,
+    "score": -77.0,
     "release_date": "2025-05-02"
   },
   {
@@ -165,7 +165,7 @@
     "countries": [
       "mx"
     ],
-    "score": -77.0,
+    "score": -78.0,
     "release_date": "2024-12-05"
   },
   {
@@ -189,7 +189,7 @@
     "countries": [
       "mx"
     ],
-    "score": -90.0,
+    "score": -93.0,
     "release_date": "2025-02-11"
   },
   {
@@ -206,15 +206,15 @@
   },
   {
     "position": 18,
-    "title": "Quebec",
-    "artist": "Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
       "us"
     ],
     "score": 254.0,
-    "release_date": "2026-10-02"
+    "release_date": "2026-10-15"
   },
   {
     "position": 19,
@@ -225,19 +225,19 @@
     "countries": [
       "mx"
     ],
-    "score": 251.0,
+    "score": 253.0,
     "release_date": "2026-10-15"
   },
   {
     "position": 20,
-    "title": "Cold Shoulder",
-    "artist": "Drake, Don Toliver & Yebba",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/58/98/62589807-decc-d418-eb07-5060de9a2d3e/26UMGIM63617.rgb.jpg/100x100bb.jpg",
+    "title": "Quebec",
+    "artist": "Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
       "us"
     ],
-    "score": 250.0,
+    "score": 253.0,
     "release_date": "2026-10-02"
   }
 ]
