@@ -70,7 +70,7 @@
     "countries": [
       "mx"
     ],
-    "score": 327.0,
+    "score": 325.0,
     "release_date": "2026-08-27"
   },
   {
@@ -82,7 +82,7 @@
     "countries": [
       "cr"
     ],
-    "score": 303.0,
+    "score": 305.0,
     "release_date": "2026-09-18"
   },
   {
@@ -94,7 +94,7 @@
     "countries": [
       "cr"
     ],
-    "score": 295.0,
+    "score": 294.0,
     "release_date": "2026-08-07"
   },
   {
@@ -106,7 +106,7 @@
     "countries": [
       "cr"
     ],
-    "score": 294.0,
+    "score": 293.0,
     "release_date": "2026-10-01"
   },
   {
@@ -118,7 +118,7 @@
     "countries": [
       "mx"
     ],
-    "score": 294.0,
+    "score": 293.0,
     "release_date": "2026-07-31"
   },
   {
@@ -135,18 +135,6 @@
   },
   {
     "position": 12,
-    "title": "VAMO A VEL",
-    "artist": "ROA & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 290.0,
-    "release_date": "2026-09-18"
-  },
-  {
-    "position": 13,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -155,8 +143,20 @@
       "cr",
       "mx"
     ],
-    "score": 289.0,
+    "score": 288.0,
     "release_date": "2026-02-19"
+  },
+  {
+    "position": 13,
+    "title": "VAMO A VEL",
+    "artist": "ROA & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/66/11/50661123-1d80-1054-62f2-2e786fa631c3/26UM1IM14326.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 288.0,
+    "release_date": "2026-09-18"
   },
   {
     "position": 14,
@@ -167,7 +167,7 @@
     "countries": [
       "cr"
     ],
-    "score": 282.0,
+    "score": 281.0,
     "release_date": "2026-06-18"
   },
   {
@@ -192,7 +192,7 @@
       "cr",
       "mx"
     ],
-    "score": 251.0,
+    "score": 249.5,
     "release_date": "2025-12-10"
   },
   {
@@ -205,7 +205,7 @@
       "cr",
       "us"
     ],
-    "score": 293.5,
+    "score": 292.5,
     "release_date": "2026-10-16"
   },
   {
