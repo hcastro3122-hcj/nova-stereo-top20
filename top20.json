@@ -46,7 +46,7 @@
     "countries": [
       "cr"
     ],
-    "score": 359.0,
+    "score": 358.0,
     "release_date": "2026-10-09"
   },
   {
@@ -131,23 +131,11 @@
       "cr",
       "mx"
     ],
-    "score": 287.5,
+    "score": 286.5,
     "release_date": "2026-02-19"
   },
   {
     "position": 12,
-    "title": "YO QUIERO (REMIX)",
-    "artist": "Hades66, Arcángel, Myke Towers & Luar La L",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/09/93/e109936a-671d-3409-6926-59ca3b873f6a/885288677782.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 279.0,
-    "release_date": "2026-10-01"
-  },
-  {
-    "position": 13,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/a1/e5/33a1e588-73c9-9bf1-54eb-91275332dde2/1200214359645.jpg/100x100bb.jpg",
@@ -159,6 +147,18 @@
     "release_date": "2026-06-18"
   },
   {
+    "position": 13,
+    "title": "YO QUIERO (REMIX)",
+    "artist": "Hades66, Arcángel, Myke Towers & Luar La L",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/09/93/e109936a-671d-3409-6926-59ca3b873f6a/885288677782.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 276.0,
+    "release_date": "2026-10-01"
+  },
+  {
     "position": 14,
     "title": "VAMO A VEL",
     "artist": "ROA & Anuel AA",
@@ -167,7 +167,7 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 272.0,
     "release_date": "2026-09-18"
   },
   {
@@ -192,7 +192,7 @@
       "cr",
       "mx"
     ],
-    "score": 242.5,
+    "score": 243.0,
     "release_date": "2025-12-10"
   },
   {
@@ -205,7 +205,7 @@
       "cr",
       "us"
     ],
-    "score": 276.5,
+    "score": 275.0,
     "release_date": "2026-10-16"
   },
   {
