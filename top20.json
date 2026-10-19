@@ -34,7 +34,7 @@
     "countries": [
       "cr"
     ],
-    "score": 364.0,
+    "score": 366.0,
     "release_date": "2026-10-09"
   },
   {
@@ -58,7 +58,7 @@
     "countries": [
       "mx"
     ],
-    "score": 330.0,
+    "score": 331.0,
     "release_date": "2026-08-27"
   },
   {
@@ -70,7 +70,7 @@
     "countries": [
       "cr"
     ],
-    "score": 329.0,
+    "score": 330.0,
     "release_date": "2026-09-03"
   },
   {
@@ -82,7 +82,7 @@
     "countries": [
       "mx"
     ],
-    "score": 298.0,
+    "score": 300.0,
     "release_date": "2026-07-31"
   },
   {
@@ -99,6 +99,19 @@
   },
   {
     "position": 9,
+    "title": "KOKO",
+    "artist": "Omar Courtz",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 291.0,
+    "release_date": "2026-02-19"
+  },
+  {
+    "position": 10,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -110,19 +123,6 @@
     "release_date": "2026-06-26"
   },
   {
-    "position": 10,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 287.5,
-    "release_date": "2026-02-19"
-  },
-  {
     "position": 11,
     "title": "PARADIXE",
     "artist": "Feid, El Americano 4KT & Pirlo",
@@ -131,7 +131,7 @@
     "countries": [
       "cr"
     ],
-    "score": 277.0,
+    "score": 281.0,
     "release_date": "2026-09-18"
   },
   {
@@ -143,7 +143,7 @@
     "countries": [
       "cr"
     ],
-    "score": 273.0,
+    "score": 274.0,
     "release_date": "2026-06-18"
   },
   {
@@ -155,7 +155,7 @@
     "countries": [
       "cr"
     ],
-    "score": 262.0,
+    "score": 264.0,
     "release_date": "2026-05-28"
   },
   {
@@ -167,7 +167,7 @@
     "countries": [
       "cr"
     ],
-    "score": 246.0,
+    "score": 249.0,
     "release_date": "2026-09-18"
   },
   {
@@ -180,7 +180,7 @@
       "cr",
       "mx"
     ],
-    "score": 243.0,
+    "score": 248.0,
     "release_date": "2025-12-10"
   },
   {
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 240.0,
+    "score": 239.0,
     "release_date": "2025-11-27"
   },
   {
@@ -205,11 +205,24 @@
       "cr",
       "us"
     ],
-    "score": 277.5,
+    "score": 278.5,
     "release_date": "2026-10-16"
   },
   {
     "position": 18,
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "cr",
+      "us"
+    ],
+    "score": 272.5,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 19,
     "title": "Lies (feat. Lana Del Rey)",
     "artist": "Zach Bryan & Lana Del Rey",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
@@ -218,18 +231,6 @@
       "us"
     ],
     "score": 257.0,
-    "release_date": "2026-10-15"
-  },
-  {
-    "position": 19,
-    "title": "Housewife",
-    "artist": "Tate McRae",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "us"
-    ],
-    "score": 256.0,
     "release_date": "2026-10-15"
   },
   {
@@ -242,7 +243,7 @@
       "cr",
       "us"
     ],
-    "score": 252.5,
+    "score": 255.5,
     "release_date": "2026-09-03"
   }
 ]
