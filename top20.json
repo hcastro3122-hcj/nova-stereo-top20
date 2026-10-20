@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx",
+      "us"
+    ],
+    "score": 383.5,
+    "release_date": "2026-08-05"
+  },
+  {
+    "position": 2,
     "title": "Suzuki",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
@@ -12,7 +25,7 @@
     "release_date": "2026-10-08"
   },
   {
-    "position": 2,
+    "position": 3,
     "title": "OLIVIA LA FLAKA",
     "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
@@ -24,7 +37,7 @@
     "release_date": "2026-09-24"
   },
   {
-    "position": 3,
+    "position": 4,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -32,20 +45,8 @@
     "countries": [
       "mx"
     ],
-    "score": 331.0,
+    "score": 330.0,
     "release_date": "2026-08-27"
-  },
-  {
-    "position": 4,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 321.0,
-    "release_date": "2026-08-05"
   },
   {
     "position": 5,
@@ -56,7 +57,7 @@
     "countries": [
       "mx"
     ],
-    "score": 304.0,
+    "score": 301.0,
     "release_date": "2026-07-31"
   },
   {
@@ -80,7 +81,7 @@
     "countries": [
       "mx"
     ],
-    "score": 213.0,
+    "score": 212.0,
     "release_date": "2026-02-19"
   },
   {
@@ -92,7 +93,7 @@
     "countries": [
       "mx"
     ],
-    "score": 211.0,
+    "score": 209.0,
     "release_date": "2025-12-10"
   },
   {
@@ -104,7 +105,7 @@
     "countries": [
       "mx"
     ],
-    "score": 199.0,
+    "score": 195.0,
     "release_date": "2025-12-25"
   },
   {
@@ -116,23 +117,11 @@
     "countries": [
       "mx"
     ],
-    "score": 169.0,
+    "score": 170.0,
     "release_date": "2026-02-11"
   },
   {
     "position": 11,
-    "title": "dopamina",
-    "artist": "Peso Pluma & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 156.0,
-    "release_date": "2025-12-25"
-  },
-  {
-    "position": 12,
     "title": "TU SANCHO",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
@@ -144,6 +133,18 @@
     "release_date": "2025-05-02"
   },
   {
+    "position": 12,
+    "title": "gervonta",
+    "artist": "Peso Pluma",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": -74.0,
+    "release_date": "2024-12-05"
+  },
+  {
     "position": 13,
     "title": "Marlboro Rojo",
     "artist": "Fuerza Regida",
@@ -152,23 +153,11 @@
     "countries": [
       "mx"
     ],
-    "score": -74.0,
+    "score": -76.0,
     "release_date": "2025-05-02"
   },
   {
     "position": 14,
-    "title": "gervonta",
-    "artist": "Peso Pluma",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -76.0,
-    "release_date": "2024-12-05"
-  },
-  {
-    "position": 15,
     "title": "ANSIEDAD",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
@@ -180,7 +169,7 @@
     "release_date": "2025-05-02"
   },
   {
-    "position": 16,
+    "position": 15,
     "title": "Por Esos Ojos",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/8a/7b/848a7b8e-c817-97ae-1f43-1b11d9a23530/196873013855.jpg/100x100bb.jpg",
@@ -188,55 +177,67 @@
     "countries": [
       "mx"
     ],
-    "score": -84.0,
+    "score": -83.0,
     "release_date": "2025-02-11"
   },
   {
-    "position": 17,
-    "title": "Mil Problemas",
-    "artist": "Nsqk & Eslabon Armado",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/f0/59/a4f0599b-0292-9c7d-13f8-7f1b4c35cd27/823375524946_Cover.jpg/100x100bb.jpg",
-    "genre": "Global",
+    "position": 16,
+    "title": "ME JALO",
+    "artist": "Fuerza Regida & Grupo Frontera",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/96/9e/ba969e5d-857d-bbda-08e2-edc08642d188/196872772869.jpg/100x100bb.jpg",
+    "genre": "Latina",
     "countries": [
       "mx"
     ],
-    "score": 236.0,
+    "score": -88.0,
+    "release_date": "2024-12-19"
+  },
+  {
+    "position": 17,
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 257.0,
     "release_date": "2026-10-15"
   },
   {
     "position": 18,
-    "title": "Estar Así Siempre",
-    "artist": "Nsqk & Julieta Venegas",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/ae/11/98ae1157-1776-fa1e-4bda-a1358383d86e/823375457275_Cover.jpg/100x100bb.jpg",
+    "title": "Lies (feat. Lana Del Rey)",
+    "artist": "Zach Bryan & Lana Del Rey",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 231.0,
+    "score": 256.0,
     "release_date": "2026-10-15"
   },
   {
     "position": 19,
-    "title": "Afr1n",
-    "artist": "Victor Mendivil, Omar Camacho & $HUPE",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/c1/d1/a7c1d1ab-ab26-c030-b76e-fc1388c79fe9/1963625045605_cover.png/100x100bb.jpg",
+    "title": "Lodi When",
+    "artist": "Zach Bryan",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 228.0,
-    "release_date": "2026-10-08"
+    "score": 252.0,
+    "release_date": "2026-10-16"
   },
   {
     "position": 20,
-    "title": "Lo Tuvimos Pero Ya No Está",
-    "artist": "Nsqk & Riosse",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/ae/11/98ae1157-1776-fa1e-4bda-a1358383d86e/823375457275_Cover.jpg/100x100bb.jpg",
+    "title": "Robot Killed The Working Man",
+    "artist": "Zach Bryan",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 227.0,
-    "release_date": "2026-10-15"
+    "score": 243.0,
+    "release_date": "2026-10-16"
   }
 ]
