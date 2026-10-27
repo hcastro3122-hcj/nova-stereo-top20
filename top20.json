@@ -7,10 +7,9 @@
     "genre": "Latina",
     "countries": [
       "cr",
-      "mx",
-      "us"
+      "mx"
     ],
-    "score": 456.0,
+    "score": 383.5,
     "release_date": "2026-08-05"
   },
   {
@@ -27,6 +26,19 @@
   },
   {
     "position": 3,
+    "title": "Suzuki",
+    "artist": "Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 376.5,
+    "release_date": "2026-10-08"
+  },
+  {
+    "position": 4,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -38,19 +50,19 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 4,
-    "title": "Suzuki",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
+    "position": 5,
+    "title": "Olimpo",
+    "artist": "Neton Vega & Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "mx"
     ],
-    "score": 361.0,
-    "release_date": "2026-10-08"
+    "score": 358.0,
+    "release_date": "2026-10-23"
   },
   {
-    "position": 5,
+    "position": 6,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
@@ -60,18 +72,6 @@
     ],
     "score": 353.0,
     "release_date": "2026-10-09"
-  },
-  {
-    "position": 6,
-    "title": "Olimpo",
-    "artist": "Neton Vega & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 353.0,
-    "release_date": "2026-10-23"
   },
   {
     "position": 7,
@@ -106,35 +106,11 @@
     "countries": [
       "mx"
     ],
-    "score": 331.0,
+    "score": 332.0,
     "release_date": "2026-10-22"
   },
   {
     "position": 10,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 295.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 11,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 291.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 12,
     "title": "Te Imagino",
     "artist": "Myke Towers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
@@ -142,8 +118,32 @@
     "countries": [
       "cr"
     ],
-    "score": 287.0,
+    "score": 301.0,
     "release_date": "2026-10-21"
+  },
+  {
+    "position": 11,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 292.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 12,
+    "title": "Mar Azul",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 292.0,
+    "release_date": "2026-08-27"
   },
   {
     "position": 13,
@@ -154,7 +154,7 @@
     "countries": [
       "cr"
     ],
-    "score": 286.0,
+    "score": 287.0,
     "release_date": "2026-06-26"
   },
   {
@@ -166,7 +166,7 @@
     "countries": [
       "mx"
     ],
-    "score": 284.0,
+    "score": 287.0,
     "release_date": "2026-07-31"
   },
   {
@@ -179,7 +179,7 @@
       "cr",
       "mx"
     ],
-    "score": 282.5,
+    "score": 286.5,
     "release_date": "2026-02-19"
   },
   {
@@ -191,24 +191,11 @@
     "countries": [
       "cr"
     ],
-    "score": 273.0,
+    "score": 272.0,
     "release_date": "2026-06-18"
   },
   {
     "position": 17,
-    "title": "Housewife",
-    "artist": "Tate McRae",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "cr",
-      "us"
-    ],
-    "score": 304.0,
-    "release_date": "2026-10-15"
-  },
-  {
-    "position": 18,
     "title": "Cansada",
     "artist": "Victor Mendivil & Victoria Mendivil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -216,11 +203,11 @@
     "countries": [
       "mx"
     ],
-    "score": 257.0,
+    "score": 256.0,
     "release_date": "2026-10-22"
   },
   {
-    "position": 19,
+    "position": 18,
     "title": "FES",
     "artist": "Victor Mendivil & Omar Camacho",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -232,15 +219,27 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 20,
-    "title": "Lies (feat. Lana Del Rey)",
-    "artist": "Zach Bryan & Lana Del Rey",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
+    "position": 19,
+    "title": "Happy Monday (W Sound 10)",
+    "artist": "W Sound, Hades66 & Ovy On the Drums",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/81/e8/ab81e88c-c8e0-2624-25f0-6bf18a20b6a4/1200220345397.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "us"
+      "cr"
     ],
-    "score": 255.0,
-    "release_date": "2026-10-15"
+    "score": 254.0,
+    "release_date": "2026-10-21"
+  },
+  {
+    "position": 20,
+    "title": "Que Cosas",
+    "artist": "Victor Mendivil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "mx"
+    ],
+    "score": 250.0,
+    "release_date": "2026-10-22"
   }
 ]
