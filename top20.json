@@ -9,7 +9,7 @@
       "cr",
       "us"
     ],
-    "score": 384.5,
+    "score": 384.0,
     "release_date": "2026-08-05"
   },
   {
@@ -33,23 +33,11 @@
     "countries": [
       "cr"
     ],
-    "score": 335.0,
+    "score": 334.0,
     "release_date": "2026-09-03"
   },
   {
     "position": 4,
-    "title": "Suzuki",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 293.0,
-    "release_date": "2026-10-08"
-  },
-  {
-    "position": 5,
     "title": "Te Imagino",
     "artist": "Myke Towers",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
@@ -57,8 +45,20 @@
     "countries": [
       "cr"
     ],
-    "score": 293.0,
+    "score": 292.0,
     "release_date": "2026-10-21"
+  },
+  {
+    "position": 5,
+    "title": "Suzuki",
+    "artist": "Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 291.0,
+    "release_date": "2026-10-08"
   },
   {
     "position": 6,
@@ -69,7 +69,7 @@
     "countries": [
       "cr"
     ],
-    "score": 291.0,
+    "score": 289.0,
     "release_date": "2026-08-07"
   },
   {
@@ -93,7 +93,7 @@
     "countries": [
       "cr"
     ],
-    "score": 278.0,
+    "score": 277.0,
     "release_date": "2026-06-18"
   },
   {
@@ -105,7 +105,7 @@
     "countries": [
       "cr"
     ],
-    "score": 265.0,
+    "score": 256.0,
     "release_date": "2026-09-18"
   },
   {
@@ -117,7 +117,7 @@
     "countries": [
       "cr"
     ],
-    "score": 256.0,
+    "score": 255.0,
     "release_date": "2026-05-28"
   },
   {
@@ -141,7 +141,7 @@
     "countries": [
       "cr"
     ],
-    "score": 236.0,
+    "score": 235.0,
     "release_date": "2026-02-19"
   },
   {
@@ -165,7 +165,7 @@
     "countries": [
       "cr"
     ],
-    "score": 226.0,
+    "score": 225.0,
     "release_date": "2026-02-19"
   },
   {
@@ -177,7 +177,7 @@
     "countries": [
       "cr"
     ],
-    "score": 208.0,
+    "score": 209.0,
     "release_date": "2026-02-19"
   },
   {
@@ -189,7 +189,7 @@
     "countries": [
       "cr"
     ],
-    "score": 207.0,
+    "score": 208.0,
     "release_date": "2026-02-19"
   },
   {
@@ -202,7 +202,7 @@
       "cr",
       "us"
     ],
-    "score": 302.5,
+    "score": 301.5,
     "release_date": "2026-10-15"
   },
   {
