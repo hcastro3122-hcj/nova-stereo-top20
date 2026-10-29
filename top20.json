@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "us"
+    ],
+    "score": 384.0,
+    "release_date": "2026-08-05"
+  },
+  {
+    "position": 2,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
@@ -8,11 +21,11 @@
     "countries": [
       "cr"
     ],
-    "score": 355.0,
+    "score": 354.0,
     "release_date": "2026-10-09"
   },
   {
-    "position": 2,
+    "position": 3,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -22,18 +35,6 @@
     ],
     "score": 332.0,
     "release_date": "2026-09-03"
-  },
-  {
-    "position": 3,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 322.0,
-    "release_date": "2026-08-05"
   },
   {
     "position": 4,
@@ -56,11 +57,23 @@
     "countries": [
       "cr"
     ],
-    "score": 306.0,
+    "score": 301.0,
     "release_date": "2026-10-08"
   },
   {
     "position": 6,
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 290.0,
+    "release_date": "2026-08-07"
+  },
+  {
+    "position": 7,
     "title": "Las mas bonitas son p#tas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/100x100bb.jpg",
@@ -72,18 +85,6 @@
     "release_date": "2026-06-26"
   },
   {
-    "position": 7,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 287.0,
-    "release_date": "2026-08-07"
-  },
-  {
     "position": 8,
     "title": "MERO TOTE",
     "artist": "Blessd, De La Rose & Los Money Makers",
@@ -92,7 +93,7 @@
     "countries": [
       "cr"
     ],
-    "score": 274.0,
+    "score": 275.0,
     "release_date": "2026-06-18"
   },
   {
@@ -104,7 +105,7 @@
     "countries": [
       "cr"
     ],
-    "score": 256.0,
+    "score": 257.0,
     "release_date": "2026-05-28"
   },
   {
@@ -152,7 +153,7 @@
     "countries": [
       "cr"
     ],
-    "score": 235.0,
+    "score": 234.0,
     "release_date": "2026-02-19"
   },
   {
@@ -164,7 +165,7 @@
     "countries": [
       "cr"
     ],
-    "score": 220.0,
+    "score": 219.0,
     "release_date": "2026-02-19"
   },
   {
@@ -176,7 +177,7 @@
     "countries": [
       "cr"
     ],
-    "score": 212.0,
+    "score": 206.0,
     "release_date": "2026-02-19"
   },
   {
@@ -193,6 +194,19 @@
   },
   {
     "position": 17,
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "cr",
+      "us"
+    ],
+    "score": 298.0,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 18,
     "title": "Happy Monday (W Sound 10)",
     "artist": "W Sound, Hades66 & Ovy On the Drums",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/81/e8/ab81e88c-c8e0-2624-25f0-6bf18a20b6a4/1200220345397.jpg/100x100bb.jpg",
@@ -204,39 +218,28 @@
     "release_date": "2026-10-21"
   },
   {
-    "position": 18,
-    "title": "Me Blindé",
-    "artist": "Daniel Castro & Eiby",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/cf/7e/11cf7e6c-89a1-be74-ecfc-876c562fbd2f/5972.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "cr"
-    ],
-    "score": 225.0,
-    "release_date": "2026-10-08"
-  },
-  {
     "position": 19,
-    "title": "Catalina Santana",
-    "artist": "Dorian Ampie",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/35/f0/c535f0dc-8041-49a1-1539-91153746a6f4/artwork.jpg/100x100bb.jpg",
+    "title": "Lies (feat. Lana Del Rey)",
+    "artist": "Zach Bryan & Lana Del Rey",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "us"
     ],
-    "score": 218.0,
-    "release_date": "2026-09-29"
+    "score": 254.0,
+    "release_date": "2026-10-15"
   },
   {
     "position": 20,
-    "title": "Peli De Terror",
-    "artist": "Køddy G",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/e0/de/dee0ded7-ae75-154d-8c9e-be4e89d241c5/708208022137_cover.jpg/100x100bb.jpg",
+    "title": "Nicole Kidman",
+    "artist": "ADÉLA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "cr"
+      "cr",
+      "us"
     ],
-    "score": 212.0,
-    "release_date": "2026-09-16"
+    "score": 253.5,
+    "release_date": "2026-09-03"
   }
 ]
