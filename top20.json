@@ -1,19 +1,6 @@
 [
   {
     "position": 1,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx",
-      "us"
-    ],
-    "score": 383.0,
-    "release_date": "2026-08-05"
-  },
-  {
-    "position": 2,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -25,7 +12,7 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 3,
+    "position": 2,
     "title": "Mira Como Vengo",
     "artist": "Victor Mendivil, Natanael Cano & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -33,11 +20,11 @@
     "countries": [
       "mx"
     ],
-    "score": 370.0,
+    "score": 368.0,
     "release_date": "2026-10-22"
   },
   {
-    "position": 4,
+    "position": 3,
     "title": "Suzuki",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
@@ -49,7 +36,7 @@
     "release_date": "2026-10-08"
   },
   {
-    "position": 5,
+    "position": 4,
     "title": "Olimpo",
     "artist": "Neton Vega & Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
@@ -61,7 +48,7 @@
     "release_date": "2026-10-23"
   },
   {
-    "position": 6,
+    "position": 5,
     "title": "OLIVIA LA FLAKA",
     "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
@@ -73,6 +60,18 @@
     "release_date": "2026-09-24"
   },
   {
+    "position": 6,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 321.0,
+    "release_date": "2026-08-05"
+  },
+  {
     "position": 7,
     "title": "Alístate",
     "artist": "Victor Mendivil & Anuel AA",
@@ -81,7 +80,7 @@
     "countries": [
       "mx"
     ],
-    "score": 302.0,
+    "score": 301.0,
     "release_date": "2026-10-22"
   },
   {
@@ -93,7 +92,7 @@
     "countries": [
       "mx"
     ],
-    "score": 290.0,
+    "score": 289.0,
     "release_date": "2026-08-27"
   },
   {
@@ -117,7 +116,7 @@
     "countries": [
       "mx"
     ],
-    "score": 227.0,
+    "score": 228.0,
     "release_date": "2026-05-07"
   },
   {
@@ -153,7 +152,7 @@
     "countries": [
       "mx"
     ],
-    "score": 193.0,
+    "score": 194.0,
     "release_date": "2025-12-25"
   },
   {
@@ -170,18 +169,6 @@
   },
   {
     "position": 15,
-    "title": "POR SI MAÑANA NO ESTOY",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 153.0,
-    "release_date": "2026-02-19"
-  },
-  {
-    "position": 16,
     "title": "TU SANCHO",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
@@ -190,6 +177,18 @@
       "mx"
     ],
     "score": -73.0,
+    "release_date": "2025-05-02"
+  },
+  {
+    "position": 16,
+    "title": "Marlboro Rojo",
+    "artist": "Fuerza Regida",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": -80.0,
     "release_date": "2025-05-02"
   },
   {
@@ -237,7 +236,7 @@
     "countries": [
       "mx"
     ],
-    "score": 247.0,
+    "score": 246.0,
     "release_date": "2026-10-21"
   }
 ]
