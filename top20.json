@@ -23,7 +23,7 @@
       "cr",
       "mx"
     ],
-    "score": 403.5,
+    "score": 403.0,
     "release_date": "2026-10-08"
   },
   {
@@ -59,23 +59,11 @@
     "countries": [
       "mx"
     ],
-    "score": 371.0,
+    "score": 369.0,
     "release_date": "2026-10-22"
   },
   {
     "position": 6,
-    "title": "Mira Como Vengo",
-    "artist": "Victor Mendivil, Natanael Cano & Ovi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 359.0,
-    "release_date": "2026-10-22"
-  },
-  {
-    "position": 7,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
@@ -85,6 +73,18 @@
     ],
     "score": 356.0,
     "release_date": "2026-10-09"
+  },
+  {
+    "position": 7,
+    "title": "Mira Como Vengo",
+    "artist": "Victor Mendivil, Natanael Cano & Ovi",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 356.0,
+    "release_date": "2026-10-22"
   },
   {
     "position": 8,
@@ -100,18 +100,6 @@
   },
   {
     "position": 9,
-    "title": "Te Imagino",
-    "artist": "Myke Towers",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 315.0,
-    "release_date": "2026-10-21"
-  },
-  {
-    "position": 10,
     "title": "CAPCANA COCOA",
     "artist": "Blessd & Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
@@ -123,16 +111,28 @@
     "release_date": "2026-09-03"
   },
   {
+    "position": 10,
+    "title": "Te Imagino",
+    "artist": "Myke Towers",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 313.0,
+    "release_date": "2026-10-21"
+  },
+  {
     "position": 11,
-    "title": "Body (Remix)",
-    "artist": "Eladio Carrión, Rauw Alejandro & De La Rose",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/fa/61/d0fa6165-e6d0-3981-28d7-df96539880f9/711641019695.jpg/100x100bb.jpg",
+    "title": "Ahí",
+    "artist": "KAROL G & Drake",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
       "cr"
     ],
     "score": 301.0,
-    "release_date": "2026-10-29"
+    "release_date": "2026-08-07"
   },
   {
     "position": 12,
@@ -144,23 +144,11 @@
       "cr",
       "mx"
     ],
-    "score": 300.0,
+    "score": 299.0,
     "release_date": "2026-02-19"
   },
   {
     "position": 13,
-    "title": "Ahí",
-    "artist": "KAROL G & Drake",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 300.0,
-    "release_date": "2026-08-07"
-  },
-  {
-    "position": 14,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -168,8 +156,20 @@
     "countries": [
       "mx"
     ],
-    "score": 298.0,
+    "score": 297.0,
     "release_date": "2026-08-27"
+  },
+  {
+    "position": 14,
+    "title": "Body (Remix)",
+    "artist": "Eladio Carrión, Rauw Alejandro & De La Rose",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/fa/61/d0fa6165-e6d0-3981-28d7-df96539880f9/711641019695.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 295.0,
+    "release_date": "2026-10-29"
   },
   {
     "position": 15,
@@ -192,7 +192,7 @@
     "countries": [
       "cr"
     ],
-    "score": 281.0,
+    "score": 282.0,
     "release_date": "2026-05-28"
   },
   {
@@ -205,7 +205,7 @@
       "cr",
       "us"
     ],
-    "score": 263.0,
+    "score": 262.5,
     "release_date": "2026-10-15"
   },
   {
@@ -241,7 +241,7 @@
     "countries": [
       "mx"
     ],
-    "score": 240.0,
+    "score": 239.0,
     "release_date": "2026-10-22"
   }
 ]
