@@ -1,199 +1,30 @@
 [
   {
     "position": 1,
-    "title": "Olimpo",
-    "artist": "Neton Vega & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 359.0,
-    "release_date": "2026-10-23"
-  },
-  {
-    "position": 2,
     "title": "BbY WOW",
     "artist": "KAROL G, Judeline & rusowsky",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx",
       "us"
     ],
-    "score": 356.5,
+    "score": 293.0,
     "release_date": "2026-08-05"
   },
   {
+    "position": 2,
+    "title": "Yonaguni",
+    "artist": "Bad Bunny",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "us"
+    ],
+    "score": -351.0,
+    "release_date": "2021-06-04"
+  },
+  {
     "position": 3,
-    "title": "Beretta",
-    "artist": "Victor Mendivil & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 345.0,
-    "release_date": "2026-10-22"
-  },
-  {
-    "position": 4,
-    "title": "Suzuki",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 342.0,
-    "release_date": "2026-10-08"
-  },
-  {
-    "position": 5,
-    "title": "OLIVIA LA FLAKA",
-    "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 340.0,
-    "release_date": "2026-09-24"
-  },
-  {
-    "position": 6,
-    "title": "Mira Como Vengo",
-    "artist": "Victor Mendivil, Natanael Cano & Ovi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 325.0,
-    "release_date": "2026-10-22"
-  },
-  {
-    "position": 7,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 298.0,
-    "release_date": "2026-08-27"
-  },
-  {
-    "position": 8,
-    "title": "Te Estoy Correteando",
-    "artist": "LATIN MAFIA & Fred again..",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/52/6e/90526e94-89c7-8387-458f-1972f7995d48/1200214495824.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 259.0,
-    "release_date": "2026-07-31"
-  },
-  {
-    "position": 9,
-    "title": "KOKO",
-    "artist": "Omar Courtz",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 220.0,
-    "release_date": "2026-02-19"
-  },
-  {
-    "position": 10,
-    "title": "Cuando No Era Cantante (Remix)",
-    "artist": "El Bogueto, Anuel AA, Fuerza Regida & Yung Beef",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/43/a1/7443a10d-3fb6-3030-684d-7282a35a32f9/229593.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 209.0,
-    "release_date": "2025-12-10"
-  },
-  {
-    "position": 11,
-    "title": "daño",
-    "artist": "Peso Pluma & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 196.0,
-    "release_date": "2025-12-25"
-  },
-  {
-    "position": 12,
-    "title": "PUES YA NI PEDO",
-    "artist": "Chuyin & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/12/38/6b123892-cb1d-b99b-4eb2-9bccce467a6d/823375110088_Cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 187.0,
-    "release_date": "2026-05-07"
-  },
-  {
-    "position": 13,
-    "title": "DEMENCIA",
-    "artist": "Junior H & Gael Valenzuela",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/01/31/ff013190-3956-b78b-2387-4c08ff846c57/ticket.bjhwaepu.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 172.0,
-    "release_date": "2026-02-11"
-  },
-  {
-    "position": 14,
-    "title": "dopamina",
-    "artist": "Peso Pluma & Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 168.0,
-    "release_date": "2025-12-25"
-  },
-  {
-    "position": 15,
-    "title": "TU SANCHO",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -72.0,
-    "release_date": "2025-05-02"
-  },
-  {
-    "position": 16,
-    "title": "gervonta",
-    "artist": "Peso Pluma",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -78.0,
-    "release_date": "2024-12-05"
-  },
-  {
-    "position": 17,
     "title": "Mr. Do Something",
     "artist": "Lil Baby",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
@@ -205,7 +36,7 @@
     "release_date": "2026-11-06"
   },
   {
-    "position": 18,
+    "position": 4,
     "title": "Top Uh It",
     "artist": "Lil Baby",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
@@ -213,23 +44,23 @@
     "countries": [
       "us"
     ],
-    "score": 255.0,
+    "score": 254.0,
     "release_date": "2026-11-06"
   },
   {
-    "position": 19,
+    "position": 5,
     "title": "All My Partnas (feat. Future)",
-    "artist": "Lil Baby, Rylo Rodriguez & Young Thug",
+    "artist": "Lil Baby, Young Thug & Rylo Rodriguez",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
       "us"
     ],
-    "score": 253.0,
+    "score": 252.0,
     "release_date": "2026-11-06"
   },
   {
-    "position": 20,
+    "position": 6,
     "title": "Burnt Shit",
     "artist": "Lil Baby",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
@@ -237,7 +68,175 @@
     "countries": [
       "us"
     ],
-    "score": 252.0,
+    "score": 251.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 7,
+    "title": "Ya Hit (feat. Drake, Travis Scott & Loe Shimmy)",
+    "artist": "Future",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/7c/cb/5f7ccb13-1490-5b92-f78b-d1a0f665a07e/196874972953.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 249.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 8,
+    "title": "Ain’t Goin",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 246.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 9,
+    "title": "Be The One",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 245.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 10,
+    "title": "From The Back",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 243.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 11,
+    "title": "My Side",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 241.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 12,
+    "title": "In Your Head",
+    "artist": "Lil Baby & Rylo Rodriguez",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 237.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 13,
+    "title": "Your Fault",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 233.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 14,
+    "title": "Life Of the Party (L.O.T.P)",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 230.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 15,
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 228.0,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 16,
+    "title": "All Us",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 227.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 17,
+    "title": "Like A Brat",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 220.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 18,
+    "title": "Keep Goin",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 219.0,
+    "release_date": "2026-11-06"
+  },
+  {
+    "position": 19,
+    "title": "Lies (feat. Lana Del Rey)",
+    "artist": "Zach Bryan & Lana Del Rey",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 215.0,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 20,
+    "title": "Televised",
+    "artist": "Lil Baby",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 211.0,
     "release_date": "2026-11-06"
   }
 ]
