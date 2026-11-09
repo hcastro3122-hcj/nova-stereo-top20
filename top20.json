@@ -40,18 +40,6 @@
   },
   {
     "position": 4,
-    "title": "Vuelve",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 357.0,
-    "release_date": "2026-10-09"
-  },
-  {
-    "position": 5,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -63,7 +51,7 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 6,
+    "position": 5,
     "title": "OLIVIA LA FLAKA",
     "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
@@ -75,6 +63,18 @@
     "release_date": "2026-09-24"
   },
   {
+    "position": 6,
+    "title": "Vuelve",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 337.0,
+    "release_date": "2026-10-09"
+  },
+  {
     "position": 7,
     "title": "Mira Como Vengo",
     "artist": "Victor Mendivil, Natanael Cano & Ovi",
@@ -83,7 +83,7 @@
     "countries": [
       "mx"
     ],
-    "score": 320.0,
+    "score": 321.0,
     "release_date": "2026-10-22"
   },
   {
@@ -120,7 +120,7 @@
       "cr",
       "mx"
     ],
-    "score": 296.5,
+    "score": 296.0,
     "release_date": "2026-02-19"
   },
   {
@@ -132,7 +132,7 @@
     "countries": [
       "mx"
     ],
-    "score": 295.0,
+    "score": 296.0,
     "release_date": "2026-08-27"
   },
   {
@@ -156,7 +156,7 @@
     "countries": [
       "cr"
     ],
-    "score": 283.0,
+    "score": 282.0,
     "release_date": "2026-05-28"
   },
   {
@@ -168,7 +168,7 @@
     "countries": [
       "cr"
     ],
-    "score": 276.0,
+    "score": 280.0,
     "release_date": "2026-08-07"
   },
   {
@@ -205,7 +205,7 @@
     "countries": [
       "us"
     ],
-    "score": 257.0,
+    "score": 256.0,
     "release_date": "2026-11-06"
   },
   {
@@ -223,13 +223,13 @@
   {
     "position": 19,
     "title": "All My Partnas (feat. Future)",
-    "artist": "Lil Baby, Young Thug & Rylo Rodriguez",
+    "artist": "Lil Baby, Rylo Rodriguez & Young Thug",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
       "us"
     ],
-    "score": 252.0,
+    "score": 251.0,
     "release_date": "2026-11-06"
   },
   {
@@ -241,7 +241,7 @@
     "countries": [
       "us"
     ],
-    "score": 251.0,
+    "score": 249.0,
     "release_date": "2026-11-06"
   }
 ]
