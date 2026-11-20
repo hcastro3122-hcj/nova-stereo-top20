@@ -57,23 +57,11 @@
     "countries": [
       "mx"
     ],
-    "score": 337.0,
+    "score": 338.0,
     "release_date": "2026-10-22"
   },
   {
     "position": 6,
-    "title": "FRANCIA",
-    "artist": "Tito Double P",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/61/64/c1/6164c19d-9480-f9ef-903e-161eaa21af74/711641158141.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 320.0,
-    "release_date": "2026-11-12"
-  },
-  {
-    "position": 7,
     "title": "Mira Como Vengo",
     "artist": "Victor Mendivil, Natanael Cano & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -81,8 +69,20 @@
     "countries": [
       "mx"
     ],
-    "score": 316.0,
+    "score": 318.0,
     "release_date": "2026-10-22"
+  },
+  {
+    "position": 7,
+    "title": "FRANCIA",
+    "artist": "Tito Double P",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/61/64/c1/6164c19d-9480-f9ef-903e-161eaa21af74/711641158141.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 316.0,
+    "release_date": "2026-11-12"
   },
   {
     "position": 8,
@@ -117,7 +117,7 @@
     "countries": [
       "mx"
     ],
-    "score": 210.0,
+    "score": 211.0,
     "release_date": "2026-02-19"
   },
   {
@@ -129,7 +129,7 @@
     "countries": [
       "mx"
     ],
-    "score": 199.0,
+    "score": 203.0,
     "release_date": "2025-12-10"
   },
   {
@@ -141,7 +141,7 @@
     "countries": [
       "mx"
     ],
-    "score": 195.0,
+    "score": 196.0,
     "release_date": "2025-12-25"
   },
   {
@@ -153,11 +153,23 @@
     "countries": [
       "mx"
     ],
-    "score": 180.0,
+    "score": 179.0,
     "release_date": "2026-05-07"
   },
   {
     "position": 14,
+    "title": "dopamina",
+    "artist": "Peso Pluma & Tito Double P",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/47/a9/e347a9c6-1cf0-6154-3976-b9dd615e2a83/199806514993.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx"
+    ],
+    "score": 154.0,
+    "release_date": "2025-12-25"
+  },
+  {
+    "position": 15,
     "title": "DEMENCIA",
     "artist": "Junior H & Gael Valenzuela",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/01/31/ff013190-3956-b78b-2387-4c08ff846c57/ticket.bjhwaepu.jpg/100x100bb.jpg",
@@ -165,11 +177,11 @@
     "countries": [
       "mx"
     ],
-    "score": 156.0,
+    "score": 153.0,
     "release_date": "2026-02-11"
   },
   {
-    "position": 15,
+    "position": 16,
     "title": "TU SANCHO",
     "artist": "Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/0a/a3/510aa39f-7a41-b53c-70a0-6a0df60645bb/196872995978.jpg/100x100bb.jpg",
@@ -181,18 +193,6 @@
     "release_date": "2025-05-02"
   },
   {
-    "position": 16,
-    "title": "gervonta",
-    "artist": "Peso Pluma",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/ed/a6/39eda6fa-33fc-76da-238e-454c5ad8b73c/199066114025.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": -79.0,
-    "release_date": "2024-12-05"
-  },
-  {
     "position": 17,
     "title": "Flower In A Hurricane [From GTAVI: Original Score]",
     "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
@@ -202,7 +202,7 @@
       "mx",
       "us"
     ],
-    "score": 234.0,
+    "score": 236.5,
     "release_date": "2026-10-15"
   },
   {
@@ -238,7 +238,7 @@
     "countries": [
       "mx"
     ],
-    "score": 227.0,
+    "score": 226.0,
     "release_date": "2026-10-22"
   }
 ]
