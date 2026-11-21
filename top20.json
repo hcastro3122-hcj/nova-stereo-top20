@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 444.67,
+    "score": 446.33,
     "release_date": "2026-10-08"
   },
   {
@@ -41,18 +41,6 @@
   },
   {
     "position": 4,
-    "title": "Te Imagino",
-    "artist": "Myke Towers",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr"
-    ],
-    "score": 344.0,
-    "release_date": "2026-10-21"
-  },
-  {
-    "position": 5,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/2c/c3/432cc3a0-debd-4cec-67a1-8b3720402308/885288743814.jpg/100x100bb.jpg",
@@ -64,7 +52,7 @@
     "release_date": "2026-10-09"
   },
   {
-    "position": 6,
+    "position": 5,
     "title": "OLIVIA LA FLAKA",
     "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
@@ -76,7 +64,7 @@
     "release_date": "2026-09-24"
   },
   {
-    "position": 7,
+    "position": 6,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -86,6 +74,18 @@
     ],
     "score": 337.0,
     "release_date": "2026-10-22"
+  },
+  {
+    "position": 7,
+    "title": "Te Imagino",
+    "artist": "Myke Towers",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/01/e0/5e01e0f6-91a6-d923-2495-855a4610485f/1200220330331.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 321.0,
+    "release_date": "2026-10-21"
   },
   {
     "position": 8,
@@ -120,7 +120,7 @@
     "countries": [
       "mx"
     ],
-    "score": 303.0,
+    "score": 297.0,
     "release_date": "2026-11-12"
   },
   {
@@ -133,7 +133,7 @@
       "cr",
       "mx"
     ],
-    "score": 291.5,
+    "score": 293.0,
     "release_date": "2026-02-19"
   },
   {
@@ -169,7 +169,7 @@
     "countries": [
       "cr"
     ],
-    "score": 275.0,
+    "score": 277.0,
     "release_date": "2026-06-26"
   },
   {
@@ -181,7 +181,7 @@
     "countries": [
       "cr"
     ],
-    "score": 270.0,
+    "score": 271.0,
     "release_date": "2026-08-07"
   },
   {
@@ -193,7 +193,7 @@
     "countries": [
       "cr"
     ],
-    "score": 264.0,
+    "score": 266.0,
     "release_date": "2026-11-01"
   },
   {
@@ -207,23 +207,11 @@
       "mx",
       "us"
     ],
-    "score": 317.67,
+    "score": 318.67,
     "release_date": "2026-10-15"
   },
   {
     "position": 18,
-    "title": "Happy Monday (W Sound 10)",
-    "artist": "W Sound, Hades66 & Ovy On the Drums",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/81/e8/ab81e88c-c8e0-2624-25f0-6bf18a20b6a4/1200220345397.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "cr"
-    ],
-    "score": 233.0,
-    "release_date": "2026-10-21"
-  },
-  {
-    "position": 19,
     "title": "FES",
     "artist": "Victor Mendivil & Omar Camacho",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -235,7 +223,7 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 20,
+    "position": 19,
     "title": "Niña Mafia",
     "artist": "Victor Mendivil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -244,6 +232,18 @@
       "mx"
     ],
     "score": 229.0,
+    "release_date": "2026-10-22"
+  },
+  {
+    "position": 20,
+    "title": "Cansada",
+    "artist": "Victor Mendivil & Victoria Mendivil",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "mx"
+    ],
+    "score": 225.0,
     "release_date": "2026-10-22"
   }
 ]
