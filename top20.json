@@ -10,7 +10,7 @@
       "mx",
       "us"
     ],
-    "score": 453.0,
+    "score": 451.67,
     "release_date": "2026-10-08"
   },
   {
@@ -24,7 +24,7 @@
       "mx",
       "us"
     ],
-    "score": 431.33,
+    "score": 431.0,
     "release_date": "2026-08-05"
   },
   {
@@ -37,7 +37,7 @@
       "cr",
       "mx"
     ],
-    "score": 398.0,
+    "score": 395.5,
     "release_date": "2026-11-19"
   },
   {
@@ -49,7 +49,7 @@
     "countries": [
       "mx"
     ],
-    "score": 365.0,
+    "score": 370.0,
     "release_date": "2026-11-19"
   },
   {
@@ -61,7 +61,7 @@
     "countries": [
       "mx"
     ],
-    "score": 361.0,
+    "score": 341.0,
     "release_date": "2026-10-23"
   },
   {
@@ -97,11 +97,23 @@
     "countries": [
       "cr"
     ],
-    "score": 311.0,
+    "score": 310.0,
     "release_date": "2026-10-21"
   },
   {
     "position": 9,
+    "title": "CAPCANA COCOA",
+    "artist": "Blessd & Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr"
+    ],
+    "score": 305.0,
+    "release_date": "2026-09-03"
+  },
+  {
+    "position": 10,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -113,19 +125,19 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 10,
-    "title": "CAPCANA COCOA",
-    "artist": "Blessd & Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/ff/de/45ffde34-6e7e-90e4-eaa7-4d4f72599051/1200220051427.jpg/100x100bb.jpg",
+    "position": 11,
+    "title": "Mar Azul",
+    "artist": "Natanael Cano",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "cr"
+      "mx"
     ],
-    "score": 302.0,
-    "release_date": "2026-09-03"
+    "score": 291.0,
+    "release_date": "2026-08-27"
   },
   {
-    "position": 11,
+    "position": 12,
     "title": "KOKO",
     "artist": "Omar Courtz",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/13/d6/0b13d6d1-d5b9-03f4-a7b8-29f00faad00f/820200317964.jpg/100x100bb.jpg",
@@ -136,18 +148,6 @@
     ],
     "score": 288.0,
     "release_date": "2026-02-19"
-  },
-  {
-    "position": 12,
-    "title": "Mar Azul",
-    "artist": "Natanael Cano",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 287.0,
-    "release_date": "2026-08-27"
   },
   {
     "position": 13,
@@ -170,7 +170,7 @@
     "countries": [
       "cr"
     ],
-    "score": 276.0,
+    "score": 277.0,
     "release_date": "2026-06-26"
   },
   {
@@ -182,7 +182,7 @@
     "countries": [
       "cr"
     ],
-    "score": 276.0,
+    "score": 277.0,
     "release_date": "2026-11-01"
   },
   {
@@ -194,7 +194,7 @@
     "countries": [
       "mx"
     ],
-    "score": 275.0,
+    "score": 277.0,
     "release_date": "2026-10-22"
   },
   {
@@ -208,7 +208,7 @@
       "mx",
       "us"
     ],
-    "score": 313.67,
+    "score": 317.0,
     "release_date": "2026-10-15"
   },
   {
@@ -220,7 +220,7 @@
     "countries": [
       "cr"
     ],
-    "score": 212.0,
+    "score": 211.0,
     "release_date": "2026-10-21"
   },
   {
