@@ -18,13 +18,27 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
-      "mx"
+      "mx",
+      "us"
     ],
-    "score": 342.0,
+    "score": 374.5,
     "release_date": "2026-10-08"
   },
   {
     "position": 3,
+    "title": "BbY WOW",
+    "artist": "KAROL G, Judeline & rusowsky",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "mx",
+      "us"
+    ],
+    "score": 357.0,
+    "release_date": "2026-08-05"
+  },
+  {
+    "position": 4,
     "title": "Olimpo",
     "artist": "Neton Vega & Fuerza Regida",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
@@ -36,7 +50,7 @@
     "release_date": "2026-10-23"
   },
   {
-    "position": 4,
+    "position": 5,
     "title": "OLIVIA LA FLAKA",
     "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
@@ -48,7 +62,7 @@
     "release_date": "2026-09-24"
   },
   {
-    "position": 5,
+    "position": 6,
     "title": "Beretta",
     "artist": "Victor Mendivil & Tito Double P",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -56,11 +70,11 @@
     "countries": [
       "mx"
     ],
-    "score": 308.0,
+    "score": 309.0,
     "release_date": "2026-10-22"
   },
   {
-    "position": 6,
+    "position": 7,
     "title": "Mar Azul",
     "artist": "Natanael Cano",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/4f/81/b94f81a4-00f3-4cc1-3257-0fdc763cdb9e/196874661499.jpg/100x100bb.jpg",
@@ -68,20 +82,8 @@
     "countries": [
       "mx"
     ],
-    "score": 297.0,
+    "score": 294.0,
     "release_date": "2026-08-27"
-  },
-  {
-    "position": 7,
-    "title": "BbY WOW",
-    "artist": "KAROL G, Judeline & rusowsky",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 295.0,
-    "release_date": "2026-08-05"
   },
   {
     "position": 8,
@@ -92,7 +94,7 @@
     "countries": [
       "mx"
     ],
-    "score": 294.0,
+    "score": 292.0,
     "release_date": "2026-11-19"
   },
   {
@@ -104,7 +106,7 @@
     "countries": [
       "mx"
     ],
-    "score": 275.0,
+    "score": 278.0,
     "release_date": "2026-10-22"
   },
   {
@@ -116,7 +118,7 @@
     "countries": [
       "mx"
     ],
-    "score": 249.0,
+    "score": 251.0,
     "release_date": "2026-10-09"
   },
   {
@@ -128,7 +130,7 @@
     "countries": [
       "mx"
     ],
-    "score": 246.0,
+    "score": 244.0,
     "release_date": "2026-07-31"
   },
   {
@@ -152,7 +154,7 @@
     "countries": [
       "mx"
     ],
-    "score": 197.0,
+    "score": 192.0,
     "release_date": "2025-12-10"
   },
   {
@@ -176,7 +178,7 @@
     "countries": [
       "mx"
     ],
-    "score": 169.0,
+    "score": 168.0,
     "release_date": "2026-05-07"
   },
   {
@@ -188,11 +190,36 @@
     "countries": [
       "mx"
     ],
-    "score": 155.0,
+    "score": 154.0,
     "release_date": "2026-02-11"
   },
   {
     "position": 17,
+    "title": "Flower In A Hurricane [From GTAVI: Original Score]",
+    "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/23/54/af235448-23b3-a3bf-0738-87f6c44a4bbc/5056556187486_cover.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "mx",
+      "us"
+    ],
+    "score": 259.0,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 18,
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/100x100bb.jpg",
+    "genre": "Global",
+    "countries": [
+      "us"
+    ],
+    "score": 212.0,
+    "release_date": "2026-10-15"
+  },
+  {
+    "position": 19,
     "title": "Niña Mafia",
     "artist": "Victor Mendivil",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
@@ -204,39 +231,15 @@
     "release_date": "2026-10-22"
   },
   {
-    "position": 18,
-    "title": "FES",
-    "artist": "Victor Mendivil & Omar Camacho",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 208.0,
-    "release_date": "2026-10-22"
-  },
-  {
-    "position": 19,
-    "title": "Cansada",
-    "artist": "Victor Mendivil & Victoria Mendivil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
-    "genre": "Global",
-    "countries": [
-      "mx"
-    ],
-    "score": 200.0,
-    "release_date": "2026-10-22"
-  },
-  {
     "position": 20,
-    "title": "Cereza",
-    "artist": "Victor Mendivil",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/d8/31/a6d831af-322c-57e3-a470-5acc23dd84c1/1963625067621_cover.jpg/100x100bb.jpg",
+    "title": "I just realized. (feat. Future)",
+    "artist": "YFN Lucci & Rod Wave",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/79/03/037903d0-d385-3dfb-e867-e10abf280f78/075679546210.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
-      "mx"
+      "us"
     ],
-    "score": 195.0,
-    "release_date": "2026-10-22"
+    "score": 209.0,
+    "release_date": "2026-11-19"
   }
 ]
