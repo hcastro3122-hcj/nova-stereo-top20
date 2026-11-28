@@ -1,39 +1,42 @@
 [
   {
     "position": 1,
-    "title": "Los Diablos",
-    "artist": "Anuel AA, Cosculluela & Chris Jedi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx",
-      "us"
-    ],
-    "score": 390.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 2,
-    "title": "ATRAVESAO",
-    "artist": "Rey Quinto & Peso Pluma",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/cb/70/4acb70a7-1dab-7ec5-4e03-a69ffd7dd150/1200220429264.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 380.0,
-    "release_date": "2026-11-19"
-  },
-  {
-    "position": 3,
     "title": "Sexo Nama (feat. De La Rose)",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
+      "mx",
+      "us"
+    ],
+    "score": 482.67,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 2,
+    "title": "Marc Anthony",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Tropical",
+    "countries": [
+      "cr",
       "mx"
     ],
-    "score": 373.0,
+    "score": 452.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 3,
+    "title": "Los Diablos",
+    "artist": "Anuel AA, Cosculluela & Chris Jedi",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 435.0,
     "release_date": "2026-11-26"
   },
   {
@@ -43,47 +46,51 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 364.0,
+    "score": 434.0,
     "release_date": "2026-11-26"
   },
   {
     "position": 5,
-    "title": "Bichote",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 360.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 6,
-    "title": "Marc Anthony",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Tropical",
-    "countries": [
-      "mx"
-    ],
-    "score": 357.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 7,
     "title": "BbY WOW",
     "artist": "KAROL G, Judeline & rusowsky",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 355.0,
+    "score": 429.33,
     "release_date": "2026-08-05"
+  },
+  {
+    "position": 6,
+    "title": "Bichote",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 429.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 7,
+    "title": "Instagram (feat. Blessd & Wisin)",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 425.5,
+    "release_date": "2026-11-26"
   },
   {
     "position": 8,
@@ -92,105 +99,114 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 355.0,
+    "score": 425.0,
     "release_date": "2026-11-26"
   },
   {
     "position": 9,
-    "title": "Instagram (feat. Blessd & Wisin)",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 347.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 10,
-    "title": "Suzuki",
-    "artist": "Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 342.0,
-    "release_date": "2026-10-08"
-  },
-  {
-    "position": 11,
-    "title": "Olimpo",
-    "artist": "Neton Vega & Fuerza Regida",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/91/0e/fa910ef9-5a70-973e-1b2c-27f34dd4e536/1963625111737_cover.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 341.0,
-    "release_date": "2026-10-23"
-  },
-  {
-    "position": 12,
     "title": "Odio Cuando Te Vas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 339.0,
+    "score": 416.5,
     "release_date": "2026-11-26"
   },
   {
-    "position": 13,
-    "title": "Tal Vez Un Ignorante Fui (feat. ROA)",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "mx"
-    ],
-    "score": 326.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 14,
+    "position": 10,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 320.0,
+    "score": 413.0,
     "release_date": "2026-11-26"
   },
   {
-    "position": 15,
-    "title": "OLIVIA LA FLAKA",
-    "artist": "Natanael Cano, Tito Double P, Victor Mendivil & Ovi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/b4/32/70b4321e-d887-b60c-c413-50513d7a5585/196874816158.jpg/100x100bb.jpg",
+    "position": 11,
+    "title": "Tal Vez Un Ignorante Fui (feat. ROA)",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 316.0,
-    "release_date": "2026-09-24"
+    "score": 412.5,
+    "release_date": "2026-11-26"
   },
   {
-    "position": 16,
+    "position": 12,
+    "title": "Se Toco El T#tito Con Mi Gl*ck",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 409.67,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 13,
     "title": "El Nene 2",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
     "countries": [
+      "cr",
       "mx"
     ],
-    "score": 316.0,
+    "score": 402.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 14,
+    "title": "Y Que?",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 401.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 15,
+    "title": "Dile",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 395.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 16,
+    "title": "Perdió La Fe",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 394.5,
     "release_date": "2026-11-26"
   },
   {
@@ -200,10 +216,11 @@
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/23/54/af235448-23b3-a3bf-0738-87f6c44a4bbc/5056556187486_cover.jpg/100x100bb.jpg",
     "genre": "Global",
     "countries": [
+      "cr",
       "mx",
       "us"
     ],
-    "score": 237.5,
+    "score": 293.67,
     "release_date": "2026-10-15"
   },
   {
@@ -215,7 +232,7 @@
     "countries": [
       "us"
     ],
-    "score": 209.0,
+    "score": 220.0,
     "release_date": "2026-11-19"
   },
   {
@@ -227,7 +244,7 @@
     "countries": [
       "mx"
     ],
-    "score": 207.0,
+    "score": 209.0,
     "release_date": "2026-10-22"
   },
   {
