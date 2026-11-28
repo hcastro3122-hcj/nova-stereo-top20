@@ -85,7 +85,7 @@
   },
   {
     "position": 8,
-    "title": "Odio Cuando Te Vas",
+    "title": "Instagram (feat. Blessd & Wisin)",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
@@ -97,7 +97,7 @@
   },
   {
     "position": 9,
-    "title": "Instagram (feat. Blessd & Wisin)",
+    "title": "Odio Cuando Te Vas",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
@@ -164,7 +164,7 @@
     "countries": [
       "cr"
     ],
-    "score": 364.5,
+    "score": 363.5,
     "release_date": "2026-11-19"
   },
   {
@@ -176,7 +176,7 @@
     "countries": [
       "cr"
     ],
-    "score": 361.0,
+    "score": 362.0,
     "release_date": "2026-11-26"
   },
   {
@@ -202,7 +202,7 @@
       "cr",
       "us"
     ],
-    "score": 238.5,
+    "score": 236.5,
     "release_date": "2026-10-15"
   },
   {
@@ -214,7 +214,7 @@
     "countries": [
       "us"
     ],
-    "score": 224.0,
+    "score": 216.0,
     "release_date": "2026-11-19"
   },
   {
@@ -226,7 +226,7 @@
     "countries": [
       "us"
     ],
-    "score": 208.0,
+    "score": 205.0,
     "release_date": "2026-11-19"
   },
   {
@@ -238,7 +238,7 @@
     "countries": [
       "us"
     ],
-    "score": 205.0,
+    "score": 204.0,
     "release_date": "2026-10-15"
   }
 ]
