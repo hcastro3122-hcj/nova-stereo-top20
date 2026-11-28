@@ -10,11 +10,25 @@
       "mx",
       "us"
     ],
-    "score": 482.67,
+    "score": 485.33,
     "release_date": "2026-11-26"
   },
   {
     "position": 2,
+    "title": "Los Diablos",
+    "artist": "Anuel AA, Cosculluela & Chris Jedi",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx",
+      "us"
+    ],
+    "score": 479.67,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 3,
     "title": "Marc Anthony",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
@@ -23,20 +37,7 @@
       "cr",
       "mx"
     ],
-    "score": 452.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 3,
-    "title": "Los Diablos",
-    "artist": "Anuel AA, Cosculluela & Chris Jedi",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 435.0,
+    "score": 451.0,
     "release_date": "2026-11-26"
   },
   {
@@ -49,7 +50,7 @@
       "cr",
       "mx"
     ],
-    "score": 434.0,
+    "score": 433.5,
     "release_date": "2026-11-26"
   },
   {
@@ -76,24 +77,11 @@
       "cr",
       "mx"
     ],
-    "score": 429.0,
+    "score": 426.0,
     "release_date": "2026-11-26"
   },
   {
     "position": 7,
-    "title": "Instagram (feat. Blessd & Wisin)",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 425.5,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 8,
     "title": "Drogas y Depresion",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
@@ -102,12 +90,12 @@
       "cr",
       "mx"
     ],
-    "score": 425.0,
+    "score": 424.0,
     "release_date": "2026-11-26"
   },
   {
-    "position": 9,
-    "title": "Odio Cuando Te Vas",
+    "position": 8,
+    "title": "Instagram (feat. Blessd & Wisin)",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
     "genre": "Latina",
@@ -115,11 +103,11 @@
       "cr",
       "mx"
     ],
-    "score": 416.5,
+    "score": 423.5,
     "release_date": "2026-11-26"
   },
   {
-    "position": 10,
+    "position": 9,
     "title": "Vuelve",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
@@ -128,7 +116,20 @@
       "cr",
       "mx"
     ],
-    "score": 413.0,
+    "score": 412.67,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 10,
+    "title": "Odio Cuando Te Vas",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 412.5,
     "release_date": "2026-11-26"
   },
   {
@@ -141,7 +142,7 @@
       "cr",
       "mx"
     ],
-    "score": 412.5,
+    "score": 411.0,
     "release_date": "2026-11-26"
   },
   {
@@ -154,24 +155,11 @@
       "cr",
       "mx"
     ],
-    "score": 409.67,
+    "score": 408.67,
     "release_date": "2026-11-26"
   },
   {
     "position": 13,
-    "title": "El Nene 2",
-    "artist": "Anuel AA",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
-    "genre": "Latina",
-    "countries": [
-      "cr",
-      "mx"
-    ],
-    "score": 402.0,
-    "release_date": "2026-11-26"
-  },
-  {
-    "position": 14,
     "title": "Y Que?",
     "artist": "Anuel AA",
     "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
@@ -180,7 +168,20 @@
       "cr",
       "mx"
     ],
-    "score": 401.0,
+    "score": 399.0,
+    "release_date": "2026-11-26"
+  },
+  {
+    "position": 14,
+    "title": "El Nene 2",
+    "artist": "Anuel AA",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/b9/53/05b9530f-a9b2-37a4-3f91-fdbbac74f231/711641426653.jpg/100x100bb.jpg",
+    "genre": "Latina",
+    "countries": [
+      "cr",
+      "mx"
+    ],
+    "score": 399.0,
     "release_date": "2026-11-26"
   },
   {
@@ -193,7 +194,7 @@
       "cr",
       "mx"
     ],
-    "score": 395.0,
+    "score": 394.5,
     "release_date": "2026-11-26"
   },
   {
@@ -206,7 +207,7 @@
       "cr",
       "mx"
     ],
-    "score": 394.5,
+    "score": 394.0,
     "release_date": "2026-11-26"
   },
   {
@@ -220,7 +221,7 @@
       "mx",
       "us"
     ],
-    "score": 293.67,
+    "score": 291.0,
     "release_date": "2026-10-15"
   },
   {
@@ -244,7 +245,7 @@
     "countries": [
       "mx"
     ],
-    "score": 209.0,
+    "score": 207.0,
     "release_date": "2026-10-22"
   },
   {
@@ -256,7 +257,7 @@
     "countries": [
       "mx"
     ],
-    "score": 204.0,
+    "score": 201.0,
     "release_date": "2026-10-22"
   }
 ]
